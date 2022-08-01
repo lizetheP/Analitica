@@ -1,0 +1,3357 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+  <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  .auto-style6 {
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style13 {
+	line-height: 150%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style22 {
+	color: #808000;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style26 {
+	color: #000000;
+}
+.auto-style28 {
+	color: #000000;
+	font-size: medium;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style38 {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style49 {
+	margin-left: 80px;
+}
+.auto-style51 {
+	color: #510851;
+}
+.auto-style53 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style54 {
+	font-size: x-small;
+	color: #FFFFFF;
+}
+.auto-style58 {
+	line-height: 150%;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style69 {
+	  color: #510851;
+	  font-weight: bold;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style76 {
+	  color: #0000FF;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style80 {
+	  border-color: #000000;
+	  border-width: 1px;
+	  margin-left: 280px;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style87 {
+	font-size: small;
+}
+.auto-style94 {
+	border: 1px solid #000000;
+	color: #510851;
+	margin-left: 80px;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style99 {
+	  border: 1px solid #000000;
+  }
+            
+
+
+
+
+
+
+
+
+
+
+  .auto-style104 {
+	  text-align: justify;
+  }
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style106 {
+	border-style: solid;
+	border-width: 0;
+	margin: 5px;
+}
+.auto-style107 {
+	font-size: medium;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style112 {
+	  color: #510851;
+	  font-weight: bold;
+	  font-size: small;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  .auto-style113 {
+	  color: #510851;
+	  font-size: small;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  .auto-style114 {
+	  color: #510851;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style119 {
+	  border: 1px solid #000000;
+	  color: #510851;
+	  font-size: large;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+  .auto-style120 {
+	  border: 1px solid #000000;
+	  color: #000000;
+	  margin-left: 80px;
+	  font-size: small;
+	  font-family: Arial, Helvetica, sans-serif;
+  }
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style125 {
+	border: 1px solid #000000;
+	font-size: small;
+}
+.auto-style126 {
+	border: 1px solid #000000;
+	color: #000000;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style127 {
+	border: 1px solid #000000;
+	font-size: small;
+	color: #000000;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style132 {
+	font-size: small;
+	color: #000000;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style133 {
+	text-align: justify;
+	font-size: small;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style134 {
+	font-size: small;
+	color: #FF0000;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+	 <span class="auto-style19">TC1028. Pensamiento computacional para 
+	 ingeniería&nbsp;</span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style53">
+	  Tarea individual: Strings o cadenas de texto</span><span class="auto-style22">&nbsp; </span></strong>
+	  &nbsp;<br class="auto-style21"><span class="auto-style16">.</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style80"> 
+	 <span class="auto-style54">.</span><img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26"><br>&nbsp;Objetivos:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     	   <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar el concepto de strings 
+		   o cadenas de texto en la solución de problemas. </font></li>
+			<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar los conocimientos 
+			sobre funciones.&nbsp; </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/iper.jpg" height="70" width="70" align="left"><br>
+	 <span class="auto-style26">&nbsp;Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Individual.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/irevision.jpg" height="70" width="70" align="left" class="auto-style25">&nbsp;
+     <br>
+          <font color="#330033" face="Arial,Helvetica">
+          <b>&nbsp;<span class="auto-style26">Instrucciones:<br></span></b> 
+        <span class="auto-style26">
+		  <font
+ size="-1" color="#000000" face="Arial,Helvetica">&nbsp;</font><ul>
+                                         
+         <ul>
+     		 <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Implementa las siguientes 
+			 funciones, recuerda que las funciones se definen antes de la 
+			 codificación del script principal. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+	 </span></font>
+                               
+          <font color="#330033" face="Arial,Helvetica">
+	 <span class="auto-style26"><font face="Arial,Helvetica">
+	 <span class="auto-style44">
+		 </span></font>
+          <span class="auto-style45">
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/web_descripcion.gif" height="53" width="60" align="left" class="auto-style106">&nbsp;
+     <br>
+          <b>&nbsp;&nbsp;<span class="auto-style107">Ejercicios:<br></span></b></span>
+          <b><span class="auto-style54">.</span></b></span><class="auto-style84"><class="auto-style84"><class="auto-style84"><class="auto-style84"><class="auto-style84"><class="auto-style84"><span class="auto-style26"><span class="auto-style45"><class="auto-style84"><class="auto-style84"><class="auto-style84"><class="auto-style84"><class="auto-style84"><class="auto-style84"><ul>
+		 <ul>
+			 <li><font size="-1">La función </font>
+			 <font face="Arial,Helvetica" size="-1">
+	 		 <strong><span class="auto-style76">cuenta_ocurrencias (cadena, 
+			 caracter)</span> </strong> 
+			 que recibe dos cadenas: la primera contiene una palabra y la 
+			 segunda contiene el caracter a buscar. La función regresa el número 
+			 de veces que el caracter es encontrado en la cadena.&nbsp;<font face="Arial,Helvetica" size="-1" color="#330033"><span class="auto-style26">Como 
+			 te puedes dar cuenta, debes de contar el caracter sin importar que 
+			 esté escrito en minúscula o mayúscula, por lo que se recomienda 
+			 utilizar los métodos <strong>cadena.upper( )</strong> o <strong>
+			 cadena.lower( )</strong>.
+	 </span></font>
+			 &nbsp;</font></li>
+		 </ul>
+	 </ul>
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Casos de prueba: </strong></font>
+	 </p>
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Número de opción (1. cuenta_ocurrencias (cadena, 
+	 caracter) ) </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Cadena de texto para buscar caracter. </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Caracter a buscar en la cadena. </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Output: </strong>Número de veces que se encuentra el caracter en la 
+	 cadena. </font></p>
+	 <p>
+	 <table class="auto-style120" style="width: 60%">
+		 <tr>
+			 <td class="auto-style125">
+			 <p class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"><strong>Input: </strong>1<br>
+<class="auto-style43"><strong>Input: </strong>Hola! /* MUNDO%@<br>
+<class="auto-style43"><strong>Input: </strong>*<br>
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"> <strong>Output: </strong>
+			 <class="auto-style46"> 1 </p>
+			 </td>
+			 <td class="auto-style119">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><span class="auto-style26"><strong>
+			 <span class="auto-style87">Input: </span></strong>
+			 <span class="auto-style87">1<br>
+<class="auto-style43"><strong>Input: </strong>HOLA Mundo<br>
+		<class="auto-style43"><strong>Input: </strong>o<br>
+			 </span>
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"> <strong><span class="auto-style87">Output: </span>
+			 </strong></span><span class="auto-style132">2</span></p>
+			 </td>
+			 <td class="auto-style99">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style87">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><strong>Input: </strong>1<br>
+<class="auto-style43"><strong>Input: </strong>Hola MUNDO<br>
+		<class="auto-style43"><strong>Input: </strong>O<br>
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"> <strong>Output: </strong>2</p>
+			 </td>
+		 </tr>
+	 </table>
+	 </p>
+                               
+          </span>
+		  </span>
+		  <ul>
+		 <ul>
+			 <li><font size="-1">La función </font>
+			 <font face="Arial,Helvetica" size="-1">
+	 		 <span class="auto-style76"><strong>imprime_pos_espacios (cadena)</strong></span><span class="auto-style26"> 
+			 que recibe una cadena de texto. La función despliega las posiciones 
+			 donde se encuentra un espacio en blanco. Emplea el modificador <strong>
+			 end=&quot; &quot; </strong>en el print para evitar que cada print salte de 
+			 línea. </span></font></li>
+		 </ul>
+	 </ul>
+	 <span class="auto-style26"><span class="auto-style45">
+                               
+      <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Casos de prueba: </strong></font>
+	 </p>
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Número de opción (2. imprime_pos_espacios (cadena) ) </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Cadena de texto.</font><br>
+	 <class="auto-style49">
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Output: </strong>Las posiciones donde hay espacios en blanco en la 
+	 cadena. </font></p>
+	 <p>
+	 <table class="auto-style120" style="width: 60%">
+		 <tr>
+			 <td class="auto-style125">
+			 <p class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"><strong>Input: </strong>2<br>
+<class="auto-style43"><strong>Input: </strong>Hola mundo bello<br>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong>Output: </strong>
+			 <class="auto-style46"> 4&nbsp; 10 </p>
+			 </td>
+			 <td class="auto-style119">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><span class="auto-style26"><strong>
+			 <span class="auto-style87">Input: </span></strong>
+			 <span class="auto-style87">2<br>
+<class="auto-style43"><strong>Input: </strong>Hola esta es una prueba <br>
+			 </span>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong><span class="auto-style87">Output: </span>
+			 </strong></span><span class="auto-style132">4 9 12 16 </span></p>
+			 </td>
+			 <td class="auto-style99">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style87">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><strong>Input: </strong>2<br>
+<class="auto-style43"><strong>Input: </strong>El sol<br>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong>Output: </strong>2</p>
+			 </td>
+		 </tr>
+	 </table>
+	 </p>
+                               
+          </span>
+		  </span>
+		  <ul>
+		 <ul>
+			 <li><font face="Arial,Helvetica" size="-1">
+	 		 <span class="auto-style26">La función
+	 </span><span class="auto-style76"><strong>cadena_mayusculas (cadena)</strong></span><span class="auto-style26"> 
+			 que recibe una cadena de texto. La función regresa la cadena en 
+			 mayúsculas.
+	 </span></font>
+			 </li>
+		 </ul>
+	 </ul>
+	 <span class="auto-style26"><span class="auto-style45">
+                               
+      <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Casos de prueba: </strong></font>
+	 </p>
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Número de opción (3. cadena_mayusculas (cadena) ) </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Cadena de texto </font><br>
+	 <class="auto-style49">
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Output: </strong>La cadena en mayúsculas </font></p>
+	 <p>
+	 <table class="auto-style120" style="width: 60%">
+		 <tr>
+			 <td class="auto-style125">
+			 <p class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"><strong>Input: </strong>3<br>
+<class="auto-style43"><strong>Input: </strong>Hola mundo<br>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong>Output: </strong>
+			 <class="auto-style46"> HOLA MUNDO</p>
+			 </td>
+			 <td class="auto-style119">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><span class="auto-style26"><strong>
+			 <span class="auto-style87">Input: </span></strong>
+			 <span class="auto-style87">3<br>
+<class="auto-style43"><strong>Input: </strong>Hola esta es una prueba <br>
+			 </span>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong><span class="auto-style87">Output: </span>
+			 </strong></span><span class="auto-style132">HOLA ESTA ES UNA PRUEBA </span></p>
+			 </td>
+			 <td class="auto-style99">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style87">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><strong>Input: </strong>3<br>
+<class="auto-style43"><strong>Input: </strong>El sol<br>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong>Output: </strong>EL SOL</p>
+			 </td>
+		 </tr>
+	 </table>
+	 </p>
+	 <ul>
+                                         
+         <ul>
+     		 <li class="auto-style48"> 
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26">
+			 <font
+ size="-1"><span class="auto-style21">
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"> La función <span class="auto-style76"><strong>cuenta_vocales (cadena)</strong></span></font><span class="auto-style87">
+			 </span><font
+ size="-1"> que recibe una cadena y devuelve el número de vocales que hay en la 
+			 cadena. </font></font></font> </span></font></font></font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Casos de prueba: </strong></font>
+	 </p>
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Número de opción (4. cuenta_vocales(cadena) ) </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Cadena de texto.</font><br>
+	 <class="auto-style49">
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Output: </strong><font color="#330033" face="Arial,Helvetica">
+	 <span class="auto-style26"><span class="auto-style45">
+                               
+      <font face="Arial,Helvetica" size="-1">
+	 Número de vocales que se encuentran en la cadena.</font></span></span></font> </font></p>
+	 <p>
+	 <table class="auto-style120" style="width: 60%">
+		 <tr>
+			 <td class="auto-style125">
+			 <p class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"><strong>Input: </strong>4<br>
+<class="auto-style43"><strong>Input: </strong>Hola mundo<br>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong>Output: </strong>
+			 <class="auto-style46"> 4 </p>
+			 </td>
+			 <td class="auto-style119">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><span class="auto-style26"><strong>
+			 <span class="auto-style87">Input: </span></strong>
+			 <span class="auto-style87">4<br>
+<class="auto-style43"><strong>Input: </strong>Hola MUNDO <br>
+			 </span>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong><span class="auto-style87">Output: </span>
+			 </strong></span><span class="auto-style132">4 </span></p>
+			 </td>
+			 <td class="auto-style99">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style87">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> 
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"><strong>Input: </strong>4<br>
+<class="auto-style43"><strong>Input: </strong>El sol<br>
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43">
+			 <class="auto-style43"> <strong>Output: </strong>2</p>
+			 </td>
+		 </tr>
+	 </table>
+	 </p>
+	                                
+          </span>
+		  </span>
+	 <class="auto-style111">
+	 <class="auto-style99">
+	 <span class="auto-style26">
+	 <span class="auto-style45">
+                               
+	 <ul>
+		 <ul>
+			 <li class="auto-style104"><font face="Arial,Helvetica" size="-1">
+	 		 La función
+	 <span class="auto-style76"><strong>deletrea_cadena (cadena) </strong>
+	 </span>que recibe una cadena e imprime cada letra en la cadena separada por 
+			 un guion medio con excepción de la ultima letra, la cual la imprime 
+			 sin agregar el guion después de ella. Emplea el modificador <strong>
+			 end=&quot;&quot; </strong>en el print para evitar que cada print salte de 
+			 línea, a excepción del último caracter.</font></li>
+		 </ul>
+	 </ul>
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Casos de prueba:&nbsp; </strong>
+	 </font></p>
+	 <p class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input: </strong>Número de opción (5. deletrea_cadena (cadena) ) </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Input:</strong> Cadena a deletrear
+	 </font><br>
+	 <class="auto-style49"><font face="Arial,Helvetica" size="-1">
+	 <strong>Output:</strong> Cadena con separación de un guion medio entre cada 
+	 letra, excepto la última.&nbsp; </font>
+	 </p>
+	 <p>
+	 <table class="auto-style94" style="width: 50%">
+		 <tr>
+			 <td class="auto-style127">
+			 <p class="auto-style43"><strong><span class="auto-style87">Input:
+			 </span></strong>5<br class="auto-style87">
+<class="auto-style43"><strong><span class="auto-style87">Input:</span></strong><span class="auto-style87"> 
+			 Buenos dias </span><br class="auto-style87">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43">
+<class="auto-style43"> <strong><span class="auto-style87">Output: </span>
+			 </strong>
+<class="auto-style43">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46"><span class="auto-style87">B-u-e-n-o-s- -d-i-a-s </span>
+			 </p>
+			 </td>
+			 <td class="auto-style126">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style43">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> <strong>Input: </strong>5<br>
+<class="auto-style43"><strong>Input: </strong>Naofumi<br>
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43">
+		<class="auto-style43"> <strong>Output: </strong>N-a-o-f-u-m-i </p>
+			 </td>
+		 </tr>
+	 </table>
+	 </p>
+	                                
+          </span>
+	 <ul>
+		 <ul>
+			 <li><font face="Arial,Helvetica" size="-1"><font color="#000000">La 
+			 función<strong> </strong> </font><b><font color="#3333ff">menu</font></b></font></span><font face="Arial,Helvetica" size="-1"><span class="auto-style76"><strong> ()</strong></span><span class="auto-style26"><font color="#000000"> 
+			 que despliegue el siguiente menú en pantalla:</font></span></font><span class="auto-style26"><strong>
+			 <font color="#ffffff">.</font><ul>
+				 <p></strong>
+				 <font face="Arial,Helvetica" size="-1">
+				 <span class="auto-style44"><strong><span class="auto-style51">
+				 <span class="auto-style6">1. Cuenta ocurrencias</span></span></strong><font color="#330033" face="Arial,Helvetica"><span class="auto-style87"><strong><span class="auto-style114">
+				 </span></strong></span>
+	 			<span class="auto-style69"><span class="auto-style21"><strong>
+				 <span class="auto-style87"> 
+				 <br class="auto-style45"> 
+				 </span></strong></span></span>
+				 <font face="Arial,Helvetica" size="-1">
+				 <strong><span class="auto-style51"><span class="auto-style6">2. 
+				 Imprime posición espacios</span><font color="#330033" face="Arial,Helvetica"><span class="auto-style87"><span class="auto-style26"><font color="#330033" face="Arial,Helvetica" size="-1"><span class="auto-style114">
+				 </span>
+	 			<span class="auto-style69"><span class="auto-style21"> 
+				 <br class="auto-style45"> 
+				 </span></span> 
+				 <font face="Arial,Helvetica" size="-1">
+				 <span class="auto-style113">3. Cadena mayúsculas</span><font face="Arial,Helvetica"> </font></font></font>
+	 </span>
+	 			 <br class="auto-style114"> 
+				 </span> 
+				 <font face="Arial,Helvetica" size="-1">
+				 <span class="auto-style112">4. Cuenta vocales<font color="#330033" face="Arial,Helvetica"><span class="auto-style26"><font color="#330033" face="Arial,Helvetica" size="-1"><span class="auto-style87"><span class="auto-style114">
+				 </span>
+	 			<span class="auto-style69"><span class="auto-style21"> 
+				 <br class="auto-style45"> 
+				 </span></span> 
+				 <font face="Arial,Helvetica" size="-1">
+				 <span class="auto-style113">5. Deletrea cadena</span><font face="Arial,Helvetica"> </font></font>
+	 			 <br class="auto-style114"> 
+				 </span> 
+				 </font>
+		  </span></font></span><span class="auto-style26"><b>
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style112">6. Salir</span></font></b></span></font></font></span></strong></font></font></span></font><strong></p>
+			 </ul>
+			 </strong>
+			 </li>
+		 </ul>
+	 </ul>
+	 <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style45">
+          <b>
+	 <ul>
+		 </b>
+		 <ul>
+			 <li class="auto-style104"><font size="-1">
+			 <span class="auto-style26">La función </span>
+			 <span class="auto-style76"><strong>main ()</strong></span><span class="auto-style21"> 
+			 <span class="auto-style26">que utilice la función <strong>menu</strong> 
+			 para desplegar el menú correspondiente y de acuerdo a la opción 
+			 seleccionada por el usuario le dé la oportunidad de ejecutar 
+			 cualquiera de las funciones que han sido construidas. Utiliza el 
+			 estatuto de control <strong>if anidado</strong>. 
+			 </span> 
+			 <font face="Arial,Helvetica" class="auto-style26">Recuerda que la 
+			 captura de datos debe ser realizada en la sección del main. 
+			                                
+          <font color="#330033" face="Arial,Helvetica">
+	 		<span class="auto-style26"> 
+          <span class="auto-style45">
+             <font size="-1" color="#330033" face="Arial,Helvetica">
+			 <font face="Arial,Helvetica" class="auto-style26">
+			 <font size="-1" class="auto-style134" face="Arial,Helvetica">
+			 <font face="Arial,Helvetica" class="auto-style134">Debes 
+			 utilizar el ciclo <strong>
+			 while</strong> para que se cicle el programa hasta que el usuario 
+			 introduzca la opción de salir.</font></font></font></font></span></span></font></font></span></font><li class="auto-style73">
+             <font size="-1">
+			 <span class="auto-style26">En el </span><span class="auto-style76">
+			 <strong>script principal</strong></span><span class="auto-style21"> 
+			 <span class="auto-style26">manda llamar a la función <strong>main</strong></span>.</span></font></li>
+			 <li class="auto-style48"><font size="-1">
+			 <span class="auto-style26">Guarda tu archivo como:</span>
+			 <span class="auto-style76"><strong>S_matricula.py</strong></span></font></li>
+		 </ul>
+	 </ul>
+	 <class="auto-style49">
+		 
+		 <class="auto-style49"><span class="auto-style6"><strong>
+	 </strong></span>
+	 </span>
+          </font>
+	 <class="auto-style49">
+		  <class="auto-style49"><strong>
+	 	  <class="auto-style49">
+	 
+	 <class="auto-style15">
+	 <b><font size="-1" face="Arial,Helvetica">
+                                  
+      <hr width="100%">  
+                                  
+	 </font>
+			</b><font size="-1" face="Arial,Helvetica">
+	 	   <font size="-1">
+                                  
+			<p class="auto-style13"> 
+          <img src="../imagenes/folder.png" height="60" width="60" align="left" class="auto-style38">&nbsp;
+     <br>
+          <b><font color="#330033" face="Arial,Helvetica">&nbsp;</font></b></font></font></strong><font size="-1" face="Arial,Helvetica"><b><font color="#330033" face="Arial,Helvetica"><span class="auto-style28">Recursos:</span></font></b></p>
+	 <font size="-1">
+                                  
+      	  <ul>
+      
+                                         
+        	  <ul>
+				  <font size="-1" color="#330033" face="Arial,Helvetica">
+                                  
+      	  		  <li> 
+                                  
+	 	   	      <strong>
+				  <font size="-1" face="Arial,Helvetica">
+				  <p class="auto-style58"><b><span class="style33">
+				  <font
+ size="-1" color="#000000"><a href="../presentaciones/11_Strings.pptx">11. 
+				  Strings</a></font></span></b></p>
+				  </font>
+                                  
+     	   </strong>
+                                  
+     </font>
+                                         
+        		  <strong><strong>
+                                         
+        </ul>
+	                                  
+      </ul>
+                                  
+			</li>
+                                  
+     </strong></strong>
+                                  
+     </font>
+     </font> </span>
+	 
+     </font>
+	 <class="auto-style49">
+	 
+     <class="auto-style48">
+	  <class="auto-style49">
+	 	   <class="style8">
+	  <class="auto-style84">
+	 	 <class="auto-style49"></span></span></font>
+	 </span>
+                                  
+     </font>
+	 <class="auto-style48">
+	  	 <class="auto-style49">
+	 <class="auto-style49">
+	 	   <class="auto-style48">
+	  	 <class="auto-style49">
+	 <class="auto-style72">
+	 <class="auto-style72">
+	 <class="auto-style72">
+			 <class="auto-style72">
+	 <class="auto-style72">
+	 <class="auto-style72">
+	 <class="auto-style72">
+	 <class="auto-style72">
+			 <class="auto-style72">
+			 <class="auto-style72">
+	 <class="auto-style72"> 
+          <font color="#330033" face="Arial,Helvetica">
+<class="auto-style47">
+<class="auto-style47">
+<class="auto-style47">
+<class="auto-style47">
+<class="auto-style47">
+<class="auto-style47">
+<class="auto-style47">
+<class="auto-style47">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+<class="auto-style47">
+	 <class="auto-style43">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+		  <class="auto-style43"><class="auto-style49"><class="auto-style47"><class="auto-style49"><class="auto-style47"><class="auto-style49"><class="auto-style47"><class="auto-style49"><class="auto-style47"><class="auto-style49"><class="auto-style47"><class="auto-style49"><class="auto-style47"><class="auto-style49"><class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 
+	 <class="auto-style53">
+	 		<class="auto-style43">
+	 		<class="auto-style53">
+	 		<class="auto-style43">
+	 		<class="auto-style53">
+			 <class="auto-style43">
+	 
+	 		<class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 
+<class="auto-style47">
+	 <class="auto-style43">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style43">
+	 <class="auto-style47">
+	 <class="auto-style53">
+	 <class="auto-style49"> 
+        <span class="auto-style26">
+          <span class="auto-style45">
+	 <class="auto-style53">
+	 <class="auto-style43">
+
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style43">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style53">
+			 <span class="auto-style21">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53"><class="auto-style53"><class="auto-style53"><class="auto-style53">
+	 <class="auto-style53"><class="auto-style53"><class="auto-style53"><class="auto-style53">
+	 <class="auto-style53"><class="auto-style53"><class="auto-style53"><class="auto-style53"><class="auto-style53"><class="auto-style53"><class="auto-style53">
+	
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46"> 
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+		  <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+			 <class="auto-style47">
+		 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+		 <class="auto-style46">
+		 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+		 <class="auto-style46">
+		 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+          <font color="#330033" face="Arial,Helvetica" size="-1">
+		 <class="auto-style49">
+	 <hr width="100%">
+	 <img align="left" class="auto-style111" height="69" src="../imagenes/idisco.jpg" width="69">
+	 <br><b><font color="#330033" face="Arial,Helvetica">&nbsp;&nbsp;</font></b><span class="auto-style6"><font size="-1"><strong><span class="auto-style7"><font face="Arial,Helvetica" size="-1" color="#330033"><b><font color="#330033" face="Arial,Helvetica"><span class="auto-style28"><span class="auto-style160">Especificaciones 
+	 de entrega:</span></span></font></b></font><br><br></span>
+	 <ul>
+		 <ul>
+			 </strong><font color="#330033" face="Arial,Helvetica" size="-1">
+			 <font size="-1">
+			 <li class="auto-style172">
+			 <font color="#330033" face="Arial,Helvetica">
+			 <font class="auto-style26" face="Arial,Helvetica" size="-1">
+			 <font class="auto-style133" size="-1">
+			 Formato de entrega: <strong>py</strong></font></font></font></li>
+			 <li class="auto-style6"><span class="auto-style26">Nombre de los 
+			 entregables: <strong>S_matricula.py</strong></li>
+			 <li class="auto-style6">Medio de entrega:&nbsp;Se entrega en la sección 
+			 de&nbsp;</span><span class="auto-style26"><strong>Tarea: Cadenas</strong></span></li>
+		 </ul>
+	 </ul>
+	 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 </font><span class="auto-style47"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="auto-style26">&nbsp; &nbsp;Instrucciones para enviar tus archivos por 
+	 Canvas: </span></strong></span></p>
+	 <font size="-1">
+	 <ul>
+		 <ul class="auto-style26">
+			 <li class="auto-style6">Haz clic en la actividad de <strong>Tarea: 
+			 Cadenas</strong></li>
+			 <li class="auto-style6">Haz clic en el botón de <strong>Entregar 
+			 tarea</strong>. </li>
+			 <li class="auto-style6">En el fólder de <strong>Carga del archivo</strong>, 
+			 haz clic en el botón de <strong>Examinar</strong>&nbsp;y localiza el 
+			 archivo&nbsp;*.py. Si necesitas agregar más archivos, haz clic en
+			 <strong>+Agregue otro archivo</strong>, haz clic en el botón de
+			 <strong>Examinar&nbsp;</strong>y localiza el otro archivo&nbsp;*.py. </li>
+			 <li class="auto-style6">Cuando hayas terminado de subir tus 
+			 archivos, haz clic en&nbsp;el botón de <strong>Entregar tarea</strong> y 
+			 listo!! </li>
+		 </ul>
+	 </ul>
+	 </font></font></font></span></font></span>
+	 </span>
+                                  
+     </span>
+                                  
+     </font>
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

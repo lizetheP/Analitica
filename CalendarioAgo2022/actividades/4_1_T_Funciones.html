@@ -1,0 +1,2276 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+    <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  .auto-style6 {
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: small;
+  }
+  .auto-style7 {
+	  color: #3333FF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style13 {
+	line-height: 150%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style22 {
+	color: #808000;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style26 {
+	color: #000000;
+}
+.auto-style28 {
+	color: #000000;
+	font-size: medium;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style38 {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style51 {
+	color: #510851;
+}
+.auto-style53 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style54 {
+	font-size: x-small;
+	color: #FFFFFF;
+}
+.auto-style58 {
+	line-height: 150%;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style68 {
+	  font-weight: bold;
+  }
+  .auto-style69 {
+	  color: #510851;
+	  font-weight: bold;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style76 {
+	  color: #0000FF;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style80 {
+	  border-color: #000000;
+	  border-width: 1px;
+	  margin-left: 440px;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style83 {
+	text-align: justify;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style87 {
+	  font-size: medium;
+  }
+  .auto-style88 {
+	  color: #000000;
+	  margin-left: 80px;
+  }
+  .auto-style89 {
+	  border: 1px solid #000000;
+  }
+  .auto-style90 {
+	  font-size: small;
+  }
+  .auto-style91 {
+	  color: #000000;
+	  font-size: small;
+  }
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style92 {
+	  color: #000000;
+	  font-size: small;
+	  margin-left: 80px;
+  }
+  .auto-style94 {
+	  border: 1px solid #000000;
+	  margin-left: 80px;
+  }
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style98 {
+	color: #330033;
+}
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style99 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+        
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+	 <span class="auto-style19">TC1028. Pensamiento computacional para 
+	 ingeniería&nbsp;</span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style53">
+	  Tarea individual: Funciones</span><span class="auto-style22">&nbsp; </span></strong>
+	  &nbsp;<br class="auto-style21"><span class="auto-style16">.</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style80"> 
+	 <span class="auto-style54">.</span><img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26"><br>&nbsp;Objetivos:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar los conocimientos 
+	 sobre funciones. </font></li>
+			<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Reconocer la importancia del 
+			uso de funciones para el diseño de un programa. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/iper.jpg" height="70" width="70" align="left"><br>
+	 <span class="auto-style26">&nbsp;Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Individual.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/irevision.jpg" height="70" width="70" align="left" class="auto-style25">&nbsp;
+     <br>
+          <font color="#330033" face="Arial,Helvetica">
+          <b>&nbsp;<span class="auto-style26">Instrucciones:<br></span></b> 
+        <span class="auto-style26">
+		  <font
+ size="-1" color="#000000" face="Arial,Helvetica">&nbsp;</font><ul>
+                                         
+         <ul>
+     		 <li> <font
+ size="-1" face="Arial,Helvetica">Implementa las siguientes funciones, recuerda 
+			 que las funciones se definen antes de la función del main y del 
+			 script principal. </font></li>
+			 <li class="auto-style83"><font size="-1">
+			 <span class="auto-style50">La función </span>
+			 <span class="auto-style76"><strong>main ()</strong></span></font></span><font size="-1"><span class="auto-style21"><span class="auto-style26">
+		     debe mandar llamar a la función que imprime el menú correspondiente 
+			 y de acuerdo a la opción seleccionada por el usuario le dé la 
+			 oportunidad de ejecutar cualquiera de las funciones que han sido 
+			 construidas. Utiliza el estatuto de control
+			 <strong>if anidado.</strong> Recuerda que la captura de datos debe ser 
+			 realizada en la sección del main. Valida opciones incorrectas.</span></span></font><span class="auto-style26"> </li>
+			 <li class="auto-style73"><font size="-1">
+			 <span class="auto-style50">En el </span><span class="auto-style76"><strong>
+			 script principal</strong></span><span class="auto-style21"> manda 
+			 llamar a la función <strong>main</strong>.</span></font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <img height="265" src="../imagenes/img5.gif" width="400"><font color="#330033" face="Arial,Helvetica">&nbsp;</p>
+                               
+      <hr width="100%"> 
+          <font face="Arial,Helvetica"><span class="auto-style44">
+	 <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style45">
+          <p><font size="-1" face="Arial,Helvetica">
+                                  
+          <img src="../imagenes/web_descripcion.gif" height="60" width="68" align="left">&nbsp;
+     <br><strong><font face="Arial,Helvetica"><span class="auto-style47">&nbsp;</span><span class="auto-style90">&nbsp;</span></font></strong></font></span><font size="-1" face="Arial,Helvetica"><span class="auto-style90"><span class="auto-style28"><strong>Ejercicios:</strong></span></span></font></font></span></font></p>
+ <p class="auto-style26"><font face="Arial,Helvetica" size="-1">
+ <span class="auto-style98">&nbsp;</span>&nbsp;Construye las funciones para calcular las 
+ longitudes o superficies de cada una de las 
+	 siguientes figuras:</font></p>
+	 <ul>
+		 <ul>
+			 <li><font face="Arial,Helvetica" size="-1">
+			 <span class="auto-style26">La función </span> <b>
+			 <font color="#3333ff">arco (radio, angulo)</font></b> 
+			 <span class="auto-style26">que recibe el radio y el ángulo. Utiliza 
+			 la constante<strong> math.pi</strong> de la librería <strong>math</strong>. </span> </font>
+			 <p><img height="103" src="../imagenes/imageOVM.JPG" width="105"></p>
+			 <p>
+			 <img alt="" height="48" src="../imagenes/imageARD.JPG" width="141"></p>
+			 <span class="auto-style26"> 
+			 <font color="#330033" face="Arial,Helvetica">
+			 	 <p class="auto-style91"><strong>Casos de prueba:</strong></p>
+	 <p class="auto-style26"><strong><span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 Número de opción (1. Arco)</span><br class="auto-style90">
+<class="auto-style47"><strong><span class="auto-style90">Input: </span></strong>
+	 <span class="auto-style90">Valor del radio (real)</span><class="auto-style46"><br class="auto-style90">
+	 <strong>
+	 <span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 Valor del angulo<font color="#330033" face="Arial,Helvetica"><span class="auto-style26"> 
+	 (real)
+<class="auto-style46"><br class="auto-style90"><strong>
+	 Output:</strong> La longitud del arco (real con dos decimales) </span>
+		  </font>
+		  </span></p>
+	 <table class="auto-style89">
+		 <tr>
+			 <td class="auto-style89" style="width: 223px">
+			 <p class="auto-style26"><strong><span class="auto-style90">Input:
+			 </span></strong><span class="auto-style90">1</span><br class="auto-style90">
+<class="auto-style43"><strong><span class="auto-style90">Input: </span></strong>
+			 <span class="auto-style90">
+			 <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style26"> 5.5<br class="auto-style90">
+<class="auto-style43"><strong>Input: </strong>45<br class="auto-style90">
+			 </span>
+		  </font></span>
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <class="auto-style46"> <strong><span class="auto-style90">Output: </span>
+			 </strong><span class="auto-style90">4.32</span><class="auto-style46"><span class="auto-style90">
+			 </span></p>
+			 </td>
+			 <td class="auto-style89" style="width: 258px">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style43">
+		<class="auto-style46"><strong><span class="auto-style90">Input: </span> </strong>
+			 1<br class="auto-style90">
+<class="auto-style43"><strong><span class="auto-style90">Input: </span> </strong>
+			 <span class="auto-style90">
+			 <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style26"> 8.5<br class="auto-style90">
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <class="auto-style46"> <strong>Input: </strong>270 </span>
+		  </font>
+		     </span><br class="auto-style90">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46"> <strong><span class="auto-style90">Output: </span> </strong> 
+			 <span class="auto-style90">40.06 </span> </p>
+			 </td>
+		 </tr>
+	 </table>
+
+			 </font>
+	 </span>
+	 		 </li>
+		 </ul>
+	 </ul>
+	 
+	 <ul>
+		 <ul>
+			 <li><font face="Arial,Helvetica" size="-1">
+			 <span class="auto-style26">La función </span> <b>
+			 <font color="#3333ff">poligono (l, a) </font></b>
+			 <font color="#330033" face="Arial,Helvetica">
+	 		<span class="auto-style26"><font face="Arial,Helvetica" size="-1">
+			 que recibe el lado (l) y el radio (a).</font></span></font> </font>
+			 <p><img height="100" src="../imagenes/poligono.gif" width="101">&nbsp; </p>
+			 <p>
+			 <img alt="" height="53" src="../imagenes/imageECB.JPG" width="108"></p>
+          <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style26"> 
+			 	 <p class="auto-style91"><strong>Casos de prueba:</strong></p>
+	 <p class="auto-style26"><strong><span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 Número de opción (2. Poligono)</span><br class="auto-style90">
+<class="auto-style47"><strong><span class="auto-style90">Input: </span></strong>
+	 <span class="auto-style90">Valor del lado l (real)</span><class="auto-style46"><br class="auto-style90">
+	 <strong>
+	 <span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 Valor del radio a<font color="#330033" face="Arial,Helvetica"><span class="auto-style26"><class="auto-style46"> 
+	 (real)<br class="auto-style90"><strong>
+	 Output:</strong> Área del póligono (real con dos decimales) </span>
+		  </font>
+		  </span></p>
+	 <table class="auto-style89">
+		 <tr>
+			 <td class="auto-style89" style="width: 223px">
+			 <p class="auto-style26"><strong><span class="auto-style90">Input:
+			 </span></strong><span class="auto-style90">2</span><br class="auto-style90">
+<class="auto-style43"><strong><span class="auto-style90">Input: </span></strong>
+			 <span class="auto-style90">
+			 <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style26"> 
+			 <class="auto-style43">7.2<br class="auto-style90">
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <class="auto-style46"> <strong>Input:
+			 </strong>
+			 <class="auto-style46">5.3 </span>
+		  </font></span><br class="auto-style90">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46"> <strong><span class="auto-style90">Output: </span>
+			 </strong><span class="auto-style90">114.48</span><class="auto-style46"><span class="auto-style90">
+			 </span></p>
+			 </td>
+			 <td class="auto-style89" style="width: 258px">
+		<class="auto-style46">
+		<class="auto-style46">
+		<class="auto-style46"> 
+			 <p class="auto-style43">
+		<class="auto-style46"><strong><span class="auto-style90">Input: </span> </strong>
+			 <span class="auto-style90">2</span><br class="auto-style90">
+<class="auto-style43"><strong><span class="auto-style90">Input: </span> </strong>
+			 <span class="auto-style90">
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style26">
+			 <class="auto-style43">8.5<br class="auto-style90">
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <class="auto-style46"> <strong>Input: </strong>3.4 </span>
+		  </font>
+		     </span><br class="auto-style90">
+<class="auto-style46">
+<class="auto-style46">
+<class="auto-style46"> <strong><span class="auto-style90">Output: </span> </strong> 
+			 <span class="auto-style90">86.70 </span> </p>
+			 </td>
+		 </tr>
+	 </table>
+
+			 </span>
+		  </font>
+		  	 </li>
+		  	 </ul>
+		 <class="auto-style47">
+		 <class="auto-style46">
+		 <br>
+		 <ul>
+			 <class="auto-style47">
+			 <class="auto-style46"><font color="#330033" face="Arial,Helvetica">
+			 <li><font face="Arial,Helvetica" size="-1">
+			 <span class="auto-style26">La función</span> <font color="#3333ff">
+			 <b>triangulo (b, h) </b>
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style26"><font face="Arial,Helvetica" size="-1">
+			 que recibe la base (b) y la altura (h)</font></span></font></font><span class="auto-style26">. 
+			 </span></font>
+			 <p><img height="100" src="../imagenes/triangulo.gif" width="131">&nbsp; 
+			 </p>
+			 <p>
+			 <img alt="" height="57" src="../imagenes/image7V4.JPG" width="95"></p>
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style26">
+			 <p class="auto-style91"><strong>Casos de prueba:</strong></p>
+			 <p class="auto-style26"><strong><span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 		Número de opción (3. Triángulo)</span><br class="auto-style90">
+			 <class="auto-style47"><strong><span class="auto-style90">Input: 
+			 </span></strong><span class="auto-style90">Valor de la base b (real)</span><class="auto-style46"><br class="auto-style90">
+			 <strong>
+			 <span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 		Valor de la altura h<font color="#330033" face="Arial,Helvetica"><span class="auto-style26"> 
+			 (real)
+			 <class="auto-style46"><br class="auto-style90"><strong>
+			 Output:</strong> Área del triángulo (real con dos decimales)</span></font></span></p>
+			 <table class="auto-style89">
+				 <tr>
+					 <td class="auto-style89" style="width: 223px">
+					 <p class="auto-style26"><strong><span class="auto-style90">
+					 Input:
+			 		</span></strong><span class="auto-style90">3</span><br class="auto-style90">
+					 <class="auto-style43"><strong><span class="auto-style90">
+					 Input: 
+					 </span></strong><span class="auto-style90">
+					 <font color="#330033" face="Arial,Helvetica">
+          		   <span class="auto-style26"> 
+					 <class="auto-style43">7.4<br class="auto-style90">
+					 <class="auto-style46">
+					 <class="auto-style46">
+					 <class="auto-style46"><strong>Input: </strong>5.9<class="auto-style46"> </span>
+		  </font>
+		  		   </span><br class="auto-style90">
+					 <class="auto-style46">
+					 <class="auto-style46">
+					 <class="auto-style46"><strong><span class="auto-style90">
+					 Output: 
+					 </span></strong><span class="auto-style90">21.83</span><class="auto-style46"><span class="auto-style90">
+					 </span></p>
+					 </td>
+					 <td class="auto-style89" style="width: 258px">
+					 <class="auto-style46">
+					 <class="auto-style46">
+					 <class="auto-style46">
+					 <p class="auto-style43">
+					 <class="auto-style46"><strong><span class="auto-style90">
+					 Input: 
+					 </span></strong><span class="auto-style90">3</span><br class="auto-style90">
+					 <class="auto-style43"><strong><span class="auto-style90">
+					 Input: 
+					 </span></strong><span class="auto-style90">
+					 <font color="#330033" face="Arial,Helvetica">
+          		     <span class="auto-style26"> 
+					 <class="auto-style43">6.2<br class="auto-style90">
+					 <class="auto-style46">
+					 <class="auto-style46">
+					 <class="auto-style46"><strong>Input: 
+					 </strong>4.7 </span>
+		  </font>
+		  		   </span><br class="auto-style90">
+					 <class="auto-style46">
+					 <class="auto-style46">
+					 <class="auto-style46"><strong><span class="auto-style90">
+					 Output: 
+					 </span></strong><span class="auto-style90">14.57 </span>
+					 </p>
+					 </td>
+				 </tr>
+			 </table>
+			 </span></font></li>
+			 </font>
+			 <br>
+			 <li><font face="Arial,Helvetica" size="-1"><font color="#000000">La 
+			 función </font><b><font color="#3333ff">figuras ()</font></b><font color="#000000"> 
+			 que despliegue el siguiente menú en pantalla:</font></font><ul>
+				 <span class="auto-style51">
+				 <p><font face="Arial,Helvetica" size="-1">
+				 <span class="auto-style68">1. Arco</span></font> <b><br class="auto-style45"></b></span>
+				 <font face="Arial,Helvetica" size="-1">
+				 <span class="auto-style44"><span class="auto-style69">2. 
+				 Polígono</span><font color="#330033" face="Arial,Helvetica">
+				 <span class="auto-style51"><b><br class="auto-style45">
+				 <font face="Arial,Helvetica" size="-1">3. Triángulo</font></b></span></font></span></font><span class="auto-style51"><b><br class="auto-style45">
+				 </b><font face="Arial,Helvetica" size="-1">
+				 <span class="auto-style68">4. Salir</span></font></span></p>
+			 </ul>
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style26">
+			 <p class="auto-style91"><strong>Casos de prueba:</strong></p>
+			 <p class="auto-style26"><strong><span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 		Número de opción (4. Salir)</span><br class="auto-style90">
+			 <class="auto-style47">
+			 <class="auto-style46"><strong><span class="auto-style90">Output:</span></strong><span class="auto-style90"> 
+			 Mensaje "Adios" </span></p>
+			 <table class="auto-style89">
+				 <tr>
+					 <td class="auto-style89" style="width: 223px">
+					 <p class="auto-style26"><strong><span class="auto-style90">
+					 Input:
+			 		</span></strong><span class="auto-style90">4</span><br class="auto-style90">
+					 <class="auto-style43">
+					 <class="auto-style46">
+					 <class="auto-style46">
+					 <class="auto-style46"><strong><span class="auto-style90">
+					 Output: 
+					 </span></strong><span class="auto-style90">Adios</span><class="auto-style46"></p>
+					 </td>
+				 </tr>
+			 </table>
+			 </span></font>
+		 </ul>
+		 <span class="auto-style51">
+			 </li>
+	 	</span>
+		 <class="auto-style47">
+		 <class="auto-style46">
+		 <class="auto-style47">
+		 <class="auto-style46"><font color="#330033" face="Arial,Helvetica">
+	 </ul>
+	 <span class="auto-style26"> 
+	 <p class="auto-style92"><strong>Casos de prueba:</strong></p>
+	 <p class="auto-style88"><strong><span class="auto-style90">Input:</span></strong><span class="auto-style90"> 
+	 Número de opción (Opción inválida)</span><br class="auto-style90">
+	 <class="auto-style47">
+	 <class="auto-style46"><strong><span class="auto-style90">Output:</span></strong><span class="auto-style90"> 
+	 Mensaje "Opcion_invalida" </span></p>
+	 <table class="auto-style94">
+		 <tr>
+			 <td class="auto-style89" style="width: 223px">
+			 <p class="auto-style26"><strong><span class="auto-style90">Input:
+			 </span></strong><span class="auto-style90">-3</span><br class="auto-style90">
+			 <class="auto-style43">
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <class="auto-style46"><strong><span class="auto-style90">Output: 
+			 </span></strong><span class="auto-style90">Opcion_invalida</span><class="auto-style46"></p>
+			 </td>
+			 <td class="auto-style89" style="width: 258px">
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <p class="auto-style43">
+			 <class="auto-style46"><strong><span class="auto-style90">Input: 
+			 </span></strong><span class="auto-style90">8</span><br class="auto-style90">
+			 <class="auto-style43">
+			 <class="auto-style46">
+			 <class="auto-style46">
+			 <class="auto-style46"><strong><span class="auto-style90">Output: 
+			 </span></strong><span class="auto-style90">Opcion_invalida </span>
+			 </p>
+			 </td>
+		 </tr>
+	 </table>
+	 </span>
+		  </font>
+	 <ul>
+		 <class="auto-style46"><font color="#330033" face="Arial,Helvetica">
+		 <ul>
+			 <li class="auto-style83"><font size="-1">
+			 <span class="auto-style26">La función </span>
+			 <span class="auto-style76"><strong>main ()</strong></span><span class="auto-style26"><span class="auto-style21"> 
+			 que utilice la función <strong>figuras</strong> y de acuerdo a 
+			 la opción seleccionada por el usuario mande llamar a la función 
+			 correspondiente para calcular la superficie elegida. Utiliza el 
+			 estatuto de control
+			 <strong>if anidado</strong>.<strong> </strong>Recuerda que la captura de 
+			 datos debe ser realizada en la sección del main. Valida opciones 
+			 incorrectas.</span></span></font><span class="auto-style26">
+			 </li>
+			 <li class="auto-style73"><font size="-1">
+			 <span class="auto-style50">En el </span></font></span>
+			 <font size="-1"><span class="auto-style76"><strong>script principal</strong></span><span class="auto-style26"><span class="auto-style21"> 
+			 manda llamar a la función <strong>main</strong>.</span></span></font></li>
+			 <li class="auto-style73"><span class="auto-style26">
+			 <font size="-1"><span class="auto-style50">Guarda tu archivo como: 
+			 </span></font>
+			 </span><font size="-1"><span class="auto-style76"><strong>O_matricula.py</strong></span><span class="auto-style26">.</span></font></li>
+		 </ul>
+	 </ul>
+	 <span class="auto-style26">
+	 <font face="Arial,Helvetica"><span class="auto-style44">
+                               
+      <hr width="100%"> 
+		 </span></font>
+		 </span></font>
+			  </font>
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+		  <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+			 <class="auto-style47">
+		 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+		 <class="auto-style46">
+		 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+		 <class="auto-style46">
+		 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+	 <font size="-1" face="Arial,Helvetica">
+	 	   <font size="-1">
+                                  
+			<p class="auto-style13"> 
+          <img src="../imagenes/folder.png" height="60" width="60" align="left" class="auto-style38">&nbsp;
+     <br>
+          <b><font color="#330033" face="Arial,Helvetica">&nbsp;</font></b></font><b><font color="#330033" face="Arial,Helvetica"><span class="auto-style28"> 
+			Recursos:</span></font></b></p>
+	 	   <font size="-1">
+                                  
+      	  <a href="../presentaciones/5_Condicionales.pptx">
+	 <ul>
+      
+                                         
+        <ul>
+			<li> 
+                                  
+	 	   <font size="-1" face="Arial,Helvetica">
+                                  
+      	    <p class="auto-style58">5. Condicionales</font></a></p>
+			<li> 
+                                  
+	 	    <font size="-1" face="Arial,Helvetica">
+                                  
+      	    <p class="auto-style58"><b><span class="style33">
+			<font
+ size="-1" color="#000000">
+			<a href="../presentaciones/6_Funciones.pptx">6. Funciones</a></font></span><a href="https://docs.python.org/3/library/math.html"></li></a></b></p>
+                                  
+     </font> 
+                                  
+	 	    </ul>
+	                                  
+      </ul>
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="style8">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="style8">
+	  <class="auto-style84">
+	  <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 
+     </font>
+     <class="auto-style48">
+	  <math.h>
+	 <class="auto-style64">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	 <class="auto-style49">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	 <class="auto-style49">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	 	   <class="auto-style48">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	 <class="auto-style48">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	 <class="auto-style48">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	  <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <math.h>
+                               
+	 	   <font size="-1">
+                                  
+      	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="style8">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="style8">
+	  <class="auto-style84">
+	  <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49"><span class="auto-style26">
+	 
+      <hr width="100%"> 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left">
+	 <br></span></font><span class="auto-style26">
+	 
+	  <font face="Arial,Helvetica"><span class="auto-style54">&nbsp; </span>
+	 <span class="auto-style87"><strong>Especificaciones 
+	 de entrega en Canvas:</strong></span></font><font size="-1">
+                                  
+      	  <br>&nbsp;<span class="auto-style6"><strong><span class="auto-style7"> </span></strong></span>
+	 <ul>
+                                         
+         <ul>
+			 <li class="auto-style6">
+			 <p class="auto-style99">Formato de entrega: <strong>py </strong> 
+			 </p>
+			 </li>
+			 <li class="auto-style6">
+			 <p class="auto-style99">Nombre de los entregables: <strong>O_matricula.py </strong> </p>
+			 </li>
+			 <li class="auto-style6">
+			 <p class="auto-style99">Medio de entrega:&nbsp;Se 
+			 entrega en la sección de&nbsp;<strong>Tarea: Funciones</strong></p>
+			 </li>
+		 </ul>
+                                 
+      </ul>
+	 <p class="auto-style99"><strong><span class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 
+	 Instrucciones para enviar tus archivos por Canvas: </span></strong></p>
+	 <ul>
+                                         
+         <ul>
+			 <li class="auto-style6">
+			 <p class="auto-style99">Haz clic en la actividad de <strong>
+			 Tarea: Funciones</strong>. </p>
+			 </li>
+			 <li class="auto-style6">
+			 <p class="auto-style99">Haz clic en el botón de <strong>Entregar 
+			 tarea</strong>. </p>
+			 </li>
+			 <li class="auto-style6">
+			 <p class="auto-style99">En el fólder de <strong>Carga del archivo</strong>, 
+			 haz clic en el botón de <strong>Examinar</strong>&nbsp;y localiza el 
+			 archivo&nbsp;*.py. Si necesitas agregar más archivos, haz clic en
+			 <strong>+Agregue otro archivo</strong>, haz clic en el botón de
+			 <strong>Examinar</strong>&nbsp;y localiza el otro archivo&nbsp;*.py. </p>
+			 </li>
+			 <li class="auto-style6">
+			 <p class="auto-style99">Cuando hayas terminado de subir tus 
+			 archivos, haz clic en&nbsp;el botón de <strong>Entregar tarea</strong> y 
+			 listo!! </p>
+			 </li>
+		 </ul>
+                                 
+      </ul>
+                                  
+      </font>
+                                  
+     		</span>
+     </font> 	
+			 </span>
+                                  
+		  </font>
+	 <class="auto-style48">
+	  <math.h>
+	 <class="auto-style64">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	 <class="auto-style49">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	 <class="auto-style49">
+	  <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	 	   <class="auto-style48">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	 <class="auto-style48">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	  <class="auto-style51">
+	  <class="auto-style49">
+	 <class="auto-style48">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	  <class="auto-style48">
+	  <class="auto-style49">
+	  <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <class="auto-style34">
+	  <math.h>
+                               
+      	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style53">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="style8">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="auto-style84">
+	  <class="style8">
+	  <class="auto-style84">
+	  <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style72">
+	 <class="auto-style72">
+	 <class="auto-style72">
+	 <class="auto-style72">
+	 <class="auto-style72">
+		  <span class="auto-style26"> 
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

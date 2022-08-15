@@ -1,0 +1,1576 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+  <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  .auto-style6 {
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style24 {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.auto-style26 {
+	color: #000000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style37 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style39 {
+	margin-left: 320px;
+}
+.auto-style43 {
+	color: #FFFFFF;
+	font-size: xx-small;
+}
+.auto-style45 {
+	color: #510851;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  h4{ color:#000099; font-size:14px;
+}
+h5 {color:#990066;font-size:12px
+}
+.img_ent {
+	background-image: url('../../../C_Soluciones/SolucionesFinal_2020/Laboratorios/imagenes/idisco.jpg');
+}
+.img_icon {
+	background-position: left 15px top 20px;
+	background-repeat: no-repeat;
+	padding-left:100px;
+	min-height:100px;
+}
+article {
+	border-style:solid;
+	border-width:1px; 
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style87 {
+	  color: #0000FF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style94 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style99 {
+	color: #FF0000;
+}
+.auto-style100 {
+	font-family: Arial, Helvetica;
+	font-size: -1;
+	color: #333333;
+}
+.auto-style101 {
+	font-size: small;
+}
+.auto-style104 {
+	color: #FF4C00;
+}
+.auto-style106 {
+	color: #333333;
+}
+.auto-style107 {
+	color: #008080;
+}
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+	 <span class="auto-style19">TC1028. Pensamiento computacional para 
+	 ingeniería&nbsp;</span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style37">
+	  Laboratorio: Herencia</span></strong><br class="auto-style21"><span class="auto-style16">
+	  .</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <span class="auto-style43">.</span><br> 
+	 <img src="../imagenes/info3.jpg" height="50" width="50" align="left" class="auto-style24"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp; 
+	 <span class="auto-style26">&nbsp;Descripción:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Trabajarás con el conceptos de 
+	 Programación Orientada a Objetos: Herencia. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> 
+	 <img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26">Objetivos:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font size="-1" color="#333333" face="Arial,Helvetica">Aplicar el 
+	 concepto de programación orientada a objetos.</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Diseñar 
+			una clase: atributos y métodos. </font></li>
+			<li class="auto-style100"> 
+			<font size="-1" color="#333333" face="Arial,Helvetica">Diseñar 
+			herencia. </font></li>
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/group.png" height="42" width="50" align="left" class="auto-style24"><br>
+	 &nbsp;&nbsp; 
+	 <span class="auto-style26">Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Sesión plenaria.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style26">
+                               
+      <span class="auto-style45">
+          <class="auto-style53">
+		 <class="auto-style49"><span class="auto-style6"><strong>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/web_descripcion.gif" height="53" width="60" align="left" class="auto-style106">&nbsp;
+     <br>
+          <b>&nbsp;&nbsp;</b></strong><b> &nbsp; </b> </span>
+	 <b>
+	 <span class="auto-style94">Ejercicios:</span></b></span><span class="auto-style6"><ul>
+                                         
+        <ul>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Define 
+			la clase <span class="auto-style87"><strong>CocheVolador</strong></span>. </font></li>
+			</span>
+          </span>
+          </font>
+			<li> <span class="auto-style26">
+		    <span class="auto-style6">
+			<font color="#330033" face="Arial,Helvetica">
+            <font size="-1" color="#333333" face="Arial,Helvetica">Define la 
+			clase <strong><span class="auto-style87">Coche</span></strong> como 
+			superclase o clase padre de la clase <span class="auto-style87">
+			<strong>CocheVolador</strong></span>.</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Define 
+			el <strong>atributo de clase</strong> <span class="auto-style87">
+			<strong>ruedas</strong></span> con el valor de <strong>6</strong>.</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Llama a 
+			la clase padre con la palabra reservada:
+			<span class="auto-style101" style="font-family: &quot;Dom Casual&quot;; mso-ascii-font-family: &quot;Dom Casual&quot;; mso-fareast-font-family: +mn-ea; mso-bidi-font-family: +mn-cs; mso-fareast-theme-font: minor-fareast; mso-bidi-theme-font: minor-bidi; color: #00B050; mso-font-kerning: 12.0pt; language: es-TRAD; font-weight: bold; mso-style-textfill-type: solid; mso-style-textfill-fill-color: #00B050;mso-style-textfill-fill-alpha:
+100.0%">super().__init__()</span><span style="font-size:14.0pt;font-family:
+&quot;Dom Casual&quot;;mso-ascii-font-family:&quot;Dom Casual&quot;;mso-fareast-font-family:+mn-ea;
+mso-bidi-font-family:+mn-cs;mso-fareast-theme-font:minor-fareast;mso-bidi-theme-font:
+minor-bidi;color:#1E1C11;mso-color-index:2;mso-font-kerning:12.0pt;language:
+es-TRAD;mso-style-textfill-type:solid;mso-style-textfill-fill-themecolor:background2;
+mso-style-textfill-fill-color:#1E1C11;mso-style-textfill-fill-alpha:100.0%;
+mso-style-textfill-fill-colortransforms:lumm=10000">. </span>&nbsp;</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Define 
+			en el <strong>constructor</strong> el atributo de instancia:
+			<span class="auto-style104"><strong>esta_volando</strong></span>. El 
+			atributo <span class="auto-style104"><strong>esta_volando</strong></span> 
+			recibe su valor con el parámetro de entrada
+			<span class="auto-style104"><strong>esta_volando = False</strong></span>.</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Define 
+			el método <span class="auto-style99"><strong>vuela</strong></span>, 
+			inicializando el atributo <span class="auto-style104"><strong>
+			esta_volando</strong></span> en <strong>True</strong>.</font></li>
+			<li> <span class="auto-style6"><span class="auto-style26">
+		    <font size="-1" color="#333333" face="Arial,Helvetica">Define el 
+			método <span class="auto-style99"><strong>aterriza</strong></span>, 
+			inicializando el atributo <span class="auto-style104"><strong>
+			esta_volando</strong></span> en <strong>True</strong>.</font></span></span></li>
+          </font></span><font color="#330033" face="Arial,Helvetica">
+            <li> <span class="auto-style6">
+			<font size="-1" color="#333333" face="Arial,Helvetica">Define un 
+			objeto <strong><span class="auto-style107">c</span> </strong>de la 
+			clase <span class="auto-style99"><strong>Coche</strong></span>.</font></span></li>
+			<li> <font size="-1"><span class="auto-style106">Define un objeto
+			</span><span class="auto-style107"><strong>cv</strong></span><span class="auto-style106"> 
+			de la clase </span><span class="auto-style87"><strong>CocheVolador</strong></span><span class="auto-style106">.
+			</span></font></li>
+			<li> <font size="-1"><span class="auto-style106">Imprime el atributo
+			</span><span class="auto-style104"><strong>color </strong></span>
+			<span class="auto-style106">del objeto </span>
+			<span class="auto-style107"><strong>cv</strong></span><span class="auto-style106">.</span></font></li>
+			<li> <span class="auto-style26">
+		    <font color="#330033" face="Arial,Helvetica" size="-1">
+			<span class="auto-style106">Imprime el atributo </span>
+			<span class="auto-style104"><strong>esta_volando </strong></span>
+			<span class="auto-style106">del objeto </span>
+			<span class="auto-style107"><strong>cv</strong></span><span class="auto-style106">.</span></font></span></li>
+			<li> <span class="auto-style6">
+			<font size="-1" color="#333333" face="Arial,Helvetica">Llama al 
+			método <span class="auto-style99"><strong>acelera</strong></span> 
+			del objeto <span class="auto-style107"><strong>cv</strong></span>.</font></span></li>
+			<li> <span class="auto-style26">
+		    <font color="#330033" face="Arial,Helvetica" size="-1">
+			<span class="auto-style106">Imprime el atributo </span>
+			<span class="auto-style104"><strong>velocidad </strong></span>
+			<span class="auto-style106">del objeto </span>
+			<span class="auto-style107"><strong>cv</strong></span><span class="auto-style106">.</span></font></span></li>
+			<li> <span class="auto-style26">
+		    <font color="#330033" face="Arial,Helvetica" size="-1">
+			<span class="auto-style106">Modifica el atributo </span>
+			<span class="auto-style87"><strong>ruedas</strong></span><span class="auto-style106"> 
+			de la clase </span><span class="auto-style87"><strong>CocheVolador</strong></span><span class="auto-style106">.</span></font></span></li>
+			<li> <font color="#330033" face="Arial,Helvetica" size="-1">
+			<span class="auto-style106">Intenta imprimir el atributo </span>
+			<span class="auto-style104"><strong>esta_volando </strong></span>
+			<span class="auto-style106">de la clase </span>
+			<span class="auto-style107"><strong>c</strong></span><span class="auto-style106">. 
+			Debe imprimir error.</span></font></li>
+          </font>
+          </span>
+        </ul>
+                                 
+      </ul>
+	 <class="auto-style98">
+        <class="auto-style98">
+        <class="auto-style98">
+	 <class="auto-style98">
+	 <class="auto-style98">
+	 <class="auto-style98">
+	 <class="auto-style84">
+	 <class="auto-style99">
+	 <class="auto-style49">
+		 <class="auto-style49">
+	 <span class="auto-style26">
+	 <class="auto-style53">
+	 <class="auto-style49">
+          <class="auto-style53">
+		 <class="auto-style49">
+	 
+	 <span class="auto-style45">
+          <class="auto-style53">
+		 <class="auto-style49"><hr width="100%"> 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left"> <br>
+	 <font color="#330033" face="Arial,Helvetica">
+	 <b>&nbsp;&nbsp;</b><strong>Especificaciones 
+	 de entrega:</strong></font> 
+<ul>
+<ul>
+     <li> <font size="-1" color="#333333" face="Arial,Helvetica">Formato de 
+	 entrega: 
+	 <strong>py</strong></font></li>
+	 <li> <font size="-1" color="#333333" face="Arial,Helvetica">Nombre del 
+	 entregable: 
+	 <strong>K_matrícula.py </strong> </font></li>                                   
+	 <li> <font size="-1" color="#333333" face="Arial,Helvetica">Medio de 
+	 entrega: Se entrega en Canvas en la sección de 
+	 <strong>Laboratorio: Archivos </strong> </font></li>                                   
+
+        </ul></ul>
+                                 
+
+	 	 </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

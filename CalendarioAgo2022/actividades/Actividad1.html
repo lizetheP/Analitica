@@ -1,0 +1,1824 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+      <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  .auto-style7 {
+	  color: #3333FF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style24 {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.auto-style25 {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.auto-style26 {
+	color: #000000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style37 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style39 {
+	margin-left: 440px;
+}
+.auto-style43 {
+	color: #FFFFFF;
+	font-size: xx-small;
+}
+.auto-style45 {
+	color: #510851;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style47 {
+	  font-size: small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style48 {
+	  text-align: justify;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  h4{ color:#000099; font-size:14px;
+}
+h5 {color:#990066;font-size:12px
+}
+.img_ent {
+	background-image: url('../../../C_Soluciones/SolucionesFinal_2020/Laboratorios/imagenes/idisco.jpg');
+}
+.img_icon {
+	background-position: left 15px top 20px;
+	background-repeat: no-repeat;
+	padding-left:100px;
+	min-height:100px;
+}
+article {
+	border-style:solid;
+	border-width:1px; 
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style87 {
+	  color: #0000FF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style90 {
+	font-size: medium;
+}
+.auto-style91 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style106 {
+	  text-align: justify;
+	  font-size: -1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style107 {
+	color: #FF0000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+		<span class="auto-style35"><span class="auto-style19">TC 3001 C. Analítica de datos y herramientas de 
+	 inteligencia artificial</span></span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style37">
+	  Actividad integradora 1: </span></strong><span class="auto-style37"><strong>
+	  Trabajando con Python y sus estructuras de datos </strong></span><br class="auto-style21"><span class="auto-style16">
+	  .</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <span class="auto-style43">.</span><br> 
+	 <img src="../imagenes/info3.jpg" height="50" width="50" align="left" class="auto-style24"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp; 
+	 <span class="auto-style26">&nbsp;Descripción:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Desarrolla, en conjunto con el 
+	 profesor, algunos problemas que implican el uso de las estructuras de datos 
+	 en Python. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> 
+	 <img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26">Objetivos:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar el uso de estructuras 
+	 de datos en Python.</font></li>
+			<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar los conocimientos 
+			sobre funciones. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/group.png" height="42" width="50" align="left" class="auto-style24"><br>
+	 &nbsp;&nbsp; 
+	 <span class="auto-style26">Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Sesión plenaria.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/irevision.jpg" height="70" width="70" align="left" class="auto-style25">&nbsp;
+     <br>
+          <font color="#330033" face="Arial,Helvetica">
+          <b>&nbsp;<span class="auto-style26">Instrucciones:</span></b><span class="auto-style26"><font
+ size="-1" color="#000000" face="Arial,Helvetica">&nbsp;<br></font>
+	 <ul>
+                                         
+         <ul>
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 <li>
+			 <p>
+             <font
+ size="-1" color="#333333" face="Arial,Helvetica">Implementa las siguientes 
+			 funciones haciendo uso de listas anidadas o matrices: </font>
+	 		</p>
+			 </li>
+			 </font>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+	 <font face="Arial,Helvetica">
+	 <span class="auto-style44">
+		 </span></font>
+          <span class="auto-style45">
+			 </span>
+		 </span>
+	 <class="auto-style127">
+			 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49"><span class="auto-style45">
+          <font face="Arial,Helvetica">
+          <font color="#330033" face="Arial,Helvetica">
+          <class="auto-style53">
+	 <class="auto-style43">
+		 <class="auto-style49">
+          <span class="auto-style26">
+		  <class="auto-style53">
+	 <class="auto-style43">
+		 <class="auto-style49">
+          <p><font size="-1" face="Arial,Helvetica">
+                                  
+          <img src="../imagenes/web_descripcion.gif" height="53" width="60" align="left" class="auto-style91">&nbsp;
+     <br><font face="Arial,Helvetica"><strong><span class="auto-style47">&nbsp; </span>
+		  <span class="auto-style90">&nbsp;Ejercicios:</span></strong></font></font>&nbsp;&nbsp;&nbsp;</p>
+          <ul>
+                                         
+         <ul>
+     		 <li class="auto-style48"> 
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26">
+			 <font
+ size="-1"><span class="auto-style21">La función <span class="auto-style87">
+			 <strong>crea_archivo ()</strong></span> que crea el archivo de 
+			 texto <strong>prueba.txt.</strong> La función le pedirá dos frases 
+			 al usuario y la guardará en el archivo de texto.</span></font></font></font></li>
+			 <li class="auto-style48"> 
+			 <font size="-1">La función </font>
+     
+	 </span><font size="-1"><span class="auto-style7">
+		     <strong>crea_lista_palabras</strong></span><span class="auto-style26">
+		     que abre el archivo
+     
+	 </span>
+          <span class="auto-style107">
+		     <strong>prueba.txt</strong></span><span class="auto-style26">
+		     en modo de lectura y <strong>regresa</strong> una lista con las 
+			 palabras que contiene el archivo de texto.</span></font></li>
+          <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style45">
+          <span class="auto-style26">
+		     <li class="auto-style48"> 
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26">
+			 <font
+ size="-1"><span class="auto-style21">La función </font>
+			 <span class="auto-style87">
+			 <strong><span class="auto-style47">suma_caracteres</span><font
+ size="-1"> </font></strong></span><font
+ size="-1"><font
+ size="-1">que recibe una lista de palabras y regresa la suma total de 
+			 caracteres de todas las palabras contenidas en la lista.</font></font></span></font></font></li>
+			 <li class="auto-style48"> 
+			 <font size="-1">La función </font>
+     
+	 </span><font size="-1"><span class="auto-style7">
+		     <strong>cuenta_vocales </strong>
+          <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style45">
+          <span class="auto-style26">
+		     <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26">
+			 <font
+ size="-1"><span class="auto-style21">que recibe una lista de palabras y regresa 
+			 el número de palabras que comienzan con una vocal.</span></font></font></font></span></span></font></span></font></li>
+			 <li class="auto-style48"> 
+          <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style45">
+          <span class="auto-style26">
+		     <font size="-1">La función </font>
+     
+	 </span><font size="-1"><span class="auto-style7">
+		     <strong>diccionario_vocales </strong>
+          <span class="auto-style26">
+		     <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26">
+			 <font
+ size="-1"><span class="auto-style21">que recibe una lista de palabras y regrese 
+			 un diccionario donde las llaves son las vocales y cada elemento una 
+			 lista de las palabras que comienzan con dicha vocal.</span></font></font></font></span></span></font></span></font>&nbsp; </li>
+			 <li class="auto-style48"> 
+          <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style45">
+          <span class="auto-style26">
+		     <font size="-1">La función </font>
+     
+	 </span><font size="-1"><span class="auto-style7">
+		     <strong>imprime_diccionario </strong>
+          <span class="auto-style26">
+		     <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26">
+			 <font
+ size="-1"><span class="auto-style21">que imprime el diccionario como tabla, con 
+			 una tabulación entre la clave y la lista.</span></font></font></font></span></span></font>&nbsp;</span></font></li>
+			 <li class="auto-style48"> 
+			 <span class="auto-style26">
+		     <font size="-1">La función </font>
+     
+	 </span><font size="-1"><span class="auto-style7">
+		     <strong>cuenta</strong></span><span class="auto-style26">
+		     que abre el archivo
+     
+	 </span>
+          <span class="auto-style107">
+		     <strong>prueba.txt</strong></span><span class="auto-style26">
+		     e imprime el conteo de espacios y saltos de línea que contiene el 
+			 archivo de texto.</span></font> </li>
+			 </span>
+          </font>
+                                         
+        </ul>
+                                 
+      </ul>
+          </font>
+          </font>
+          </font>
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style53">
+		 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+          <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+     
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53"> 
+	 <class="auto-style43">
+	 <class="auto-style53"> 
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+     	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49"><span class="auto-style26">
+	 
+	 <hr width="100%"> 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left"> <br>
+	 <b><font color="#330033" face="Arial,Helvetica">&nbsp;&nbsp;<span class="auto-style26">Especificaciones 
+	 de entrega:</span></font></b> 
+	 <font color="#330033" face="Arial,Helvetica">
+          <ul>
+                                         
+         <ul>
+          </font>
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style21">
+     		 
+			 <li class="auto-style106"> <font size="-1"><span class="auto-style26">Formato de entrega:
+			 <strong>pdf </strong>o
+			 <strong>docx</strong></span></font><span class="auto-style26"></li>
+			 <li class="auto-style106"> <font size="-1"><span class="auto-style26">Nombre del entregable:
+			 <strong>Act1_matricula.pdf</strong> (Impresión de pantalla de tus 
+			 funciones y main con su ejecución)<strong> </strong> </span> </font></li>
+			 <li class="auto-style106"> <font size="-1"><span class="auto-style26">Medio de entrega: Se entrega en Canvas en la sección de 
+			 <strong>Actividad integradora 1</strong></span></font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+			 
+			 </span>
+                                         
+	 </span>
+          </font>
+	 </span>
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

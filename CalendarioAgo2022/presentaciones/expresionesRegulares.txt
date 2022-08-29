@@ -1,0 +1,30 @@
+Metacaracteres:
+\d      - Digitos (0-9)
+\D      - No digitos (0-9)
+\w      - Caracter de palabra (a-z, A-Z, 0-9, _)
+\W      - No caracter de palabra
+\s      - Espacio en blanco (espacio, tabulación, nueva linea)
+\S      - No espacio en blanco (espacio, tab, nueva linea)
+.       - Cualquier caracter excepto nueva linea
+\       - Cancela caracteres especiales
+
+^       - Inicio de una cadena de caracteres (string)
+$       - Fin de una cadena de caracteres
+
+Cuantificadores (Número de caracteres):
+*       - 0 o más
++       - 1 o más 
+?       - 0 or 1 
+{3}     - Numero exacto
+{n,}    - Numero n+
+{3,4}   - Rango de números (Minimo, Maximo)
+
+( )     - Grupos
+[]      - Encuentra caracteres en corchetes
+[^ ]    - Encuentra caracteres que no están dentro de corchetes
+|       - Condicional O
+
+\b      - Limite de palabra
+\B      - No limite de palabra
+
+\1      - Referencias

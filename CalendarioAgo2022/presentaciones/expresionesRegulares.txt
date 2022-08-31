@@ -23,8 +23,3 @@ Cuantificadores (Número de caracteres):
 []      - Encuentra caracteres en corchetes
 [^ ]    - Encuentra caracteres que no están dentro de corchetes
 |       - Condicional O
-
-\b      - Limite de palabra
-\B      - No limite de palabra
-
-\1      - Referencias

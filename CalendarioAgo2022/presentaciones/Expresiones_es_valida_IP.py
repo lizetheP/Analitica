@@ -65,15 +65,15 @@ def encuentra_fechas():
     print(lista)
     
 def main():
-    #ip = input("Dame una IP: ")
-    #print("La ip es válida: ", es_valida_IP(ip))
+    ip = input("Dame una IP: ")
+    print("La ip es válida: ", es_valida_IP(ip))
     #correo = input("Dame tu correo: ")
     #print("El correo es válido: ", es_valido_correo(correo))
     #url = input("Dame tu url: ")
     #print("La url es válida: ", es_valida_url(url))
-    fecha = input("Dame tu fecha: ")
-    print("La fecha es válida: ", es_valida_fecha(fecha))
-    encuentra_fechas()
+    #fecha = input("Dame tu fecha: ")
+    #print("La fecha es válida: ", es_valida_fecha(fecha))
+    #encuentra_fechas()
     
 main()
 
@@ -81,10 +81,10 @@ main()
 #^(https?:\/\/)?(www\.)?[a-zA-Z0-9.-]+\.(com|com\.mx|net)
 #^(https?:\/\/)?(www\.)[a-zA-Z0-9.-_]+\.(com|net|com\.mx)$
 #(0?[1-9]|[12][0-9]|3[01])\/(0?[1-9]|1[012])\/((19|20)\d\d) CORRECTO
-
+"""
 01/09/2022
 50/09/2022
 10/30/2022
 01/09/3022
 2022/13/04
-14/09/74
+14/09/74"""

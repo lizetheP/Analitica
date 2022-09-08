@@ -56,7 +56,10 @@ def suma_productos(m):
      
 def cantidad_productos(m):
     lista = (m[:, 6])
-    myList = list(set(lista)) 
+    # El método set elimina elementos repetidos de una lista, tupla o string.
+    myList = list(set(lista))
+    print(myList)
+
     myList.sort()
     #print(myList)
     print()

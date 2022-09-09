@@ -92,11 +92,11 @@ def promedio_precios(m):
     l = np.array(lista, dtype = float)
     return np.mean(l)
 
-def calculos(m, year):
+def calculos(m, envase):
     matrizf = []
     lcondimentos = ["Adobo", "Condimento", "Especia", "Hierba"]
     for ele in lcondimentos:
-        condicion = (m[:, 6] == ele) & (m[:, 5] == '1')
+        condicion = (m[:, 6] == ele) & (m[:, 5] == envase)
         matriz = m[condicion]
         #print(matriz)
         lista = []

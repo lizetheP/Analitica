@@ -1,5 +1,6 @@
 # Leer datos 2
 import numpy as np
+import pandas as pd
 import csv
 
 def leer_datos2():
@@ -10,9 +11,153 @@ def leer_datos2():
   #print(matriz)
   return matriz
 
+def calificacion_mas_baja(m):
+    lista = (m[:, 2])  # Extrae la columna 3 de tamaño
+    l = np.array(lista, dtype = float)
+    return np.min(l)
+
+def calificacion_mas_alta(m):
+    lista = (m[:, 2])  # Extrae la columna 3 de tamaño
+    l = np.array(lista, dtype = float)
+    return np.max(l)
+
+def precio_promedio(m):
+    lista = (m[:, 3])  # Extrae la columna 3 de tamaño
+    l = np.array(lista, dtype = float)
+    return np.mean(l)
+
+def por_anio(m):
+    lista = m[:, 0]
+    myList = list(set(lista))
+    print(myList)
+    myList.sort()
+    print("\nAño \t Videojuegos")  
+    for key in myList:
+        condicion = ((m[:, 0]) == key)
+        matriz = m[condicion]
+        arreglo = matriz[:, 1]
+        print(key, "  \t", arreglo)
+        
+def por_clasificacion(m):
+    lista = m[:, 4]
+    rating = {'E': "Everyone" , 'T' : "Teen", 'M' : "Mature"}
+    print("\nClasificación \t Videojuegos")  
+    for key in rating:
+        condicion = ((m[:, 4]) == key)
+        matriz = m[condicion]
+        #print(matriz)
+        arreglo = matriz[:, 1]
+        print(key, rating[key],"    \t", arreglo)
+
+def por_review(m):
+    lista = m[:, 2]
+    myList = list(set(lista))
+    #print(myList)
+    myList.sort()
+    print("\nReview \t Videojuegos")  
+    for key in myList:
+        condicion = ((m[:, 2]) == key)
+        matriz = m[condicion]
+        arreglo = matriz[:, 1]
+        print(key, "  \t", arreglo)
+
+def promedio_precio(m):
+    lista = m[:, 4]
+    rating = {'E': "Everyone" , 'T' : "Teen", 'M' : "Mature"}
+    print("\nClasificación \t Promedio de precios")  
+    for key in rating:
+        condicion = ((m[:, 4]) == key)
+        matriz = m[condicion]
+        #print(matriz)
+        arreglo = matriz[:, 3]
+        promedio = np.mean(arreglo)
+        print(key, rating[key],"    \t %.2f" % promedio)
+
+def promedio_review(m):
+    lista = m[:, 4]
+    rating = {'E': "Everyone" , 'T' : "Teen", 'M' : "Mature"}
+    print("\nClasificación \t Promedio de calificación")  
+    for key in rating:
+        condicion = ((m[:, 4]) == key)
+        matriz = m[condicion]
+        #print(matriz)
+        arreglo = matriz[:, 2]
+        promedio = np.mean(arreglo)
+        print(key, rating[key],"    \t %.2f" % promedio)
+        
+def cantidad_videojuegos(m):
+    lista = (m[:, 0])
+    # El método set elimina elementos repetidos de una lista, tupla o string.
+    myList = list(set(lista))
+    #print(myList)
+    myList.sort()
+    #print(myList)
+    print()
+    print("Año", "\t", "#Videojuegos")
+    for ele in myList:
+        condicion = (m[:, 0] == ele)
+        matriz = m[condicion]
+        longitud = matriz.shape[0]
+        print(ele, "  \t", longitud)
+
+def main():
+    m = leer_datos2()
+    print(m)
+    print("La calificación más baja es:", calificacion_mas_baja(m))
+    print("La calificación más alta es:", calificacion_mas_alta(m))
+    print("El precio promedio es: %.2f" % precio_promedio(m))
+    por_anio(m)
+    por_clasificacion(m)
+    por_review(m)
+    promedio_precio(m)
+    cantidad_videojuegos(m)
+    promedio_review(m)
+  
+main()
+
+"""
+
+def promedio_precio(m):
+    lista = m[:, 4]
+    rating = {'E': "Everyone" , 'T' : "Teen", 'M' : "Mature"}
+    print("\nClasificación \t Promedio de precios")  
+    for key in rating:
+        condicion = ((m[:, 4]) == key)
+        matriz = m[condicion]
+        #print(matriz)
+        arreglo = matriz[:, 3]
+        promedio = np.mean(arreglo)
+        print(key, rating[key],"    \t %.2f" % promedio)
+
+def por_anio(m):
+    lista = m[:, 0]
+    myList = list(set(lista))
+    print(myList)
+    myList.sort()
+    print("\nAño \t Videojuegos")  
+    for key in myList:
+        condicion = ((m[:, 0]) == key)
+        matriz = m[condicion]
+        arreglo = matriz[:, 1]
+        print(key, "  \t", arreglo)
+
+
+def main():
+    m = leer_datos2()
+    print(m)
+    print("La calificación más baja es:", calificacion_mas_baja(m))
+    print("La calificación más alta es:", calificacion_mas_alta(m))
+    print("El precio promedio es: %.2f" % precio_promedio(m))
+    por_anio(m)
+    por_clasificacion(m)
+    por_review(m)
+    promedio_precio(m)
+  
+main()
+
 def leer_datos():
     nombre_archivo = "videojuegos.csv"
-    file = open(nombre_archivo, "r")
+    file = open("videojuegos.csv", "r")
     # Se crea un leector con csv.reader
     lector = csv.reader(file, delimiter=",") # Le pasamos el archivo y el delimitador
     #Omitir el encabezado
@@ -24,13 +169,6 @@ def leer_datos():
     #print(matriz)
     return matriz
 
-def main():
-  m = leer_datos()
-  print(m)
-
-main()
-
-"""
 def imprime_matriz(m):
     for ren in range(m.shape[0]): # Renglones
         print(ren, end=" ")

@@ -74,7 +74,6 @@ def promedio_precio(m):
         print(key, rating[key],"    \t %.2f" % promedio)
 
 def promedio_review(m):
-    lista = m[:, 4]
     rating = {'E': "Everyone" , 'T' : "Teen", 'M' : "Mature"}
     print("\nClasificación \t Promedio de calificación")  
     for key in rating:
@@ -84,7 +83,8 @@ def promedio_review(m):
         arreglo = matriz[:, 2]
         promedio = np.mean(arreglo)
         print(key, rating[key],"    \t %.2f" % promedio)
-        
+
+    
 def cantidad_videojuegos(m):
     lista = (m[:, 0])
     # El método set elimina elementos repetidos de una lista, tupla o string.
@@ -102,7 +102,7 @@ def cantidad_videojuegos(m):
 
 def main():
     m = leer_datos2()
-    print(m)
+    #print(m)
     print("La calificación más baja es:", calificacion_mas_baja(m))
     print("La calificación más alta es:", calificacion_mas_alta(m))
     print("El precio promedio es: %.2f" % precio_promedio(m))

@@ -1452,8 +1452,7 @@ article {
                                          
         <ul>
      <li> <font
- size="-1" color="#333333" face="Arial,Helvetica">Desarrolla, en conjunto con el 
-	 profesor, algunos problemas que implican el uso de  
+ size="-1" color="#333333" face="Arial,Helvetica">Desarrolla algunos problemas que implican el uso de  
 	 matrices. </font></li>
                                          
         </ul>
@@ -1951,7 +1950,7 @@ article {
 			 <font
  size="-1"><span class="auto-style21">Define la función <span class="auto-style87">
 			 <strong>llena_matriz (matriz)</strong></span> que recibe una matriz. La función deberá modificar cada localidad de 
-			 la matriz con valores aleatorios entre -25 y 20.<font
+			 la matriz con valores aleatorios entre -10 y 10.<font
  size="-1" color="#333333" face="Arial,Helvetica"><font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
  size="-1">&nbsp;</font></font></font> Importa el módulo random (<strong>import 
@@ -1968,12 +1967,13 @@ article {
 	 <p class="auto-style53"><font size="-1"><strong>Ejemplo:
 	 </strong>Suponiendo que la matriz es de 4 renglones x 4 columnas y se le 
 	 asignaron los valores aleatorios.</font></p>
-	 <p class="auto-style53"> &nbsp;2&nbsp; -25&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; -4</br>
+	 <p class="auto-style53"> &nbsp;2&nbsp;&nbsp;&nbsp; -5&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp; -4</br>
 	 <class="auto-style53">
 	 <class="auto-style43">&nbsp;3&nbsp;&nbsp; &nbsp; 4&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; -1</br>
 	 <class="auto-style53">
 	 <class="auto-style43">-7&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp; 6</br>
-	 <class="auto-style53">&nbsp;9&nbsp;&nbsp;&nbsp; -7&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 20<class="auto-style43"></p>
+	 <class="auto-style53">&nbsp;9&nbsp;&nbsp;&nbsp; -7&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 
+	 10<class="auto-style43"></p>
      
 	 	 <class="auto-style53">
 	 <class="auto-style43">
@@ -2018,10 +2018,11 @@ article {
 			 <font
  size="-1" face="Arial,Helvetica" class="auto-style26">
 			 <font
- size="-1"><span class="auto-style21">Define la función <span class="auto-style87">
-			 <strong>cuenta_negativos (matriz)</strong></span> que recibe una matriz 
-			 de números enteros. La función regresará el resultado de contar 
-			 todos los valores negativos contenidos en la matriz.</span></font></font></span></font></li>
+ size="-1"><span class="auto-style21">Define la función 
+			 <span class="auto-style87">
+			 <strong>suma_positivos (matriz)</strong></span> que recibe una matriz 
+			 de números enteros. La función regresará el resultado de sumar 
+			 todos los valores positivos contenidos en la matriz.</span></font></font></span></font></li>
                                          
         </ul>
                                  
@@ -2041,7 +2042,7 @@ article {
 		 <span class="auto-style26">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1"><span class="auto-style21">La función regresaría: <strong>5</strong></span></font></font></span></font></p>
+ size="-1"><span class="auto-style21">La función regresaría: <strong>58</strong></span></font></font></span></font></p>
 	 <font color="#330033" face="Arial,Helvetica">
           <span class="auto-style45">
           <span class="auto-style26">
@@ -2759,8 +2760,8 @@ article {
 				 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
  size="-1">Llama a la función <span class="auto-style87"><strong>
-				 multiplica_columnax3</strong></span> con la matriz creada y el 
-				 número de columna solicitado</font></font></font></font></font></font></font></span></font></font></font></li>
+				 multiplica_renglonx2</strong></span> con la matriz creada y el 
+				 número de renglón solicitado</font></font></font></font></font></font></font></span></font></font></font></li>
           <font color="#330033" face="Arial,Helvetica">
           	   <span class="auto-style45">
         <span class="auto-style26">
@@ -2848,10 +2849,10 @@ article {
  size="-1" face="Arial,Helvetica" class="auto-style26">
 			 <font
  size="-1"><span class="auto-style21">Define la función <span class="auto-style87"><strong>
-			 multiplica_columnax3 (matriz, columna)</strong></span> que recibe 
-			 una matriz y el número de columna a modificar. La función deberá 
-			 multiplicar toda la columna de la matriz por el valor de <strong>
-			 3</strong>. </span></font></font> </font></li>
+			 multiplica_renglonx2 (matriz, renglon)</strong></span> que recibe 
+			 una matriz y el número de renglón a modificar. La función deberá 
+			 multiplicar todo el renglón de la matriz por el valor de <strong>
+			 2</strong>. </span></font></font> </font></li>
                                          
         </ul>
                                  
@@ -2860,26 +2861,25 @@ article {
 	<p class="auto-style53"><font size="-1"><strong>
 	Ejemplo:
 	 </strong>Suponiendo que la matriz tiene asignados los siguientes valores:</font></p>
-	 <p class="auto-style53">2&nbsp; 5&nbsp; 6&nbsp; 4</br>
+	 <p class="auto-style53">2 &nbsp; 5 &nbsp; 6 &nbsp; 4</br>
 	 <class="auto-style53">
-	 <class="auto-style43">3&nbsp; 4&nbsp; 5&nbsp; 1</br>
+	 <class="auto-style43">3&nbsp;&nbsp; 4 &nbsp; 5&nbsp;&nbsp; 1</br>
 	 <class="auto-style53">
-	 <class="auto-style43">7&nbsp; 8&nbsp; 5&nbsp; 6</br>
-	 <class="auto-style53">9&nbsp; 7&nbsp; 1&nbsp; 5<class="auto-style43"></p>
+	 <class="auto-style43">7&nbsp;&nbsp; 8 &nbsp; 5&nbsp;&nbsp; 6</br>
+	 <class="auto-style53">9&nbsp;&nbsp; 7 &nbsp; 1&nbsp;&nbsp; 5<class="auto-style43"></p>
 <p class="auto-style53"><font size="-1">Al llamar
-<strong>multiplica_columna(matriz, 1) </strong>los nuevos valores en la 
+<strong>multiplica_renglonx2 (matriz, 1) </strong>los nuevos valores en la 
 matriz deberán ser: </font></p>
-	 <p class="auto-style53">&nbsp;&nbsp;2&nbsp;&nbsp; <strong>15&nbsp;</strong>&nbsp;&nbsp; 6&nbsp;&nbsp; 
-	 4</br>
+	 <p class="auto-style53">
+          <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style45">
+        <span class="auto-style26">
+          2&nbsp;&nbsp; 5 &nbsp; 6&nbsp;&nbsp; 4</br>
 	 <class="auto-style53">
-	 <class="auto-style43">&nbsp; 3&nbsp; <strong>&nbsp;12&nbsp; </strong>&nbsp; 
-	 5&nbsp;&nbsp; 1<strong></br>
-	 </strong>
+	 <class="auto-style43"><strong>6&nbsp;&nbsp; 8&nbsp;10&nbsp;&nbsp; 2</strong></br>
 	 <class="auto-style53">
-	 <class="auto-style43">&nbsp; 7&nbsp;&nbsp; <strong>24</strong>&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 
-	 6</br>
-	 <class="auto-style53">&nbsp; 9&nbsp;&nbsp; <strong>21&nbsp;</strong>&nbsp;&nbsp; 1&nbsp;&nbsp; 
-	 5<class="auto-style43"></p>
+	 <class="auto-style43">7&nbsp;&nbsp; 8&nbsp;&nbsp; 5&nbsp;&nbsp; 6</br>
+	 <class="auto-style53">9&nbsp;&nbsp; 7&nbsp;&nbsp; 1&nbsp;&nbsp; 5</span></span></font><class="auto-style53"><class="auto-style43"><class="auto-style53"><class="auto-style43"><class="auto-style53"><class="auto-style43"></p>
 
 	 </span>
           </font>

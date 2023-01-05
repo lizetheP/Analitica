@@ -1,0 +1,2399 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+  <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  .auto-style6 {
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style22 {
+	color: #808000;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style26 {
+	color: #000000;
+}
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style49 {
+	margin-left: 80px;
+}
+.auto-style53 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style54 {
+	font-size: x-small;
+	color: #FFFFFF;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style76 {
+	  color: #0000FF;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style80 {
+	  border-color: #000000;
+	  border-width: 1px;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style89 {
+	text-align: justify;
+}
+      
+
+
+
+
+
+
+
+
+
+
+  .auto-style99 {
+	  color: #510851;
+	  font-size: large;
+	  font-family: Arial, Helvetica, sans-serif;
+	  margin-left: 80px;
+  }
+  .auto-style101 {
+	  text-align: center;
+	  border: 0px solid #000000;
+	  margin-left: 4px;
+	  margin-right: 4px;
+  }
+  .auto-style102 {
+	  font-size: medium;
+  }
+  .auto-style104 {
+	  font-size: small;
+  }
+              
+
+
+
+
+
+
+
+
+
+
+  .auto-style124 {
+	  font-size: small;
+	  color: #000000;
+  }
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style125 {
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: medium;
+  }
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style133 {
+	margin-left: 80px;
+	color: #000000;
+}
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style137 {
+	list-style-type: disc;
+	color: #000000;
+	margin-left: 80px;
+}
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style139 {
+	  list-style-type: disc;
+	  color: #000000;
+	  margin-left: 120px;
+  }
+          
+
+
+
+
+
+
+
+
+
+
+  .auto-style141 {
+	color: #000000;
+	font-weight: bold;
+}
+.auto-style142 {
+	font-weight: normal;
+	font-family: Arial, Helvetica, sans-serif;
+}
+        
+
+
+
+
+
+
+
+
+
+
+  .auto-style144 {
+	font-size: small;
+	color: #000000;
+	margin-left: 80px;
+}
+.auto-style146 {
+	color: #000000;
+	font-size: small;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 80px;
+}
+        
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+	 <span class="auto-style35"><span class="auto-style19">TC 3001 C. Analítica 
+	 de datos y herramientas de inteligencia artificial</span></span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style53">
+	  Actividad: Arreglos</span><span class="auto-style22">&nbsp; </span></strong>
+	  &nbsp;<br class="auto-style21"><span class="auto-style16">.</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style80"> 
+	 <span class="auto-style54">.</span><img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26"><br>&nbsp;Objetivos:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar el concepto de arreglos en la solución de problemas.</font></li>
+			<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar los conocimientos 
+			sobre funciones. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/iper.jpg" height="70" width="70" align="left"><br>
+	 <span class="auto-style26">&nbsp;Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Individual.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/irevision.jpg" height="70" width="70" align="left" class="auto-style25">&nbsp;
+     <br>
+          <font color="#330033" face="Arial,Helvetica">
+          <b>&nbsp;<span class="auto-style26">Instrucciones:<br></span></b> 
+        <span class="auto-style26">
+		  <font
+ size="-1" color="#000000" face="Arial,Helvetica">&nbsp;</font><ul>
+                                         
+         <ul>
+     		 <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Implementa los siguientes 
+			 ejercicios y funciones en un bloque de código distinto cada uno. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+	 </span></font>
+                               
+          <font color="#330033" face="Arial,Helvetica">
+	 <span class="auto-style26"><font face="Arial,Helvetica">
+	 <span class="auto-style44">
+		 </span></font>
+          <span class="auto-style45">
+		 </span></span>
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+                               
+      <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49"><span class="auto-style26"> 
+          <span class="auto-style45">
+          <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+                               
+      <hr width="100%"> 
+          <font color="#330033" face="Arial,Helvetica">
+	 <span class="auto-style26"> 
+          <span class="auto-style45">
+          <p><font size="-1" face="Arial,Helvetica">
+                                  
+          <img src="../imagenes/web_descripcion.gif" height="47" width="52" align="left" class="auto-style101">&nbsp;
+     <br><font face="Arial,Helvetica"><strong><span class="auto-style47">&nbsp; </span>
+		  <span class="auto-style90">&nbsp;<span class="auto-style102">Ejercicios:</span></span></strong></font></font>&nbsp;</p>
+	 <class="auto-style53">
+	 	 <class="auto-style49">
+	 <ul>
+		 <ul>
+			 <li class="auto-style89"><span class="auto-style104">
+			 <span class="auto-style21">Genere un arreglo de Numpy de puros 
+			 ceros 
+			 de tipo de dato "int" de 30 elementos. Imprime el arreglo.</span></li>
+			 </span><span class="auto-style6">
+			 <li><span class="auto-style47">Genere un arreglo de Numpy con 40 
+			 elementos de tipo float sin inicializar. Usa la función </span>
+			 <strong><span class="auto-style47">empty</span></strong><span class="auto-style47">. 
+			 Imprime el arreglo.</span></li>
+			 <li><span class="auto-style47">Genere un arreglo de Numpy con 
+			 números que vayan del 10 al 20. Usa la función </span><strong>
+			 <span class="auto-style47">arange()</span></strong><span class="auto-style47">. 
+			 Imprime el arreglo.</span></li>
+			 <li><span class="auto-style47">Genere un arreglo de Numpy con 
+			 números entre 1 y 30 con incrementos de 4, es decir: [1 5 9....]. Usa la función </span><strong>
+			 <span class="auto-style47">arange()</span></strong><span class="auto-style47">. 
+			 Imprime el arreglo.</span></li>
+			 <li><span class="auto-style47">Genere un arreglo de Numpy con 10 
+			 elementos de tipo float entre 10 y 30 igualmente espaciados. Usa la 
+			 función </span><strong><span class="auto-style47">linspace</span></strong><span class="auto-style47">. 
+			 Imprime el arreglo.</span></li>
+			 <li><span class="auto-style47">Genera un arreglo de Numpy llamado
+			 </span><strong><span class="auto-style47">arreglo1</span></strong><span class="auto-style47"> 
+			 con 6 números aleatorios enteros entre 5 y 15&nbsp; y genera otro 
+			 arreglo llamado </span><strong><span class="auto-style47">arreglo2</span></strong><span class="auto-style47"> 
+			 con 8 números aleatorios enteros entre 30 y 50. Concatena ambos 
+			 arreglos en un arreglo llamado </span><strong>
+			 <span class="auto-style47">arreglo3</span></strong><span class="auto-style47">. 
+			 Imprime los tres arreglos.</span></li>
+			 </span>
+		 </ul>
+	 </ul>
+		 </span>
+	 </span></font>
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+                               
+      <hr width="100%"> 
+          <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+          <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 	 <font color="#330033" face="Arial,Helvetica" size="-1">
+	 <class="auto-style53">
+	 <font color="#330033" face="Arial,Helvetica">
+
+		 	 <font color="#330033" face="Arial,Helvetica" size="-1">
+	 <font color="#330033" face="Arial,Helvetica">
+
+	 <ul>
+		 <ul>
+			 <li class="auto-style48"><font size="-1">
+			 <span class="auto-style26">Crea la función</span> 
+			 <span class="auto-style76"> 
+             <strong>suma_impares </strong></span></font>
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21"> que recibe un arreglo de números 
+			 enteros. La función regresa la suma de todos los elementos impares 
+			 del arreglo.</span></font></font></font></li>
+		 </ul>
+	 </ul>
+
+		 	 <font color="#330033" face="Arial,Helvetica" size="-1">
+	 <font color="#330033" face="Arial,Helvetica">
+
+	 <p class="auto-style99">
+	 <font size="-1"><span class="auto-style21"><span class="auto-style26"><strong>Ejemplo: </strong>Suponiendo que 
+	 el arreglo tiene asignados los siguientes valores: </span> </span></font></font>
+	 </p>
+	 <p class="auto-style99">
+	 <img height="63" src="../imagenes/arreglo1.gif" width="350"></p>
+                                  
+     </font>
+	 <ul>
+		 <ul>
+			 <li class="auto-style26">Crea la función <span class="auto-style76">
+			 <strong>main()</strong></span>:</li>
+		 </ul>
+		  <ul class="auto-style137">
+			 <li class="auto-style47">Genera un arreglo de Numpy con 10 números 
+			 aleatorios enteros entre -5 y 12. Imprime el arreglo.</li>
+			 <li>Llama a la función <strong>suma_impares </strong>con el 
+			 arreglo creado. </li>
+			 <li>Imprime el resultado de la función.</li>
+		 </ul>
+                                  
+     </font>
+		 </span>
+
+		 	 <font color="#330033" face="Arial,Helvetica" size="-1">
+	 	</li>
+	 </ul>
+                               
+      <hr width="100%"> 
+                                  
+     </font>
+                                  
+     </font>
+
+		 	 <font color="#330033" face="Arial,Helvetica" size="-1">
+
+	 <ul>
+		 <ul>
+			 <li><span class="auto-style26">
+			 <font face="Arial,Helvetica" size="-1">Crea la función </font>
+			 </span>
+			 <font face="Arial,Helvetica" size="-1"><span class="auto-style76">
+			 <strong>modifica_arreglo</strong></span>
+			 <span class="auto-style26"> 
+			 que recibe un arreglo de números enteros y un valor entero <strong>
+			 x</strong>. La función debe 
+			 de multiplicar cada localidad del arreglo por <strong>x</strong> y 
+			 el resultado de la multiplicación asignarla a su respectiva 
+			 casilla. </span></font></li>
+		 </ul>
+	 </ul>
+	 <p class="auto-style49"> 
+          <font face="Arial,Helvetica">
+          <span class="auto-style141">
+		  <font face="Arial,Helvetica" size="-1">
+		  Ejemplo: 
+	 </font>
+		 </span>
+	 	 </font></p>
+	 <font face="Arial,Helvetica" size="-1">
+
+	 <p class="auto-style133"> 
+		  Suponiendo que el arreglo original tiene asignados los siguientes valores:</p>
+	 </font>
+	 <p class="auto-style49"> 
+          <img alt="" height="63" src="../imagenes/modifica.JPG" width="350"></p>
+	 <p class="auto-style133"> 
+          Al aplicar la función <strong>modifica_arreglo(arreglo, 2)</strong> el 
+		  arreglo quedaría con 
+		  los siguientes valores:</p>
+	 <p class="auto-style49"> 
+          <img alt="" height="55" src="../imagenes/imageVPO.JPG" width="367"></p>
+	 <ul>
+		 <ul>
+			 <li class="auto-style26">Crea la función <span class="auto-style76">
+			 <strong>main()</strong></span>:</li>
+		 </ul>
+	 </ul>
+	 <font color="#330033" face="Arial,Helvetica">
+	 <span class="auto-style6">
+	 <ul class="auto-style139">
+		 <li class="auto-style47">Genera un arreglo de Numpy con 10 números 
+			 aleatorios enteros entre -5 y 12. Imprime el arreglo.</li>
+		 <li class="auto-style47">Pide un número entero x.</li>
+		 <li>Llama a la función <strong>modifica_arreglo </strong>con el 
+			 arreglo creado y el número x. </li>
+		 <li>Imprime el arreglo modificado.</li>
+	 </ul>
+	 <span class="auto-style26"> 
+          <span class="auto-style45">
+          <font color="#330033" face="Arial,Helvetica" size="-1">
+	
+      <hr width="100%"> 
+                                  
+     </font>
+                                  
+     </span>
+	 </span>
+                                  
+	 </span></font>
+          <ul>
+		 	 <ul>
+			 	<li class="auto-style89">Crea la función 
+			 <span class="auto-style76"><strong>cuenta_multiplos </strong>
+			 </span><span class="auto-style26">que recibe un arreglo de 
+			 números enteros y un valor entero <strong>x</strong>. La función deberá regresar 
+			 el resultado de contar todos los elementos múltiplos de <strong>x</strong> 
+			 contenidos en la lista. <strong>NOTA: Los valores negativos no son 
+				contemplados.</strong> </span></li>
+		 </ul>
+	 </ul>
+	 <p class="auto-style49">
+			 <font face="Arial,Helvetica" size="-1">Si el arreglo tuviera los 
+	 siguientes valores:</font> </p>
+			 <blockquote class="auto-style49">
+				 <img alt="" height="63" src="../imagenes/lab8img3.gif" width="350">
+			 </blockquote>
+			 <p class="auto-style133">
+			 <font face="Arial,Helvetica" size="-1">Al aplicar la función <b>
+			 cuenta_multiplos (arreglo, x) </b>y suponiendo que <strong>x </strong>tuviera 
+			 el valor de<strong> 5</strong>. El valor que regresaría la función 
+			 sería: <b>3</b>, porque los valores negativos no son 
+			 contemplados. NOTA: Solamente cuenta los 
+			 valores positivos.</font></p>
+	 <ul>
+		 	 <ul>
+			 	 <li class="auto-style89">Crea la función
+				 <span class="auto-style76"><strong>main()</strong></span>:</li>
+		 </ul>
+	 </ul>
+                                  
+     </font>
+          <span class="auto-style45">
+	 <font face="Arial,Helvetica" size="-1" color="#330033">
+          <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 	 <class="auto-style53">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46"> 
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <ul class="auto-style49">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53">
+		 <class="auto-style53"><font color="#330033" face="Arial,Helvetica">
+		 <ul>
+			 <li class="auto-style48">
+			 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 <span class="auto-style76">
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style26"><font face="Arial,Helvetica" size="-1">
+			 <span class="auto-style45"><font face="Arial,Helvetica">
+			 <span class="auto-style6"><font face="Arial,Helvetica" size="-1">Genera un arreglo de Numpy con 10 números 
+			 aleatorios enteros entre -5 y 12. Imprime el arreglo.</font></span></font></span></font></span></font></span></font></li>
+			 <li class="auto-style48"><span class="auto-style26">Pide un número 
+			 entero x.</li>
+			 </span>
+			 <li class="auto-style26">Llama a la función <strong>
+			 cuenta_multiplos</strong> con el arreglo creado y el número x.</li>
+			 <span class="auto-style26">
+			 <li class="auto-style48">Imprime el resultado de la función.</span></li>
+		 </ul>
+	 </ul>
+			 <span class="auto-style6"><span class="auto-style26">
+	 <span class="auto-style45">
+          <font color="#330033" face="Arial,Helvetica" size="-1">
+                               
+      <hr width="100%"> 
+        
+	 </font>
+	 	 </span>
+	 <ul>
+		 <ul>
+			 <li>
+			 <span class="auto-style47">Crea la función </span>
+				 </span>
+				 <span class="auto-style76"><strong>desviacion</strong></span><span class="auto-style26"><span class="auto-style47"> 
+				 que recibe un arreglo y con un ciclo iterador calcula 
+				 la desviación estándar. Regresa el resultado. Nota: Puedes usar 
+				 la función </span><strong><span class="auto-style47">mean
+				 </span></strong><span class="auto-style47">para calcular el 
+				 promedio del arreglo.</span></li>
+		 </ul>
+	 </ul>
+	 <p class="auto-style49">La fórmula para 
+	 calcular la desviación estándar es la siguiente:</p>
+	 <p class="auto-style146">
+	 <span class="auto-style47">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+	 <img alt="" src="../../../Tecnologias/Calendario/actividades/img1B.gif" height="84" width="250" class="auto-style47"><span class="auto-style47">&nbsp;</span></p>
+
+		
+	 <p class="auto-style49"><strong class="auto-style21">
+	 <span class="auto-style47">Ejemplo:</span></strong><span class="auto-style47"> Suponiendo que 
+	 el arreglo tuviera asignados los siguientes valores: &nbsp;</span></p>
+	 <span class="auto-style45">
+
+	 
+	 <p class="auto-style49"><table style="width: 20%">
+		 <tr>
+			 <td class="auto-style104"><strong>2&nbsp;</strong></td>
+			 <td class="auto-style104"><strong>4&nbsp;</strong></td>
+			 <td class="auto-style104"><strong>6&nbsp;</strong></td>
+			 <td class="auto-style104"><strong>8&nbsp;</strong></td>
+		 </tr>
+		 <tr>
+			 <td class="auto-style104"><strong>0&nbsp;</strong></td>
+			 <td class="auto-style104"><strong>1&nbsp;</strong></td>
+			 <td class="auto-style104"><strong>2&nbsp;</strong></td>
+			 <td class="auto-style104"><strong>3&nbsp;</strong></td>
+		 </tr>
+	 </table>
+	 </p>
+ 	 </span>
+ <p class="auto-style144"><span class="auto-style47">El resultado de la función sería:</span><strong><span class="auto-style47"> 2.236</span></strong>
+
+	 
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  </p>
+	 <span class="auto-style45">
+
+	 
+	 <p class="auto-style49">
+	 <img alt="" height="156" src="../../../Tecnologias/Calendario/imagenes/varianza2.jpg" width="600"></p>
+	 <p class="auto-style49">
+	 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 <img alt="" height="81" src="../../../Tecnologias/Calendario/imagenes/desviacion2.jpg" width="150"></span></p>
+	 <ul>
+		 <ul>
+			 <li><span class="auto-style128">Crea la 
+			 función </span></span><span class="auto-style76"><strong>main()</strong></span><span class="auto-style26">:<ul>
+				 <li class="auto-style47">Genere un arreglo de Numpy con los 
+				 siguientes números flotantes: [2.8, 8.3, 5.4, 6.0, 5.2, 1.5, 
+				 6.4, 12, 7.1, 3.6].</li>
+				 <li><span class="auto-style47">Utiliza la función </span>
+				 <strong><span class="auto-style47">std </span></strong>
+				 <span class="auto-style47">de numpy y calcula la desviación 
+				 estándar del arreglo anterior. Imprime el resultado.</span></li>
+				 <li>
+				 <span class="auto-style47">Llama a la función <strong>desviación </strong>con el 
+				 arreglo creado 
+				 e imprime el resultado</span>.<span class="auto-style128"> 
+				 Revisa que tu resultado concuerde con el resultado anterior.</span></li>
+			 </ul>
+			 </li>
+		 </ul>
+	 </ul>
+	 </span></span></font>
+	 </font></span>
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style49">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style119">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+		  <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+			 <class="auto-style47">
+		 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+		 <class="auto-style46">
+		 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+	 <span class="auto-style26">
+	 <font size="-1" face="Arial,Helvetica">
+                                  
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+		 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style84">
+		 <class="auto-style84">
+		 <class="auto-style84">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 <class="auto-style127">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 	<class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style84">
+		 <class="auto-style84">
+		 <class="auto-style84">
+		 <class="auto-style49">
+	 	 <class="auto-style49">
+	 	 <class="auto-style49">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46"> 
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49">
+          <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+		  <class="auto-style49">
+	 
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+		  <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+			 <class="auto-style47">
+		 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+		 <class="auto-style46">
+		 <class="auto-style47">
+			 <class="auto-style46">
+			 <class="auto-style47">
+			 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style46">
+	 <class="auto-style15">
+	 <class="auto-style15">
+	 <strong>
+	 <font face="Arial,Helvetica" size="-1" color="#330033">
+	 <class="auto-style15">
+          <font color="#330033" face="Arial,Helvetica">
+	 	   <font size="-1" face="Arial,Helvetica">
+                                  
+		 <class="auto-style49">
+	 
+     </font>
+                                  
+      <hr width="100%"> 
+	
+    	 <class="auto-style49">
+	 	   <font size="-1" face="Arial,Helvetica">
+                                  
+     <font size="-1">
+                                  
+	 <img src="../../../PensamientoC/CalendarioAgo2022/imagenes/idisco.jpg" height="70" width="70" align="left">
+	 <br><b><font color="#330033" face="Arial,Helvetica">&nbsp;</font></b></font></font></font></font></strong></font></span></font></font></span><font color="#330033" face="Arial,Helvetica"><font face="Arial,Helvetica" size="-1"><span class="auto-style125"><strong>Especificaciones 
+	 de entrega:<br><font color="#330033" face="Arial,Helvetica">
+	 <span class="auto-style6"><span class="auto-style26">
+	 <font color="#330033" face="Arial,Helvetica" size="-1">
+	 <span class="auto-style7">
+	 <ul>
+		 <ul>
+			 <li class="auto-style124"><span class="auto-style142">Formato de 
+			 entrega: </span><span class="auto-style21">pdf</span></li>
+			 </strong><font size="-1">
+			 <li class="auto-style6"><span class="auto-style26">Nombre de los 
+			 entregables: <strong>A21_matricula.pdf </strong>(Impresión de 
+			 pantalla de la ejecución de cada bloque de código)</li>
+			 <li class="auto-style6">Medio de entrega:&nbsp;Se entrega en la sección 
+			 de&nbsp;<strong>Actividad: Arreglos</strong></span><strong></li>
+		 </ul>
+	 </ul>
+	 </strong></font></span></font></span></span></font></span>
+                                  
+     </font>
+                                  
+     </font>
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

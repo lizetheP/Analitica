@@ -1,0 +1,55 @@
+class Empleado:
+    def __init__(self, nomina, nombre, edad):
+        self.nomina = nomina
+        self.nombre = nombre
+        self.edad = edad
+    
+    def pagoMensual(self):
+        pass
+
+    def mostrar(self):
+        return "Nómina: " + self.nomina + " Nombre: " + self.nombre + " Edad: " + str(self.edad)
+
+class Asalariado(Empleado):
+    def __init__(self, nomina, nombre, edad, salarioMensual):
+        self.__salarioMensual = salarioMensual
+        super().__init__(nomina, nombre, edad)
+
+    def getsalario(self):
+        return self.__salarioMensual
+
+    def setsalario(self, salarioMensual):
+        self.__salarioMensual = salarioMensual
+    
+    def pagoMensual(self, beneficios):
+        return self.__salarioMensual + beneficios
+    
+    def mostrar(self):
+        return "Nómina: " + self.nomina + " Nombre: " + self.nombre + \
+               " Edad: " + str(self.edad) + " Salario mensual: " + \
+                str(self.getsalario())
+
+class PorHora(Empleado):
+    def __init__(self, nomina, nombre, edad, horasTrabajadas, pagoHora):
+        self.__horasTrabajadas = horasTrabajadas
+        self.__pagoHora = pagoHora
+        super().__init__(nomina, nombre, edad)
+
+    def gethorasTrabajadas(self):
+        return self.__horasTrabajadas
+    
+    def getpagoHora(self):
+        return self.__pagoHora
+
+    def sethorasTrabajadas(self, horasTrabajadas):
+        self.__horasTrabajadas = horasTrabajadas
+
+    def setpagoHora(self, pagoHora):
+        self.__pagoHora = pagoHora
+        
+    def pagoMensual(self, beneficios):
+        return self.__horasTrabajadas * self.__pagoHora + beneficios
+    
+    def mostrar(self):
+        return "Nómina: " + self.nomina + " Nombre: " + self.nombre + " Edad: " + str(self.edad) + \
+        " Horas trabajadas: " + str(self.gethorasTrabajadas()) + " Pago por hora: " + str(self.getpagoHora())

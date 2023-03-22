@@ -48,7 +48,7 @@ def main():
     b.mostrar()
     precio = b.calcularPrecio()
     print()
-    print("El precio del libro es: %.2f" % precio)
+    print("El precio de la revista es: %.2f" % precio)
     print()
     titulo = input("Dame el nombre del titulo: ")
     paginas = input("Dame el número de páginas: ")

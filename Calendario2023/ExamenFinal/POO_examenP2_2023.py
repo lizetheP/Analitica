@@ -1,5 +1,3 @@
-import re
-
 class Articulo:
     def __init__(self, codigo, titulo, anio, disponible, costo):
         self.codigo = codigo
@@ -17,7 +15,7 @@ class Articulo:
         
 
 def main():
-    a = Articulo("NGhwX23", "National Geographic", "2023", True, 132.5)
+    a = Articulo("BAB2023", "Babylon", "2023", True, 219)
     print()
     print("ARTÍCULO")
     a.mostrar()

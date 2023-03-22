@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import csv
 
-def leer_datos2():
+def leer_datos():
   df = pd.read_csv("videojuegos.csv")
   #print(df)
   # Crear una matriz en numpy
@@ -35,7 +35,9 @@ def por_anio(m):
     for key in myList:
         condicion = ((m[:, 0]) == key)
         matriz = m[condicion]
+        #print(matriz)
         arreglo = matriz[:, 1]
+        #print(arreglo)
         print(key, "  \t", arreglo)
         
 def por_clasificacion(m):
@@ -101,17 +103,18 @@ def cantidad_videojuegos(m):
         print(ele, "  \t", longitud)
 
 def main():
-    m = leer_datos2()
+    m = leer_datos()
     print(m)
-    print("La calificación más baja es:", calificacion_mas_baja(m))
+    print()
+    #print("La calificación más baja es:", calificacion_mas_baja(m))
     #print("La calificación más alta es:", calificacion_mas_alta(m))
     #print("El precio promedio es: %.2f" % precio_promedio(m))
-    por_anio(m)
-    #por_clasificacion(m)
-    #por_review(m)
-    promedio_precio(m)
-    #cantidad_videojuegos(m)
-    #promedio_review(m)
+    #*por_anio(m)
+    #*por_clasificacion(m)
+    por_review(m)
+    #*promedio_precio(m)
+    #*cantidad_videojuegos(m)
+    #*promedio_review(m)
   
 main()
 

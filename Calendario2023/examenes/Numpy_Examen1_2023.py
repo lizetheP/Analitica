@@ -104,17 +104,17 @@ def cantidad_videojuegos(m):
 
 def main():
     m = leer_datos()
-    print(m)
+    #print(m)
     print()
     #print("La calificación más baja es:", calificacion_mas_baja(m))
     #print("La calificación más alta es:", calificacion_mas_alta(m))
-    #print("El precio promedio es: %.2f" % precio_promedio(m))
-    #*por_anio(m)
-    #*por_clasificacion(m)
-    por_review(m)
-    #*promedio_precio(m)
-    #*cantidad_videojuegos(m)
-    #*promedio_review(m)
+    print("El precio promedio es: %.2f" % precio_promedio(m))
+    por_anio(m)
+    #por_clasificacion(m)
+    #por_review(m)
+    #promedio_precio(m)
+    #cantidad_videojuegos(m)
+    #promedio_review(m)
   
 main()
 

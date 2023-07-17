@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Pensamiento Computacional para I</title>
+<style type="text/css">
+i.small{font-size:2rem}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+i{line-height:inherit}*,*:before,*:after{box-sizing:inherit}
+.auto-style6 {
+	font-size: x-large;
+}
+.auto-style15 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: medium;
+	margin-left: 80px;
+}
+.auto-style17 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	margin-left: 40px;
+}
+.auto-style18 {
+	margin-left: 40px;
+}
+.auto-style33 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #660066;
+}
+.auto-style35 {
+	font-size: large;
+}
+.auto-style37 {
+	color: #808000;
+}
+.auto-style38 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	margin-left: 40px;
+	color: #808000;
+	text-align: left;
+}
+.auto-style39 {
+	font-size: medium;
+}
+.auto-style40 {
+	color: #660066;
+}
+.auto-style41 {
+	font-size: xx-small;
+	color: #FFFFFF;
+}
+.auto-style53 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	line-height: 150%;
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.auto-style54 {
+	margin-left: 80px;
+}
+.auto-style76 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 80px;
+}
+.auto-style82 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.auto-style83 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 120px;
+}
+.auto-style84 {
+	margin-left: 120px;
+}
+.auto-style85 {
+	color: #FF0000;
+}
+</style>
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td class="auto-style33" style="height: 22px"><strong>
+		<span class="auto-style35"><br />
+		TC 1028. Pensamiento Computacional para Ingeniería<br />
+		<span class="auto-style37">.</span></span></strong></td>
+	</tr>
+</table>
+<p class="auto-style38"><strong>Listas anidadas o matrices </strong></p>
+<hr class="auto-style18" />
+<p class="auto-style17"><strong><img src="../imgE2.gif" /> </strong>
+<span class="auto-style6">Objetivo</span></p>
+<p class="auto-style15">Entender el concepto de listas anidadas o matrices. </p>
+<hr class="auto-style18" />
+<p class="auto-style17"><strong><img src="../img11.gif" /> </strong>
+<span class="auto-style6">Revisión de autoestudio</span></p>
+<p class="auto-style15"><strong>1. </strong>¿Qué imprimiría el siguiente código? 
+</p>
+<p class="auto-style83">El primero usa los iteradores inatos del ciclo for, 
+donde guarda un arreglo de 2 elementos en cada vuelta [0,1] y columna guarda un 
+elemento del arreglo en cada vuelta 0.</p>
+<p class="auto-style84"><span class="auto-style82"><strong>matriz = 
+[[0,1],[2,3],[4,5]] </strong></span><br class="auto-style82" />
+<class="auto-style49"><span class="auto-style82"><strong>valor = 0 </strong>
+</span><br class="auto-style82" />
+<class="auto-style49"><strong><span class="auto-style82">for
+<span class="auto-style85">linea</span> in <span class="auto-style85">matriz</span>:
+</span></strong><br class="auto-style82" />
+<class="auto-style49"><strong><span class="auto-style82">&nbsp;&nbsp;&nbsp; for
+<span class="auto-style85">elemento</span> in <span class="auto-style85">linea</span>:
+</span></strong><br class="auto-style82" />
+<class="auto-style49"><strong><span class="auto-style82">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+valor = valor + <span class="auto-style85">elemento</span> </span></strong>
+<span class="auto-style82">#usamos los iteradores </span>
+<br class="auto-style82" />
+<class="auto-style49"><span class="auto-style82"><strong>print(valor)</strong></span></p>
+<p class="auto-style82"><strong class="auto-style54">2. </strong>¿Qué imprimiría el siguiente código? 
+</p>
+<p class="auto-style83">El segundo usa índices directamente sobre la matriz o 
+arreglo multidimensional. Donde <strong>i </strong>es usado como índice del 
+arreglo exterior de 3 elementos [0,1],[2,3],[4,5] y <strong>j </strong>es usada 
+como el índice del interior de cada arreglo de 2 [0,1] </p>
+<p class="auto-style84"><span class="auto-style82"><strong>matriz = 
+[[0,1],[2,3],[4,5]] </strong></span><br class="auto-style82" />
+<class="auto-style49"><span class="auto-style82"><strong>valor = 0 </strong>
+</span><br class="auto-style82" />
+<class="auto-style49"><span class="auto-style82">#indice i (renglones)</span><br class="auto-style82" />
+<class="auto-style49"><strong><span class="auto-style82">for
+<span class="auto-style85">i </span>in range ( 0, <span class="auto-style85">
+len( matriz </span>) ): </span></strong><br class="auto-style82" />
+<class="auto-style49"><span class="auto-style82"><strong>&nbsp;&nbsp;&nbsp;
+</strong>#indice j (columnas) </span><br class="auto-style82" />
+<class="auto-style49"><strong><span class="auto-style82">&nbsp;&nbsp;&nbsp; for<span class="auto-style85"> 
+j </span>in range ( 0, <span class="auto-style85">len( matriz[i]</span> ) ):</span></strong>
+<br class="auto-style82" />
+<class="auto-style49"><strong><span class="auto-style82">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+valor = valor + <span class="auto-style85">matriz[i][j] </span>&nbsp;</span></strong><span class="auto-style82">#usamos 
+los indices </span><br class="auto-style82" />
+<class="auto-style49">
+<class="auto-style49"><span class="auto-style82"><strong>print(valor)</strong></span></p>
+<p class="auto-style76"><strong>3.</strong> Haz una lista anidada que guarde 4 
+listas de tamaño 2 (o sea una matriz de 4 * 2) llénala con pares de buena 
+combinaciones como:</p>
+<p class="auto-style76"><strong>&nbsp;&nbsp;&nbsp;&nbsp; ['café','leche'] o 
+['rol','pizza'] o ['rick', 'morty'], etc.. </strong></p>
+<hr class="auto-style18" />
+<p class="auto-style17"><strong><img src="../img19.gif" /> </strong>
+<span class="auto-style6">Recursos</span></p>
+<ul class="auto-style54">
+	<li>
+	<p class="auto-style53">
+	<a class="auto-style50" href="../presentaciones/10_Matrices.pptx">10. 
+	Matrice</a><a href="../presentaciones/10_Matrices.pptx">s</a></p>
+	</li>
+	<li>
+	<p class="auto-style53">
+	<span class="auto-style49"><a href="Autoestudio6.pdf">Autoestudio6.pdf</a></span></p>
+	</li>
+</ul>
+<hr class="auto-style18" />
+<p class="auto-style41">.</p>
+
+<table style="width: 100%">
+	<tr>
+		<td class="auto-style33" style="height: 22px"><strong>
+		<span class="auto-style35"><br />
+		</span><span class="auto-style39">© Departamento de Computación</span><span class="auto-style35"><br />
+		<span class="auto-style40">.</span></span></strong></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

@@ -1571,9 +1571,9 @@ article {
  size="-1" face="Arial,Helvetica" class="auto-style26">
 			 <font
  size="-1"><span class="auto-style21">Define la función <span class="auto-style87"><strong>
-			 multiplica_columnax2 (matriz, columna)</strong></span> que recibe 
-			 una matriz y el número de columna a modificar. La función deberá 
-			 multiplicar toda la columna de la matriz por el valor de <strong>
+			 multiplica_renglonx2 (matriz, columna)</strong></span> que recibe 
+			 una matriz y el número de renglón a modificar. La función deberá 
+			 multiplicar todo el renglón de la matriz por el valor de <strong>
 			 2</strong>. </span></font></font> </font></li>
                                          
         </ul>
@@ -1589,19 +1589,18 @@ article {
 	 <class="auto-style43">7&nbsp; 8&nbsp; 5&nbsp; 6</br>
 	 <class="auto-style53">9&nbsp; 7&nbsp; 1&nbsp; 5<class="auto-style43"></p>
 <p class="auto-style53"><font size="-1">Al llamar
-<strong>multiplica_columnax2 (matriz, 1) </strong>los nuevos valores en la 
+<strong>multiplica_renglonx2 (matriz, 3) </strong>los nuevos valores en la 
 matriz deberán ser: </font></p>
-	 <p class="auto-style53">&nbsp;&nbsp;2&nbsp;&nbsp; <strong>10&nbsp;</strong>&nbsp;&nbsp; 6&nbsp;&nbsp; 
+	 <p class="auto-style53">&nbsp;&nbsp;2&nbsp;&nbsp; <strong>&nbsp; </strong>5<strong>&nbsp;</strong>&nbsp;&nbsp; 6&nbsp; &nbsp; 
 	 4</br>
 	 <class="auto-style53">
-	 <class="auto-style43">&nbsp; 3&nbsp; <strong>&nbsp;&nbsp; 8&nbsp; </strong>&nbsp; 
-	 5&nbsp;&nbsp; 1<strong></br>
+	 <class="auto-style43">&nbsp; 3&nbsp; <strong>&nbsp;&nbsp; </strong>4<strong>&nbsp; </strong>&nbsp; 
+	 5&nbsp;&nbsp;&nbsp; 1<strong></br>
 	 </strong>
 	 <class="auto-style53">
-	 <class="auto-style43">&nbsp; 7&nbsp;&nbsp; <strong>16</strong>&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 
-	 6</br>
-	 <class="auto-style53">&nbsp; 9&nbsp;&nbsp; <strong>14&nbsp;</strong>&nbsp;&nbsp; 1&nbsp;&nbsp; 
-	 5<class="auto-style43"></p>
+	 <class="auto-style43">&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp; 6</br>
+	 <class="auto-style53"><strong>18&nbsp;</strong>&nbsp; <strong>14&nbsp;&nbsp;&nbsp; 
+	 2&nbsp; 10</strong><class="auto-style43"></p>
 
 	 <class="auto-style53">
 	 <class="auto-style43">
@@ -1620,9 +1619,9 @@ matriz deberán ser: </font></p>
 			 <font
  size="-1"><span class="auto-style21">Define la función 
 			 <span class="auto-style87">
-			 <strong>cuenta_pares (matriz)</strong></span> que recibe una matriz 
-			 de números enteros. La función regresará el resultado de contar 
-			 todos los valores pares contenidos en la matriz.</span></font></font></font></li>
+			 <strong>suma_impares (matriz)</strong></span> que recibe una matriz 
+			 de números enteros. La función regresará el resultado de sumar 
+			 todos los valores impares contenidos en la matriz.</span></font></font></font></li>
                                          
         </ul>
                                  
@@ -1640,9 +1639,9 @@ matriz deberán ser: </font></p>
  size="-1" color="#333333" face="Arial,Helvetica" class="auto-style53">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1"><span class="auto-style21">La función regresaría: <strong>7</strong></span></font></font></font></p>
-          <font color="#330033" face="Arial,Helvetica">
+ size="-1"><span class="auto-style21">La función regresaría: <strong>40</strong></span></font></font></font></p>
           <span class="auto-style45">
+          <font color="#330033" face="Arial,Helvetica">
           <span class="auto-style26">
 		  <class="auto-style43">
 
@@ -1743,7 +1742,7 @@ matriz deberán ser: </font></p>
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1">Pide el número de columna a modificar. </font></font></font></font>
+ size="-1">Pide el número de renglón a modificar. </font></font></font></font>
 		 </font></font></font></span></font></font></font></li>
 		 <li><font
  size="-1" color="#333333" face="Arial,Helvetica">
@@ -1762,8 +1761,8 @@ matriz deberán ser: </font></p>
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1">Llama a la función <span class="auto-style87"><strong>multiplica_columnax2</strong></span> con la matriz creada y el 
-				 número de columna solicitado</font></font></font></font></font></font></font></span></font></font></font></li>
+ size="-1">Llama a la función <span class="auto-style87"><strong>multiplica_renglonx2</strong></span> con la matriz creada y el 
+				 número de renglón solicitado</font></font></font></font></font></font></font></span></font></font></font></li>
 		 <li><font
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
@@ -1792,7 +1791,7 @@ matriz deberán ser: </font></p>
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1">Extrae los valores de la columna solicitada.</font></font></font></font></font></font></font></span></font></font></font></li>
+ size="-1">Extrae los valores del renglón solicitado</font></font></font></font></font></font></font></span></font></font></font></li>
 		 <li><font
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
@@ -1810,8 +1809,8 @@ matriz deberán ser: </font></p>
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1">Llama a la función <span class="auto-style87"><strong>multiplica_columnax2</strong></span> con la matriz creada y el 
-				 número de columna solicitado</font></font></font></font></font></font></font></span></font></font></font></li>
+ size="-1">Llama a la función <span class="auto-style87"><strong>multiplica_renglonx2</strong></span> con la matriz creada y el 
+				 número de renglón solicitado</font></font></font></font></font></font></font></span></font></font></font></li>
 		 <li><font
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
@@ -1840,11 +1839,11 @@ matriz deberán ser: </font></p>
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1">Extrae la columna solicitada y guárdala en una variable llamada
+ size="-1">Extrae el renglón solicitado y guárdalo en una variable llamada
 				 <span class="auto-style109"><strong>arreglo</strong></span>.</font></font></font></font></font></font></font></span></font></font></font></li>
 		 <li><font size="-1">Imprime el arreglo.</font></li>
-		 <li><font size="-1">Calcula la suma del arreglo con la función de numpy
-				 <strong>sum</strong> e 
+		 <li><font size="-1">Calcula el promedio del arreglo con la función de numpy
+		 <strong>mean</strong> e 
 				 imprime el resultado.</font></li>
 		 <li><font
  size="-1" color="#333333" face="Arial,Helvetica">
@@ -1855,7 +1854,7 @@ matriz deberán ser: </font></p>
  size="-1" color="#333333" face="Arial,Helvetica">
 		 <font
  size="-1" face="Arial,Helvetica" class="auto-style26"><font
- size="-1">Llama a la función <span class="auto-style87"><strong>cuenta_pares</strong></span> 
+ size="-1">Llama a la función <span class="auto-style87"><strong>suma_impares</strong></span> 
 				 con la matriz <span class="auto-style109"><strong>m</strong></span>.
 				 Imprime el resultado de la función.
 				 </font></font></font></span></font></font></font></span></span>

@@ -3,12 +3,12 @@ class Empleado:
         self.nomina = nomina
         self.nombre = nombre
         self.edad = edad
-    
+
     def pagoMensual(self):
         pass
 
     def mostrar(self):
-        return "Nómina: " + self.nomina + " Nombre: " + self.nombre + " Edad: " + str(self.edad)
+        print("Nómina: " + self.nomina + ", Nombre: " + self.nombre + ", Edad: " + str(self.edad))
 
 class Asalariado(Empleado):
     def __init__(self, nomina, nombre, edad, salarioMensual):
@@ -20,14 +20,13 @@ class Asalariado(Empleado):
 
     def setsalario(self, salarioMensual):
         self.__salarioMensual = salarioMensual
-    
+
     def pagoMensual(self, beneficios):
         return self.__salarioMensual + beneficios
-    
+
     def mostrar(self):
-        return "Nómina: " + self.nomina + " Nombre: " + self.nombre + \
-               " Edad: " + str(self.edad) + " Salario mensual: " + \
-                str(self.getsalario())
+        print("Nómina: " + self.nomina + ", Nombre: " + self.nombre)
+        print("Edad: " + str(self.edad) + ", Salario mensual: " + str(self.getsalario()))
 
 class PorHora(Empleado):
     def __init__(self, nomina, nombre, edad, horasTrabajadas, pagoHora):
@@ -37,7 +36,7 @@ class PorHora(Empleado):
 
     def gethorasTrabajadas(self):
         return self.__horasTrabajadas
-    
+
     def getpagoHora(self):
         return self.__pagoHora
 
@@ -46,10 +45,10 @@ class PorHora(Empleado):
 
     def setpagoHora(self, pagoHora):
         self.__pagoHora = pagoHora
-        
+
     def pagoMensual(self, beneficios):
         return self.__horasTrabajadas * self.__pagoHora + beneficios
-    
+
     def mostrar(self):
-        return "Nómina: " + self.nomina + " Nombre: " + self.nombre + " Edad: " + str(self.edad) + \
-        " Horas trabajadas: " + str(self.gethorasTrabajadas()) + " Pago por hora: " + str(self.getpagoHora())
+        print("Nómina: " + self.nomina + ", Nombre: " + self.nombre + ", Edad: " + str(self.edad))
+        print("Horas trabajadas: " + str(self.gethorasTrabajadas()) + ", Pago por hora: " + str(self.getpagoHora()))

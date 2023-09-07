@@ -1316,20 +1316,6 @@ article {
 
 
 
-  .auto-style108 {
-	  color: #333333;
-  }
-  
-
-
-
-
-
-
-
-
-
-
   .auto-style109 {
 	  margin-left: 120px;
   }
@@ -1445,7 +1431,7 @@ article {
 			 <li>
 			 <p>
              <font
- size="-1" color="#333333" face="Arial,Helvetica">Laura tiene una hoja de 
+ size="-1" face="Arial,Helvetica">John tiene una hoja de 
 			 cálculo que contiene la información del inventario de los tipos de 
 			 saborizantes en existencia en las instalaciones de Oakland. En esta 
 			 actividad extraerás información de la hoja de cálculo y usarás 
@@ -1454,7 +1440,7 @@ article {
 	 		</p>
 			 </li>
 			 <li>
-			 <p class="auto-style108">
+			 <p>
              La estructura de la información es la siguiente:</p>
 			 <ul>
 				 <li> <strong>numProducto:</strong> Número o clave del producto. </li>
@@ -1481,9 +1467,16 @@ article {
 			 </li>
 			 <br>
 			 <li>El archivo que contiene toda la información se denomina&nbsp;<a href="inventario.csv">"inventario.cvs"</a>. Realiza la lectura de la información a través 
-			 de las funciones básicas de Python y carga la información en una 
+			 de funciones básicas de Python y carga la información en una 
 			 matriz de&nbsp;NumPy. Al tener la información en memoria deberás obtener 
-			 la información que necesita la compañía en dos fases. </li>
+			 la información que necesita la compañía en dos fases.<ul>
+				 <li>Realiza la lectura del archivo CSV en Python usando la 
+				 función de Pandas <strong>read_csv</strong>. NOTA: El dataframe 
+				 obtenido es una estructura de datos similar a Excel con ejes 
+				 etiquetados en filas y columnas e indexadas por un valor. </li>
+				 <li>Carga la información del dataframe en una matriz de Numpy.</li>
+			 </ul>
+			 </li>
 			 <li>La <span class="auto-style107"><strong>primera 
 			 fase </strong></span>requiere que extraigas los siguientes datos: </li>
                                          
@@ -1499,6 +1492,17 @@ article {
           <span class="auto-style26">
      		 <font color="#000000" face="Arial,Helvetica" size="-1">
 			 <ul class="auto-style109">
+          <font color="#330033" face="Arial,Helvetica">
+          	   <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+				 <li> Define la función <span class="auto-style111"> <strong>suma_productos</strong></span>, que 
+				 regrese la suma de la cantidad de productos en existencia del 
+				 inventario.</li>
+				 <li> Define la función <span class="auto-style111"> <strong>promedio_precios</strong></span>, que 
+				 regrese el promedio del precio de los productos. </li>
+			 	</li>
+			 </font>
+		 </span></font>
 				 <li> Define la función<strong> <span class="auto-style111">envase_mas_chico</span></strong>, que 
 				 regrese el envase de menor tamaño de un producto.</li>
 				 <li> 
@@ -1507,21 +1511,17 @@ article {
      		 <font color="#000000" face="Arial,Helvetica" size="-1">
 			 	Define la función<strong> <span class="auto-style111">precio_mas_alto</span></strong>, que regrese 
 				 el precio más alto de un producto.</font></span></font></li>
-				 <li> Define la función <span class="auto-style111"> <strong>suma_productos</strong></span>, que 
-				 regrese la suma de la cantidad de productos en existencia del 
-				 inventario.</li>
 				 <li> Define la función <span class="auto-style111"> <strong>cantidad_productos</strong></span>, que 
 				 imprima la cantidad de productos de 
 				 cada categoría.</li>
-				 <li> Define la función <span class="auto-style111"> <strong>promedio_precios</strong></span>, que 
-				 regrese el promedio del precio de los productos. </li>
+				 <li> 
 			 </font>
                                          
 		 </span>
           </font>
 			 </font>
 		 </span>
-	 			<class="auto-style127">
+				 <class="auto-style127">
 				 <class="auto-style49">
 				 <class="auto-style49">
 				 <class="auto-style49">
@@ -1531,11 +1531,10 @@ article {
 				 <class="auto-style53">
 				 <class="auto-style43">
 				 <class="auto-style49">
-				 <li> 
-          <font color="#330033" face="Arial,Helvetica">
-          	   <span class="auto-style26">
-     		 <font color="#000000" face="Arial,Helvetica" size="-1">
-				 Define la función <span class="auto-style111"> <strong>promedio_tamaño</strong></span>, que 
+				 <font color="#330033" face="Arial,Helvetica">
+				 <span class="auto-style26">
+				 <font color="#000000" face="Arial,Helvetica" size="-1">Define la función 
+				 <span class="auto-style111"><strong>promedio_tamaño</strong></span>, que 
 				 imprima el promedio del tamaño de cada tipo de envase.</font></span></font><class="auto-style127"><class="auto-style49"><class="auto-style49"><class="auto-style49"><class="auto-style53"><class="auto-style43"><class="auto-style49"><class="auto-style53"><class="auto-style43"><class="auto-style49"></font></ul>
 		  </td>
      </tr>
@@ -1727,7 +1726,7 @@ article {
 			 <strong>pdf </strong>o
 			 <strong>docx</strong></font></li>
 			 <li class="auto-style106"> <font size="-1">Nombre del entregable:
-			 <strong>A3_integradora_matricula.pdf</strong> (Impresión de pantalla de 
+			 <strong>A23_matricula.pdf</strong> (Impresión de pantalla de 
 			 cada bloque de código con su ejecución)<strong> </strong> </font></li>
 			 <li class="auto-style106"> <font size="-1">Medio de entrega: Se entrega en Canvas en la sección de 
 			 <strong>Actividad integradora 3</strong></font></li>

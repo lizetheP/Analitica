@@ -1,0 +1,43 @@
+CANTIDAD DE PRODUCTOS EN EXISTENCIA 
+
+La cantidad de productos en existencia es: 11015
+
+PROMEDIO DE PRECIOS 
+
+El promedio de los precios de menudeo es: 8.64
+
+ENVASE MÁS CHICO 
+
+[[13558 'Cuatro especias francesas' 110 6.56 2 2 'Condimento']
+ [16555 'Tuscan Sunset' 95 4.55 2 2 'Condimento']
+ [34793 'Sal con cebolla' 188 3.55 2 1 'Condimento']
+ [37803 'Chile en polvo, picante' 248 3.39 2 1 'Condimento']
+ [38700 'Chile en polvo, suave' 168 3.39 2 1 'Condimento']
+ [43153 'Canela, China' 425 4.09 2 2 'Especia']
+ [44589 'Ajo en hojuelas, California' 235 11.25 2 1 'Condimento']
+ [45265 'Especias para escabeche' 165 6.49 2 1 'Especia']
+ [85655 'Pimiento en grano, roja' 540 3.69 2 4 'Especia']]
+El envase más chico es de 2 onzas
+
+PRECIO MÁS ALTO 
+
+[[96854 'Vainilla' 423 31.95 6 3 'Extracto']]
+El precio de menudeo más alto es: 31.95
+
+CANTIDAD DE PRODUCTOS POR CATEGORIA 
+
+CATEGORIA   #PRODUCTOS
+
+Adobo    	 4
+Condimento    	 20
+Especia    	 14
+Extracto    	 8
+Hierba    	 9
+
+PROMEDIO DE TAMAÑO POR CADA TIPO DE ENVASE 
+
+Tipo de envase 	 Promedio de tamaño
+1. Frasco 	 5.76 onzas
+2. Sobre 	 5.79 onzas
+3. Botella 	 5.75 onzas
+4. Lata 	 4.67 onzas

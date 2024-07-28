@@ -1,0 +1,1828 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+  <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  .auto-style6 {
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: small;
+  }
+  .auto-style7 {
+	  color: #3333FF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style13 {
+	line-height: 150%;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+}
+.auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style24 {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.auto-style26 {
+	color: #000000;
+}
+.auto-style28 {
+	color: #000000;
+	font-size: medium;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style37 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style39 {
+	margin-left: 320px;
+}
+.auto-style43 {
+	color: #FFFFFF;
+	font-size: xx-small;
+}
+.auto-style45 {
+	color: #510851;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style47 {
+	  font-size: small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style48 {
+	  text-align: justify;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  h4{ color:#000099; font-size:14px;
+}
+h5 {color:#990066;font-size:12px
+}
+.img_ent {
+	background-image: url('../../../C_Soluciones/SolucionesFinal_2020/Laboratorios/imagenes/idisco.jpg');
+}
+.img_icon {
+	background-position: left 15px top 20px;
+	background-repeat: no-repeat;
+	padding-left:100px;
+	min-height:100px;
+}
+article {
+	border-style:solid;
+	border-width:1px; 
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style53 {
+	margin-left: 80px;
+}
+.auto-style67 {
+	margin-right: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style68 {
+	line-height: 100%;
+	margin-top: 3px;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style77 {
+	color: #3333FF;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style84 {
+	  margin-left: 120px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style87 {
+	  color: #0000FF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style88 {
+	color: #510851;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style91 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+	 <span class="auto-style19">TC1028. Pensamiento computacional para 
+	 ingeniería&nbsp;</span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span></strong>
+	  <span class="auto-style37"><strong>Ejercicios extra: Ciclo for</strong></span><br class="auto-style21"><span class="auto-style16">
+	  .</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <span class="auto-style43">.</span><img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26">Objetivos:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar el ciclo for en la 
+	 solución de problemas.</font></li>
+			<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Aplicar los conocimientos 
+			sobre funciones.</font></li>
+			<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Utilizar funciones acompañadas 
+			de la estructura &quot;for&quot;. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/group.png" height="42" width="50" align="left" class="auto-style24"><br>
+	 &nbsp;&nbsp; 
+	 <span class="auto-style26">Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Individual.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style26">
+                               
+      <hr width="100%"> 
+          <font face="Arial,Helvetica"><span class="auto-style45">
+          <font color="#330033" face="Arial,Helvetica">
+	 </font>
+		 </span></font>
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="style8">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="style8">
+	 <class="auto-style84">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49"><font face="Arial,Helvetica">
+	 <span class="auto-style45">
+          <font color="#330033" face="Arial,Helvetica">
+          <p><font size="-1" face="Arial,Helvetica">
+                                  
+          <img src="../imagenes/web_descripcion.gif" height="53" width="60" align="left" class="auto-style91">&nbsp;
+     <br><font face="Arial,Helvetica"><strong><span class="auto-style47">&nbsp; </span>
+		  <span class="auto-style28">Ejercicios ciclo for:</span></strong></font></font>&nbsp;</p>
+          <ul>
+                                         
+         <ul>
+     		 <li class="auto-style48"> 
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+			 <span class="auto-style21">La funcion </span>
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26">
+			 <font
+ size="-1"><span class="auto-style21"><span class="auto-style87"><strong>
+			 muestra_numeros (n)</strong></span> que reciba un número entero 
+			 positivo n y muestre una lista de números que empiezan en 1 e 
+			 incrementan de uno en uno hasta llegar a n y&nbsp;después decrementa de 
+			 uno en uno hasta llegar a 1: 1, 2, ... n, n-1, n-2 ... 1 </span></font></font> </span></font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+	 <p class="auto-style53"><font size="-1"><strong>Ejemplo: </strong></font>
+	 </p>
+	 <p class="auto-style84">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+	 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21">Si n =<strong> 5</strong>, la función 
+	 mostraría lo siguiente: <strong>1&nbsp; 2&nbsp; 3&nbsp; 4&nbsp; 5&nbsp; 4&nbsp; 
+	 3&nbsp; 2 1 </strong></span>
+	 </font></font></span></font></p>
+	 <ul>
+		 <ul>
+			 <li class="auto-style48">
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style26"><font face="Arial,Helvetica">
+			 <span class="auto-style45">
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">La 
+			 funcion </span>
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21"><span class="auto-style87"><strong>
+			 numeros_aleatorios ()</strong></span> 
+			 que despliega en pantalla 40 números aleatorios entre -10 y 90. </span></font></font></font>
+			 </span></font></span></font></li>
+			 <li class="auto-style48"><font size="-1">La función </font>
+			 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+			 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21"><span class="auto-style87"><strong>
+			 elefantes (n) 
+			 </strong></span>que recibe el numero de elefantes y despliega ese 
+			 número de líneas. </span></font></font></span></font>
+			 </li>
+		 </ul>
+	 </ul>
+	 <p class="auto-style53">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+	 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21"><strong>Ejemplo: </strong>Si el número de 
+	 elefantes es: <strong>5</strong>, la función mostraría lo siguiente:</span></font></font></span></font></p>
+	 <p class="auto-style53">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+	 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21">1 elefante </span></font></font></span>
+	 </font></br>
+	 <class="auto-style53">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+	 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21">2 elefantes </span></font></font></span>
+	 </font></br>
+	 <class="auto-style53">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+	 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21">3 elefantes </span></font></font></span>
+	 </font></br>
+	 <class="auto-style53">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+	 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21">4 elefantes </span></font></font></span>
+	 </font></br>
+	 <class="auto-style53">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style26">
+	 <font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><font
+ size="-1"><span class="auto-style21">5 elefantes </span></font></font></span>
+	 </font></p>
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="style8">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="style8">
+	 <class="auto-style84">
+	 <ul>
+		 <ul>
+			 <li>
+             <font color="#330033" face="Arial,Helvetica">
+        	 <span class="auto-style26">
+             <font face="Arial,Helvetica"><span class="auto-style45">
+             <font face="Arial,Helvetica" size="-1" color="#330033">
+			 <font color="#000000">La función </font><span class="auto-style77">
+			 menu </span><strong><span class="auto-style87">()</span></strong><font color="#000000"> 
+			 que despliegue el siguiente menú en pantalla:</font></font></span></font></span></font></li>
+		 </ul>
+	 </ul>
+	 <ul>
+		 <b>
+		 <ul>
+			 <div>
+				 <blockquote>
+					 <span class="auto-style45">
+					 <font face="Arial,Helvetica" size="-1">1. Muestra números</font><br>
+					 <font face="Arial,Helvetica" size="-1">2. Números 
+					 aleatorios</font><br>
+					 <font face="Arial,Helvetica" size="-1">3. Elefantes</font><br>
+					 </span></b>
+					 <span class="auto-style45">
+					 <font color="#330033" face="Arial,Helvetica" size="-1"><b>
+					 <font face="Arial,Helvetica" class="auto-style88" size="-1">
+					 <span class="auto-style88">
+					 <font face="Arial,Helvetica" size="-1">4. Salir</font></span></font></b></font></span></blockquote>
+			 </div>
+		 </ul>
+	 </ul>
+          <font color="#330033" face="Arial,Helvetica">
+        <span class="auto-style26">
+          <font face="Arial,Helvetica"><span class="auto-style45">
+          <font color="#330033" face="Arial,Helvetica">
+          <b>
+	 <ul>
+		 </b>
+		 <ul>
+			 <li class="auto-style48"><font size="-1">
+			 <span class="auto-style26">La función </span>
+			 <span class="auto-style87"><strong>main ()</strong></span><span class="auto-style21"><span class="auto-style26"> 
+			 que utilice la función <strong>menu</strong> para desplegar el menú 
+			 correspondiente y de acuerdo a la opción seleccionada por el 
+			 usuario le dé la oportunidad de ejecutar cualquiera de las 
+			 funciones que han sido construidas. Utiliza el estatuto de control <strong>
+			 if anidado</strong>. 
+			 </span> 
+			 <font face="Arial,Helvetica" class="auto-style26">Recuerda que la 
+			 captura de datos debe ser realizada en la sección del main. Debes 
+			 utilizar el ciclo <strong>while</strong> para que se cicle el 
+			 programa hasta que el usuario introduzca la opción de salir.<span class="auto-style76"> </span>
+			 </font></span></font></li>
+			 <li class="auto-style73"><font size="-1">
+			 <span class="auto-style26">En el </span>
+			 <span class="auto-style87">
+			 <strong>script principal</strong></span><span class="auto-style26"><span class="auto-style21"> 
+			 manda llamar a la función <strong>main</strong>.</span></span></font><span class="auto-style26"></li>
+			 <li class="auto-style48"></span><font size="-1">
+			 <span class="auto-style26">
+			 <span class="auto-style50">Guarda tu archivo como: </span>
+			 </span><span class="auto-style87"><strong>for_matricula.py</strong></span></font></li>
+		 </ul>
+	 </ul>
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49"><span class="auto-style6"><strong>
+	 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	      <font color="#330033" face="Arial,Helvetica">
+        <span class="auto-style26">
+          <font face="Arial,Helvetica"><span class="auto-style45">
+          <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style6"><strong>
+	 <img alt="" height="334" src="img12.gif" width="550"></strong></span></font></span></font></span></font></p>
+	 </strong></span>
+	 </font>
+		 </span></font>
+	 </span></font>
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 </font>
+		 </span></font>
+	 </span></font><span class="auto-style26">
+	 
+	 <b><font size="-1" face="Arial,Helvetica"><hr width="100%"></font></b>
+	 <font size="-1" face="Arial,Helvetica">
+	 	   <p class="auto-style13"><span class="auto-style26">
+		   <font size="-1" face="Arial,Helvetica">
+	 	   <font size="-1">
+                                  
+          <img src="../imagenes/folder.png" height="60" width="60" align="left" class="auto-style67">&nbsp;
+     <br>
+          <b><font color="#330033" face="Arial,Helvetica">&nbsp;</font></b></font><b><font color="#330033" face="Arial,Helvetica"><span class="auto-style28">&nbsp; 
+		   Recursos:</span></font></b></font></span></p>
+	 &nbsp;<a href="../presentaciones/5_Condicionales.pptx"><ul>
+                                         
+        <ul>
+     <li> 5. Condicionales</a></li>
+			<li> 
+			<p class="auto-style68">
+			<font
+ size="-1" color="#333333" face="Arial,Helvetica">
+	 	    <a href="../presentaciones/6_Funciones.pptx">6. Funciones</a></font></p>
+			</li>
+			<li> 
+			<p class="auto-style68">
+			<a href="../presentaciones/7_While.pptx">7. While</a></p>
+			</li>
+			<li> 
+			<p class="auto-style68">
+			<a href="../presentaciones/8_For.pptx">8. For</a></p>
+			</li>
+                                         
+        </ul>
+                                 
+      </ul>
+     </font><hr width="100%"> 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left">
+	 <br><b><font color="#330033" face="Arial,Helvetica">&nbsp;&nbsp;<span class="auto-style26">Especificaciones 
+	 de entrega:</span></font></b> <br>&nbsp;<span class="auto-style6"><strong><span class="auto-style7"> </span>
+	 &nbsp;<span class="auto-style7"> </span>
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="style8">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="auto-style84">
+	 <class="style8">
+	 <class="auto-style84">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+	 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">
+		 <class="auto-style49">&nbsp;<span class="auto-style7"> </span></strong> 
+          <font face="Arial,Helvetica">
+	 <ul>
+		 <ul>
+			 <li><font face="Arial,Helvetica" size="-1">No aplica</font></li>
+		 </ul>
+	 </ul>
+	 </font></span>
+	 
+	 </span>
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

@@ -1,0 +1,4 @@
+Patrón de correos: [a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-z][a-z]+
+
+Patrón de urls : 
+http[s]?:\/\/(www\.)?[a-zA-Z.-_]+\.[a-z.]+

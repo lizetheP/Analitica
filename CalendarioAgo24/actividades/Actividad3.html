@@ -1,0 +1,2389 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+      <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style24 {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.auto-style25 {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.auto-style26 {
+	color: #000000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style37 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style39 {
+	margin-left: 520px;
+}
+.auto-style43 {
+	color: #FFFFFF;
+	font-size: xx-small;
+}
+.auto-style45 {
+	color: #510851;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style47 {
+	  font-size: small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style48 {
+	  text-align: justify;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  h4{ color:#000099; font-size:14px;
+}
+h5 {color:#990066;font-size:12px
+}
+.img_ent {
+	background-image: url('../../../C_Soluciones/SolucionesFinal_2020/Laboratorios/imagenes/idisco.jpg');
+}
+.img_icon {
+	background-position: left 15px top 20px;
+	background-repeat: no-repeat;
+	padding-left:100px;
+	min-height:100px;
+}
+article {
+	border-style:solid;
+	border-width:1px; 
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style90 {
+	font-size: medium;
+}
+.auto-style91 {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style106 {
+	  text-align: justify;
+	  font-size: -1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style107 {
+	color: #FF0000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style108 {
+	  color: #333333;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style109 {
+	  margin-left: 120px;
+  }
+  .auto-style110 {
+	  list-style-type: circle;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+		<span class="auto-style35"><span class="auto-style19">TC 3001 C. Analítica de datos y herramientas de 
+	 inteligencia artificial</span></span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style37">
+	  Actividad integradora 3: </span></strong><span class="auto-style37">
+	  <strong>
+	  Análisis numérico con NumPy&nbsp; </strong></span><br class="auto-style21"><span class="auto-style16">
+	  .</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <span class="auto-style43">.</span><br> 
+	 <img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26">Objetivo:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     	   <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Experimentar la potencia de la 
+		   plataforma NumPy para realizar cálculos con grandes cantidades de 
+		   información a través de arreglos de dos dimensiones </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/group.png" height="42" width="50" align="left" class="auto-style24"><br>
+	 &nbsp;&nbsp; 
+	 <span class="auto-style26">Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Sesión plenaria.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/irevision.jpg" height="70" width="70" align="left" class="auto-style25">&nbsp;
+     <br>
+          <font color="#330033" face="Arial,Helvetica">
+          <b>&nbsp;<span class="auto-style26">Instrucciones:</span></b><span class="auto-style26"><font
+ size="-1" color="#000000" face="Arial,Helvetica">&nbsp;<br></font>
+	 <ul>
+                                         
+         <ul>
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 <li>
+			 <p>
+             <font
+ size="-1" color="#333333" face="Arial,Helvetica">Laura tiene una hoja de 
+			 cálculo que contiene la información del inventario de los tipos de 
+			 saborizantes en existencia en las instalaciones de Oakland. En esta 
+			 actividad extraerás información de la hoja de cálculo y usarás 
+			 funciones de numpy para reunir información acerca del inventario de 
+			 productos. </font>
+	 		</p>
+			 </li>
+			 <li>
+			 <p class="auto-style108">
+             La estructura de la información es la siguiente:</p>
+			 <ul>
+				 <li> <strong>numProducto:</strong> Número o clave del producto. </li>
+				 <li> <strong>nombre: </strong>Nombre o descripción del 
+				 producto.</li>
+				 <li> 
+          <font color="#330033" face="Arial,Helvetica">
+          	   <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+				 <strong>cantidadExistencia: </strong> Cantidad de productos en existencia.</font></span></font></li>
+				 <li> <strong>precioMenudeo:</strong> Precio del producto al 
+				 menudeo. </li>
+				 <li> <strong>tamaño: </strong>Tamaño del producto en onzas.</li>
+				 <li> <strong>envase: </strong>Tipo de envase.<ul class="auto-style110">
+					 <li>1. Frasco</li>
+					 <li>2. Sobre</li>
+					 <li>3. Botella</li>
+					 <li>4. Lata</li>
+				 </ul>
+				 </li>
+				 <li> <strong>categoria:</strong> Categoría del producto.</li>
+				 <li> <strong>nivelExistencia: </strong>Nivel de 
+				 existencias.</li>
+				 <li> <strong>numProducto:</strong> Número de producto. </li>
+
+			 </ul>
+			 </li>
+			 <br>
+			 <li>El archivo que contiene toda la información se denomina&nbsp;<a href="https://experiencia21.tec.mx/courses/316069/files/108471871?wrap=1">"inventario.cvs"</a>. Realiza la lectura de la información a través 
+			 de las funciones básicas de Python y carga la información en una 
+			 matriz de&nbsp;NumPy. Al tener la información en memoria deberás obtener 
+			 la información que necesita la compañía en dos fases. </li>
+			 <li>La <span class="auto-style107"><strong>primera 
+			 fase </strong></span>requiere que extraigas los siguientes datos: </li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+          <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 <ul class="auto-style109">
+				 <li> Define la función<strong> envase_mas_peque</strong>, que 
+				 regrese el envase de menor tamaño de un producto.</li>
+				 <li> 
+          <font color="#330033" face="Arial,Helvetica">
+          	   <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 	Define la función<strong> precio_mas_alto</strong>, que regrese 
+				 el precio más alto de un producto.</font></span></font></li>
+				 <li> Define la función <strong>suma_productos</strong>, que 
+				 regrese la suma de la cantidad de productos en existencia del 
+				 inventario.</li>
+				 <li> Define la función <strong>cantidad_productos</strong>, que 
+				 imprima la suma de la cantidad de productos en existencia de 
+				 cada categoría.</li>
+				 <li> Define la función <strong>promedio_tamaño</strong>, que 
+				 imprima el promedio del tamaño de cada tipo de envase.</li>
+				 <li> Define la función <strong>promedio_precios</strong>, que 
+				 regrese el promedio del precio de los productos. </li>
+
+			 </ul>
+          <font color="#330033" face="Arial,Helvetica">
+	 <ul>
+                                         
+         <ul>
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 <li>La <span class="auto-style107"><strong>segunda fase </strong>
+			 </span>es una comparativa. Para ello debes crear dos matrices de 
+			 datos, una para los datos de productos con envase de tipo <strong>Frasco</strong> 
+			 y otra para el envase de <strong>Sobre</strong>. Cada matriz debe 
+			 contener la siguiente estructura:<ul>
+				 <li>Ls filas representan la <strong>categoría</strong> del producto.</li>
+				 <li>Ls columnas representan: el precio promedio, la suma de 
+				 productos en existencia y el máximo tamaño de envase.</li>
+			 </ul>
+			 </li>
+                                         
+         </font>
+         
+		 <p font color="#330033" face="Arial,Helvetica">
+				 <span class="auto-style26">
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+				 <table border="1" style="max-width: 100%; background-color: rgb(241, 241, 241); border-collapse: collapse; border-spacing: 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 1442.62px;">
+					 <tr>
+						 <td style="padding: 2px; width: 355.26px; text-align: center;">
+						 <p>&nbsp;</p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center;">
+						 <p>Precio promedio</p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center;">
+						 <p>Suma de productos en existencia</p>
+						 </td>
+						 <td style="padding: 2px; width: 355.312px; text-align: center;">
+						 <p>Tamaño máximo envase</p>
+						 </td>
+					 </tr>
+					 <tr>
+						 <td style="padding: 2px; width: 355.26px; text-align: center;">
+						 <p>Adobo</p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+						 <td style="padding: 2px; width: 355.312px; text-align: center;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+					 </tr>
+					 <tr>
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 24px;">
+						 <p>Condimento</p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 24px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 24px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+						 <td style="padding: 2px; width: 355.312px; text-align: center; height: 24px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+					 </tr>
+					 <tr>
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p>Especia</p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+						 <td style="padding: 2px; width: 355.312px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+					 </tr>
+				 	<tr>
+          <font color="#330033" face="Arial,Helvetica">
+          			  <span class="auto-style26">
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p>Extracto</p>
+						 </td>
+				 </span></font>
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+				 </span></font>
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+				 </span></font>
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.312px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+				 </span></font>
+		 </span>
+          </font>
+	 				</tr>
+					 <tr>
+          <font color="#330033" face="Arial,Helvetica">
+          			   <span class="auto-style26">
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p>Hierba</p>
+						 </td>
+				 </span></font>
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+				 </span></font>
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.26px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+				 </span></font>
+				 <font color="#330033" face="Arial,Helvetica" size="-1">
+				 <span class="auto-style45">
+						 <td style="padding: 2px; width: 355.312px; text-align: center; height: 23px;">
+						 <p><span style="color: rgb(53, 152, 219);">
+						 <strong style="font-weight: bold;">dato</strong></span></p>
+						 </td>
+				 </span></font>
+		 </span>
+          </font>
+	 				</tr>
+				 </table>
+				 </span></font></span>
+	</p>
+
+          </font>
+	 		<li>
+			<p>Recuerda que en&nbsp;NumPy&nbsp;solamente usas los valores numéricos, la 
+			representación anterior es para que tengas una idea de cómo quedarán 
+			los datos en memoria, en realidad sólo utilizarás las celdas 
+			de&nbsp;datos, sin incluir nombres de filas ni de columnas. Por último, 
+			hay que encontrar las diferencias entre los datos de los envases de 
+			Frasco y Sobre. </p>
+          <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style45">
+			 <p>
+			 La segunda fase es una comparativa. Para ello debes crear dos 
+			 matrices de datos, una para los datos del año 2016 y otra para el 
+			 año 2018. Cada matriz debe contener la siguiente estructura:</p>
+			 <ul style="padding: 0px; margin: 0px 0px 6px 25px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+				 <li>Las filas representan el tipo de transmisión</li>
+				 <li>Las columnas representan: precio promedio, suma de los 
+				 millajes y el máximo impuesto</li>
+			 </ul>
+			 <table border="1" style="max-width: 100%; background-color: rgb(241, 241, 241); border-collapse: collapse; border-spacing: 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 1442.62px;">
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 </td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Precio promedio</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Suma de los millajes</td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 Impuesto máximo</td>
+				 </tr>
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Automático</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+				 </tr>
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Manual</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+				 </tr>
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Semi-automático</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+				 </tr>
+			 </table>
+			 </p
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 Recuerda que en<span>&nbsp;</span><span style="color: rgb(53, 152, 219);">NumPy</span><span>&nbsp;</span>solamente 
+			 usas los valores numéricos, la representación anterior es para que 
+			 tengas una idea de cómo quedarán los datos en memoria, en realidad 
+			 sólo utilizarás las celdas de&nbsp;<strong style="font-weight: bold;"><span style="color: rgb(53, 152, 219);">datos</span></strong>, 
+			 sin incluir nombres de filas ni de columnas.</p>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 Poor último, hay que encontrar las diferencias entre los datos del 
+			 año 2018 y 2016.</p>
+			 </span>
+          </font>
+	 <p>&nbsp;</p>
+			 </font>
+                                         
+		 </span>
+	 <span class="auto-style45">
+          <span class="auto-style26">
+			 <ul style="padding: 0px; margin: 0px 0px 6px 25px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+				 <li>El impuesto máximo pagado por un automóvil</li>
+				 <li>La suma de impuestos pagados por ese lote de automóviles</li>
+				 <li>La cantidad de autos de cada año</li>
+				 <li>La promedio de millas de cada tipo de combustible</li>
+				 <li>El millaje por galón promedio del lote de autos</li>
+			 </ul>
+     
+	 </span></span>
+          </font>
+	 <p>&nbsp;</p>
+			 </font>
+                                         
+			 </li>
+			 
+			 <li>
+			 <ul>
+				 <li>
+				 <ul>
+					 <li>
+					 <ul>
+						 <li></li>
+					 </li>
+				 </li>
+			 </li>
+			 <li><hr width="100%"></li>
+	 <font face="Arial,Helvetica">
+	 <span class="auto-style44">
+		 </span></font>
+          <span class="auto-style45">
+			 </span>
+		 </span>
+	 <class="auto-style127">
+			 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49"><span class="auto-style45">
+          <font face="Arial,Helvetica">
+          <font color="#330033" face="Arial,Helvetica">
+          <class="auto-style53">
+	 <class="auto-style43">
+		 <class="auto-style49">
+          <span class="auto-style26">
+		  <class="auto-style53">
+	 <class="auto-style43">
+		 <class="auto-style49">
+          <p><font size="-1" face="Arial,Helvetica">
+                                  
+          <img src="../imagenes/web_descripcion.gif" height="53" width="60" align="left" class="auto-style91">&nbsp;
+     <br><font face="Arial,Helvetica"><strong><span class="auto-style47">&nbsp; </span>
+		  <span class="auto-style90">&nbsp;Ejercicios:</span></strong></font></font>&nbsp;&nbsp;&nbsp;</p>
+          <ul>
+                                         
+         <ul>
+     		 <li class="auto-style48"> 
+			 <h3 style="margin: 6px 0px; font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: normal; line-height: 1.5; text-rendering: optimizelegibility; font-size: 1.5em; color: rgb(45, 59, 69); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 <span style="color: rgb(26, 99, 169);">
+			 <strong style="font-weight: bold;">Instrucciones</strong></span></h3>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 Una compañía de autos usados está realizando un análisis para ver 
+			 en qué año se han construido los mejores automóviles para centrar 
+			 sus compras-ventas en dichos automóviles. Para esta tarea necesita 
+			 obtener algunos datos de un histórico de información al que ha 
+			 tenido acceso.</p>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 La estructura de la información es la siguiente:</p>
+			 <ul style="padding: 0px; margin: 0px 0px 6px 25px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+				 <li><strong style="font-weight: bold;">year</strong>: año de 
+				 construcción</li>
+				 <li><strong style="font-weight: bold;">price</strong>: precio 
+				 en dolares</li>
+				 <li><strong style="font-weight: bold;">transmission</strong>: 
+				 Tipo de transmisión del automóvil<ul style="padding: 0px; margin: 0px 0px 0px 25px;">
+					 <li>1 - Automático</li>
+					 <li>2 - Manual</li>
+					 <li>3 - Semi-automático</li>
+				 </ul>
+				 </li>
+				 <li><strong style="font-weight: bold;">mileage</strong>: 
+				 millaje</li>
+				 <li><strong style="font-weight: bold;">fuelType</strong>: Tipo 
+				 de combustible<ul style="padding: 0px; margin: 0px 0px 0px 25px;">
+					 <li>1 - Disel</li>
+					 <li>2 - Eléctrico</li>
+					 <li>3 - Híbrido</li>
+					 <li>4 - Otro</li>
+					 <li>5 - Gasolina</li>
+				 </ul>
+				 </li>
+				 <li><strong style="font-weight: bold;">tax</strong>: Impuesto 
+				 en dólares</li>
+				 <li><strong style="font-weight: bold;">mpg</strong>: Millaje 
+				 por galón</li>
+				 <li><strong style="font-weight: bold;">engineSize</strong>: 
+				 Tamaño motor</li>
+			 </ul>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 El archivo que contiene toda la información se denomina&nbsp;<span class="instructure_file_holder link_holder instructure_file_link_holder"><a class="inline_disabled" data-api-endpoint="https://experiencia21.tec.mx/api/v1/courses/200537/files/97803668" data-api-returntype="File" href="https://experiencia21.tec.mx/courses/316069/files/108471871?wrap=1" style="color: var(--ic-link-color); text-decoration: underline;" target="_blank" title="DatosAutos.csv"><strong style="font-weight: bold;"><span style="color: rgb(53, 152, 219);">"DatosAutos.cvs"</span></strong></a><a class="file_download_btn fOyUs_bGBk fbyHH_bGBk fbyHH_vIby" download="" href="https://experiencia21.tec.mx/courses/316069/files/108471871/download?download_frd=1" role="button" style="color: var(--fbyHH-color); text-decoration: none; box-sizing: border-box; font-family: var(--fbyHH-fontFamily); font-weight: var(--fbyHH-fontWeight); outline-color: transparent; outline-offset: 0.25rem; outline-style: var(--fbyHH-focusOutlineStyle); outline-width: var(--fbyHH-focusOutlineWidth); transition: outline-color 0.2s ease 0s; vertical-align: baseline; max-width: 100%; overflow: visible; cursor: pointer; margin-inline-start: 5px;"><span>&nbsp;</span><img alt="" role="presentation" src="https://experiencia21.tec.mx/images/svg-icons/svg_icon_download.svg" style="max-width: 100%; height: 16px; vertical-align: middle; border: 0px; width: 16px;"><span>&nbsp;</span><span class="screenreader-only" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; transform: translateZ(0px);">Descargar 
+			 "DatosAutos.cvs"</span></a></span>. Realiza la lectura de la 
+			 información a través de las funciones básicas de Python y carga la 
+			 información en una matriz de<span>&nbsp;</span><span style="color: rgb(53, 152, 219);">NumPy</span>.</p>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 Al tener la información en memoria deberás obtener la información 
+			 que necesita la compañía en dos fases. La primera fase requiere que 
+			 extraigas los siguientes datos:</p>
+			 <ul style="padding: 0px; margin: 0px 0px 6px 25px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+				 <li>El impuesto máximo pagado por un automóvil</li>
+				 <li>La suma de impuestos pagados por ese lote de automóviles</li>
+				 <li>La cantidad de autos de cada año</li>
+				 <li>La promedio de millas de cada tipo de combustible</li>
+				 <li>El millaje por galón promedio del lote de autos</li>
+			 </ul>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 La segunda fase es una comparativa. Para ello debes crear dos 
+			 matrices de datos, una para los datos del año 2016 y otra para el 
+			 año 2018. Cada matriz debe contener la siguiente estructura:</p>
+			 <ul style="padding: 0px; margin: 0px 0px 6px 25px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+				 <li>Las filas representan el tipo de transmisión</li>
+				 <li>Las columnas representan: precio promedio, suma de los 
+				 millajes y el máximo impuesto</li>
+			 </ul>
+			 <table border="1" style="max-width: 100%; background-color: rgb(241, 241, 241); border-collapse: collapse; border-spacing: 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; width: 1442.62px;">
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 </td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Precio promedio</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Suma de los millajes</td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 Impuesto máximo</td>
+				 </tr>
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Automático</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+				 </tr>
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Manual</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+				 </tr>
+				 <tr>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 Semi-automático</td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.26px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+					 <td style="padding: 2px; width: 355.312px; text-align: center;">
+					 <span style="color: rgb(53, 152, 219);">
+					 <strong style="font-weight: bold;">dato</strong></span></td>
+				 </tr>
+			 </table>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 Recuerda que en<span>&nbsp;</span><span style="color: rgb(53, 152, 219);">NumPy</span><span>&nbsp;</span>solamente 
+			 usas los valores numéricos, la representación anterior es para que 
+			 tengas una idea de cómo quedarán los datos en memoria, en realidad 
+			 sólo utilizarás las celdas de&nbsp;<strong style="font-weight: bold;"><span style="color: rgb(53, 152, 219);">datos</span></strong>, 
+			 sin incluir nombres de filas ni de columnas.</p>
+			 <p style="margin: 12px 0px; color: rgb(45, 59, 69); font-family: &quot;Lato Extended&quot;, Lato, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(241, 241, 241); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+			 Poor último, hay que encontrar las diferencias entre los datos del 
+			 año 2018 y 2016.</p>
+			 </li>
+     
+	 </span>
+                                         
+        </ul>
+                                 
+      </ul>
+          </font>
+          </font>
+          </font>
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style53">
+		 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+          <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+     
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53"> 
+	 <class="auto-style43">
+	 <class="auto-style53"> 
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+     	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49"><span class="auto-style26">
+	 
+	 <hr width="100%"> 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left"> <br>
+	 <b><font color="#330033" face="Arial,Helvetica">&nbsp;&nbsp;<span class="auto-style26">Especificaciones 
+	 de entrega:</span></font></b> 
+	 <font color="#330033" face="Arial,Helvetica">
+          <ul>
+                                         
+         <ul>
+          </font>
+			 <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style21">
+     		 
+			 <li class="auto-style106"> <font size="-1"><span class="auto-style26">Formato de entrega:
+			 <strong>pdf </strong>o
+			 <strong>docx</strong></span></font><span class="auto-style26"></li>
+			 <li class="auto-style106"> <font size="-1"><span class="auto-style26">Nombre del entregable:
+			 <strong>Act3_matricula.pdf</strong> (Impresión de pantalla de tus 
+			 funciones y main con su ejecución)<strong> </strong> </span> </font></li>
+			 <li class="auto-style106"> <font size="-1"><span class="auto-style26">Medio de entrega: Se entrega en Canvas en la sección de 
+			 <strong>Actividad integradora 3</strong></span></font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+			 
+			 </span>
+                                         
+	 </span>
+          </font>
+	 </span>
+		  </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <class="auto-style127">
+			 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style49"><span class="auto-style45">
+          <class="auto-style53">
+	 <class="auto-style43">
+		 <class="auto-style49">
+		  <class="auto-style53">
+	 <class="auto-style43">
+		 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style53">
+		 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style47">
+			 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+          <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+     
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53"> 
+	 <class="auto-style43">
+	 <class="auto-style53"> 
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+     	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style47">
+	 <class="auto-style49">
+	 <class="auto-style49">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style43">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style53">
+	 <class="auto-style49"><span class="auto-style26">
+	 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left"> <br>
+	 <b><font color="#330033" face="Arial,Helvetica">&nbsp;&nbsp;Especificaciones 
+	 de entrega:</font></b> 
+	 <font color="#330033" face="Arial,Helvetica">
+          <ul>
+                                         
+         <ul>
+			 <span class="auto-style21">
+     		 
+			 <li class="auto-style106"> <font size="-1">Formato de entrega:
+			 <strong>pdf </strong>o
+			 <strong>docx</strong></font></li>
+			 <li class="auto-style106"> <font size="-1">Nombre del entregable:
+			 <strong>Act3_matricula.pdf</strong> (Impresión de pantalla de tus 
+			 funciones y main con su ejecución)<strong> </strong> </font></li>
+			 <li class="auto-style106"> <font size="-1">Medio de entrega: Se entrega en Canvas en la sección de 
+			 <strong>Actividad integradora 3</strong></font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+			 
+			 </span>
+                                         
+          </font>
+                                         
+	 </span>
+	 </span>
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

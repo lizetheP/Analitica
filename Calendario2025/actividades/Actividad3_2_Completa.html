@@ -1,0 +1,1761 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+      <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style24 {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.auto-style25 {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.auto-style26 {
+	color: #000000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style37 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style39 {
+	margin-left: 520px;
+}
+.auto-style43 {
+	color: #FFFFFF;
+	font-size: xx-small;
+}
+.auto-style45 {
+	color: #510851;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  h4{ color:#000099; font-size:14px;
+}
+h5 {color:#990066;font-size:12px
+}
+.img_ent {
+	background-image: url('../../../C_Soluciones/SolucionesFinal_2020/Laboratorios/imagenes/idisco.jpg');
+}
+.img_icon {
+	background-position: left 15px top 20px;
+	background-repeat: no-repeat;
+	padding-left:100px;
+	min-height:100px;
+}
+article {
+	border-style:solid;
+	border-width:1px; 
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style106 {
+	  text-align: justify;
+	  font-size: -1;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style107 {
+	color: #FF0000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style108 {
+	  color: #333333;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style109 {
+	  margin-left: 120px;
+  }
+  .auto-style110 {
+	  list-style-type: circle;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style111 {
+	color: #0000FF;
+}
+.auto-style112 {
+	margin-left: 600px;
+}
+.auto-style113 {
+	font-size: medium;
+	color: #000000;
+}
+    
+
+
+
+
+
+
+
+
+
+
+  .auto-style115 {
+	  list-style-type: disc;
+  }
+  .auto-style116 {
+	  border: 1px solid #000000;
+	  text-align: center;
+  }
+  .auto-style117 {
+	  color: #000000;
+	  font-size: small;
+  }
+  .auto-style118 {
+	  border: 1px solid #000000;
+	  text-align: center;
+	  font-size: small;
+  }
+  .auto-style119 {
+	  margin-left: 80px;
+  }
+    
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+		<span class="auto-style35"><span class="auto-style19">TC 3001 C. Analítica de datos y herramientas de 
+	 inteligencia artificial</span></span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style37">
+	  Actividad integradora 3: </span></strong><span class="auto-style37">
+	  <strong>
+	  Análisis numérico con NumPy&nbsp; </strong></span><br class="auto-style21"><span class="auto-style16">
+	  .</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style112"> 
+	 <span class="auto-style43">.</span><br> 
+	 <img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26">Objetivo:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     	   <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Experimentar la potencia de la 
+		   plataforma NumPy para realizar cálculos con grandes cantidades de 
+		   información a través de arreglos de dos dimensiones </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/group.png" height="42" width="50" align="left" class="auto-style24"><br>
+	 &nbsp;&nbsp; 
+	 <span class="auto-style26">Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Sesión plenaria.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/irevision.jpg" height="70" width="70" align="left" class="auto-style25">&nbsp;
+     <br>
+          <font color="#330033" face="Arial,Helvetica">
+          <b>&nbsp;<span class="auto-style26">Instrucciones:</span></b><span class="auto-style26"><font
+ size="-1" color="#000000" face="Arial,Helvetica">&nbsp;<br><br></font>
+	 <ul>
+                                         
+         <ul>
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 <li>
+			 <p>
+             <font
+ size="-1" color="#333333" face="Arial,Helvetica">Laura tiene una hoja de 
+			 cálculo que contiene la información del inventario de los tipos de 
+			 saborizantes en existencia en las instalaciones de Oakland. En esta 
+			 actividad extraerás información de la hoja de cálculo y usarás 
+			 funciones de numpy para reunir información acerca del inventario de 
+			 productos. </font>
+	 		</p>
+			 </li>
+			 <li>
+			 <p class="auto-style108">
+             La estructura de la información es la siguiente:</p>
+			 <ul>
+				 <li> <strong>numProducto:</strong> Número o clave del producto. </li>
+				 <li> <strong>nombre: </strong>Nombre o descripción del 
+				 producto.</li>
+				 <li> 
+          <font color="#330033" face="Arial,Helvetica">
+          	   <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+				 <strong>cantidadExistencia: </strong> Cantidad de productos en existencia.</font></span></font></li>
+				 <li> <strong>precioMenudeo:</strong> Precio del producto al 
+				 menudeo. </li>
+				 <li> <strong>tamaño: </strong>Tamaño del producto en onzas.</li>
+				 <li> <strong>envase: </strong>Tipo de envase.<ul class="auto-style110">
+					 <li>1. Frasco</li>
+					 <li>2. Sobre</li>
+					 <li>3. Botella</li>
+					 <li>4. Lata</li>
+				 </ul>
+				 </li>
+				 <li> <strong>categoria:</strong> Categoría del producto.</li>
+
+			 </ul>
+			 </li>
+			 <br>
+			 <li>El archivo que contiene toda la información se denomina&nbsp;<a href="inventario.csv">"inventario.cvs"</a>. Realiza la lectura de la información a través 
+			 de las funciones básicas de Python y carga la información en una 
+			 matriz de&nbsp;NumPy. Al tener la información en memoria deberás obtener 
+			 la información que necesita la compañía en dos fases. </li>
+			 <li>La <span class="auto-style107"><strong>primera 
+			 fase </strong></span>requiere que extraigas los siguientes datos: </li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+          <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+		  NOTA:&nbsp;</strong>Realiza cada función con su&nbsp;main&nbsp;en un bloque de código 
+		  distinto: </p>
+                               
+          <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 <ul class="auto-style109">
+				 <li> Define la función<strong> <span class="auto-style111">envase_mas_grande</span></strong>, que 
+				 regrese el envase de mayor tamaño de un producto.</li>
+				 <li> 
+          <font color="#330033" face="Arial,Helvetica">
+          	   <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 	Define la función<strong> <span class="auto-style111">precio_mas_bajo</span></strong>, que regrese 
+				 el precio de menudeo más bajo de un producto.</font></span></font></li>
+				 <li> Define la función <span class="auto-style111"> <strong>suma_productos</strong></span>, que 
+				 regrese la suma de la cantidad de productos en existencia del 
+				 inventario.</li>
+				 <li> 
+          <font color="#330033" face="Arial,Helvetica">
+          	   <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+				 Define la función <span class="auto-style111"> <strong>promedio_precios</strong></span>, que 
+				 regrese el promedio de precios de los productos al menudeo. </li>
+			 </font>
+                                         
+		 </span>
+	 			 </font></li>
+				 <li> Define la función <span class="auto-style111"> <strong>cantidad_productos</strong></span>, que 
+				 imprima la cantidad de productos de 
+				 cada categoría.</li>
+				 <li> 
+			 </font>
+                                         
+		 </span>
+          </font>
+			 </font>
+		 </span>
+				 <class="auto-style127">
+				 <class="auto-style49">
+				 <class="auto-style49">
+				 <class="auto-style49">
+				 <class="auto-style53">
+				 <class="auto-style43">
+				 <class="auto-style49">
+				 <class="auto-style53">
+				 <class="auto-style43">
+				 <class="auto-style49">
+				 <font color="#330033" face="Arial,Helvetica">
+				 <span class="auto-style26">
+				 <font color="#000000" face="Arial,Helvetica" size="-1">Define la función 
+				 <span class="auto-style111"><strong>promedio_size</strong></span>, que 
+				 imprima el promedio del tamaño de cada tipo de envase.</font></span></font><class="auto-style127"><class="auto-style49"><class="auto-style49"><class="auto-style49"><class="auto-style53"><class="auto-style43"><class="auto-style49"><class="auto-style53"><class="auto-style43"><class="auto-style49"></ul>
+		  <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+	 <ul>
+                                         
+         <ul>
+			 <li><font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 La <span class="auto-style107"><strong>segunda fase </strong>
+			 </span>es una comparativa. Para ello debes crear cuatro matrices de 
+			 datos, para cada uno de los tipos de envases: <strong>Frasco, 
+			 Sobre, Botella y Lata</strong>. Cada matriz debe 
+			 contener la siguiente estructura:<ul class="auto-style115">
+				 <li>Las filas o renglones representan la <strong>categoría</strong> del producto.</li>
+				 <li>Las columnas representan: el <strong>precio mínimo</strong>, la 
+				 <strong>suma de 
+				 productos en existencia </strong>y el<strong> tamaño promedio de envase</strong>.</li>
+			 </ul>
+                                         
+         </font>
+		 </span></font> </li>
+			 <li>
+          <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+             Define la función <span class="auto-style111"><strong>calculos</strong></span>, que realice los cálculos anteriores 
+			 para cada tipo de envase.</font></span></font></li>
+			 <li>
+          <font color="#330033" face="Arial,Helvetica">
+             <span class="auto-style26">
+     		 <font color="#000000" face="Arial,Helvetica" size="-1">
+			 Define la función<strong> <span class="auto-style111">
+			 imprime_matriz</span></strong>, que 
+				 imprima la matriz con el siguiente formato:</li>
+			                                          
+         </font>
+		 </span></font> </li>
+                                         
+        </ul>
+                                 
+      </ul>
+				 </font>
+		 </span>
+	 <class="auto-style127">
+				 <class="auto-style49">
+				 <class="auto-style127">
+	
+	 <class="auto-style49">
+                                         
+			 <span class="auto-style26">
+			 <font color="#330033" face="Arial,Helvetica" size="-1">
+	 <table class="auto-style119" style="width: 70%">
+		 <tr>
+			 <td class="auto-style116" style="width: 15%">&nbsp;</td>
+			 <td class="auto-style116" style="width: 15%"><strong>Precio 
+			 mínimo</strong></td>
+			 <td class="auto-style116" style="width: 15%"><strong>Suma de 
+			 productos en existencia</strong></td>
+			 <td class="auto-style116" style="width: 15%"><strong>Tamaño 
+			 promedio 
+			 del envase</strong></td>
+		 </tr>
+		 <tr>
+			 <td class="auto-style116" style="width: 15%"><strong>Adobo</strong></td>
+			 <td class="auto-style118" style="width: 15%">
+             dato</td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+		 </tr>
+		 <tr>
+			 <td class="auto-style116" style="width: 15%"><strong>Condimento</strong></td>
+			 <td class="auto-style118" style="width: 15%">
+			 dato</td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+		 </tr>
+		 <tr>
+			 <td class="auto-style116" style="width: 15%"><strong>Especia</strong></td>
+			 <td class="auto-style118" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+		 </tr>
+		 <tr>
+			 <td class="auto-style116" style="width: 15%"><strong>Extracto</strong></td>
+			 <td class="auto-style118" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+		 </tr>
+		 <tr>
+			 <td class="auto-style116" style="width: 15%"><strong>Hierba</strong></td>
+			 <td class="auto-style118" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+			 <td class="auto-style116" style="width: 15%">
+          <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style117">
+			 dato</span></font></td>
+		 </tr>
+	 </table>
+	 <br>
+	 </font></span>
+          </font>
+	 <class="auto-style49">
+		  </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <class="auto-style127">
+			
+	 <class="auto-style49"><span class="auto-style26">
+	 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left"> <br>
+	 <b><font color="#330033" face="Arial,Helvetica">&nbsp;&nbsp;<span class="auto-style113">Especificaciones 
+	 de entrega:</span><br></font></b> 
+	 &nbsp;<font face="Arial,Helvetica" class="auto-style26"><ul>
+                                         
+         <ul>
+			 <span class="auto-style21">
+     		 
+			 <li class="auto-style106"> <font size="-1">Formato de entrega:
+			 <strong>pdf </strong>o
+			 <strong>docx</strong></font></li>
+			 <li class="auto-style106"> <font size="-1">Nombre del entregable:
+			 <span class="auto-style107">
+			 <strong>A23_matricula.pdf</strong></span> (Impresión de pantalla de 
+			 cada bloque de código con su ejecución)<strong> </strong> </font></li>
+			 <li class="auto-style106"> <font size="-1">Medio de entrega: Se entrega en Canvas en la sección de 
+			 <strong>Actividad integradora 3</strong></font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+			 
+			 </span>
+                                         
+          </font>
+                                         
+	 </span>
+	 </span>
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

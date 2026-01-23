@@ -1,0 +1,1616 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+  <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  .auto-style6 {
+	  font-family: Arial, Helvetica, sans-serif;
+	  font-size: small;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style24 {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.auto-style26 {
+	color: #000000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style37 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style39 {
+	margin-left: 320px;
+}
+.auto-style43 {
+	color: #FFFFFF;
+	font-size: xx-small;
+}
+.auto-style45 {
+	color: #510851;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  h4{ color:#000099; font-size:14px;
+}
+h5 {color:#990066;font-size:12px
+}
+.img_ent {
+	background-image: url('../../../C_Soluciones/SolucionesFinal_2020/Laboratorios/imagenes/idisco.jpg');
+}
+.img_icon {
+	background-position: left 15px top 20px;
+	background-repeat: no-repeat;
+	padding-left:100px;
+	min-height:100px;
+}
+article {
+	border-style:solid;
+	border-width:1px; 
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style87 {
+	  color: #0000FF;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style94 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style99 {
+	color: #FF0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style100 {
+	font-size: -1;
+	color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style101 {
+	font-size: -1;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+		<span class="auto-style35"><span class="auto-style19">TC 3001 C. Analítica de datos y herramientas de 
+	 inteligencia artificial</span></span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span><span class="auto-style37">
+	  Actividad: </span></strong><span class="auto-style37"><strong>
+	  POO Encapsulación</strong></span><br class="auto-style21"><span class="auto-style16">
+	  .</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <span class="auto-style43">.</span><br> 
+	 <img src="../imagenes/info3.jpg" height="50" width="50" align="left" class="auto-style24"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp; 
+	 <span class="auto-style26">&nbsp;Descripción:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Trabajarás con el concepto de 
+	 encapsulación en la Programación Orientada a Objetos. </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> 
+	 <img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;<span class="auto-style26">Objetivos:</span></font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     <li> <font size="-1" color="#333333" face="Arial,Helvetica">Aplicar el 
+	 concepto de programación orientada a objetos.</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Diseñar 
+			atributos privados.</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">Creación 
+			de los getters y setters para obtener y modificar los atributos de 
+			instancia. </font></li>
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/iper.jpg" height="70" width="70" align="left"><br>
+	 &nbsp;<span class="auto-style26">Modalidad: </span> </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Individual.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style26">
+                               
+      <span class="auto-style45">
+          <class="auto-style53">
+		 <class="auto-style49"><span class="auto-style6"><strong>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/web_descripcion.gif" height="53" width="60" align="left" class="auto-style106">&nbsp;
+     <br>
+          <b>&nbsp;&nbsp;</b></strong><b> &nbsp;</b></span><b><span class="auto-style94">Ejercicios:</span></b></span><span class="auto-style6"><ul>
+                                         
+        <ul>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">
+			<span class="auto-style26">Define 
+			la clase </span><span class="auto-style87"><strong>Perro</strong></span>.</font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">
+			<span class="auto-style26">Define 
+			el <strong>atributo de clase</strong></span> <span class="auto-style87">
+			<strong>especie</strong></span> <span class="auto-style26">como privado 
+			con el valor de "Mamífero".</span></font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">
+			<span class="auto-style26">Define 
+			en el <strong>constructor</strong> los atributos de instancia</span>
+			<span class="auto-style87"><strong>nombre, edad</strong></span><strong>
+			</strong>y
+			<span class="auto-style87"><strong>alimentos</strong></span> 
+			<span class="auto-style26">como 
+			privados. El <strong>nombre </strong>y la <strong>edad</strong> se 
+			reciben como parámetros de entrada y se asignan a los atributos 
+			privados <strong>nombre </strong>y <strong>edad</strong>. El 
+			atributo privado <strong>alimentos </strong>se define con una lista 
+			vacía.</span></font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">
+			<span class="auto-style26">Define el 
+			método</span> <span class="auto-style87"><strong>esAlimentoFavorito </strong></span>
+			<span class="auto-style26">que recibe como parámetro de entrada el
+			<strong>alimento</strong> y regresa <strong>True</strong> si el 
+			alimento está dentro de la lista de alimentos favoritos y <strong>
+			False</strong> en caso contrario. En el método define el atributo
+			<strong>alimentos </strong>como privado.</span></font></li>
+			<li> <font color="#330033" face="Arial,Helvetica">
+			<span class="auto-style26"><span class="auto-style6">
+			<font size="-1" color="#333333" face="Arial,Helvetica">Define el 
+			método <span class="auto-style87"><strong>verEtapaDeVida</strong></span> 
+			donde si la edad es mayor a 2, imprime el nombre del perro y es 
+			adulto y en caso contrario imprime el nombre de perro y es cachorro. 
+			Establece los atributos de instancia como privados. </font></span>
+			</span></font>
+			</li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">
+			<span class="auto-style26">Define 
+			los métodos </span><strong><span class="auto-style87">getters</span>
+			</strong>y <strong><span class="auto-style87">setters</span>
+			</strong>p<span class="auto-style26">ara manejar los atributos de 
+			instancia.</span></font></li>
+			<li> 
+            <font color="#330033" face="Arial,Helvetica">
+            <span class="auto-style26">
+                               
+      	  <span class="auto-style6">
+			<font size="-1" color="#333333" face="Arial,Helvetica">Define el 
+			método <span class="auto-style87"><strong>mostrar</strong></span> 
+			para que regrese en un string la concatenación de los <strong>atributos de 
+			instancia </strong>(nombre, edad y alimentos) y el <strong>
+			atributo de</strong> <strong>clase</strong> 
+			(especie)<strong>.</strong></font></span></span></font></li>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">
+			<span class="auto-style26">En el 
+			</span><span class="auto-style87"><strong>main</strong></span>: </font></span></span></font>
+			<ul>
+				<li><span class="auto-style6"><span class="auto-style26">
+				<font color="#330033" face="Arial,Helvetica">
+				<font size="-1" color="#333333" face="Arial,Helvetica">Crea un objeto de la clase<strong> 
+				Perro</strong> como <span class="auto-style99"><strong>perro1</strong></span> 
+				con el nombre y edad de tu preferencia.&nbsp; </font></li>
+				<li><font size="-1" color="#333333" face="Arial,Helvetica">
+				<span class="auto-style26">Del 
+			objeto </span><span class="auto-style99"><strong>perro1</strong></span>:</font></font></span></span><font face="Arial,Helvetica"><ul>
+					<li class="auto-style101">I<font size="-1">mprime el valor del 
+				nombre.</font></li>
+					<li class="auto-style100">I<span class="auto-style26"><font size="-1">mprime el valor de la 
+				edad.</font></span></li>
+					<li class="auto-style100">I<span class="auto-style26"><font size="-1">mprime la lista de 
+				alimentos. </font></span></li>
+					<li class="auto-style100">
+					<font face="Arial,Helvetica" size="-1">
+					<span class="auto-style26">Llama al método</span><span class="auto-style87"><strong> 
+				mostrar</strong></span> <span class="auto-style26">e imprime el resultado.</span></font></li>
+					<li class="auto-style101"><font size="-1">Pide un nuevo nombre.</font></li>
+					<li class="auto-style101"><font size="-1">Pide una nueva edad.</font></li>
+					<li class="auto-style101"><font size="-1">Declara una nueva 
+				lista de alimentos como por ejemplo: <strong>lista = ["Carne", 
+				"Pescado", "Huevos", "Huesos"]</strong>. </font></li>
+					<li class="auto-style101"><font size="-1">Modifica el objeto 
+					<strong>perro1 </strong>con el nuevo nombre. </font></li>
+					<li class="auto-style101"><font size="-1">Modifica el objeto 
+					<strong>perro1 </strong>con la nueva edad. </font></li>
+					<li class="auto-style101"><font size="-1">Modifica el objeto 
+					<strong>perro1</strong> con la nueva lista de alimentos. 
+					</font></li>
+					<li class="auto-style101">
+					<font size="-1" face="Arial,Helvetica">
+					<span class="auto-style26">Llama al método</span><span class="auto-style87"><strong> 
+				mostrar</strong></span><span class="auto-style26"> e imprime el resultado.</span></font></li>
+					<li class="auto-style101">
+					<font size="-1" face="Arial,Helvetica">Llama al método
+					<span class="auto-style87"><strong>verEtapaDeVida</strong></span></font></li>
+					<li class="auto-style101">
+					<font size="-1" face="Arial,Helvetica">Pide un alimento y llama 
+				al método <span class="auto-style87"><strong>esAlimentoFavorito</strong></span> 
+				con esa variable como parámetro de entrada e imprime el 
+				resultado. </font></li>
+				</ul>
+				</li>
+			</ul>
+			</li>
+        </ul>
+                                 
+      </ul>
+                               
+      <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style26">
+                               
+      <span class="auto-style6"><ul>
+                                         
+        <ul>
+			<li> <font size="-1" color="#333333" face="Arial,Helvetica">
+			Guarda tu archivo como: <strong><span class="auto-style99">
+			A15_matrícula.ipynp</span></strong></font></li>
+			</span></span></font>
+        </ul>
+                                 
+      </ul>
+				</font>
+                               
+      <font color="#330033" face="Arial,Helvetica">
+          <span class="auto-style26">
+                               
+      <span class="auto-style45">
+          <class="auto-style53">
+		 <class="auto-style49"><span class="auto-style6"><strong>
+                               
+      <hr width="100%"> 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left">&nbsp;
+     <br>
+          <b>&nbsp;</b></strong><b> </b> </span>
+	 <b>
+	 <span class="auto-style94">Especificaciones de entrega:</span></b></span></span></font><class="auto-style98"><class="auto-style98"><class="auto-style98"><class="auto-style98"><class="auto-style98"><class="auto-style98"><class="auto-style84"><class="auto-style99"><class="auto-style49"><class="auto-style49"><span class="auto-style26"><class="auto-style53"><class="auto-style49"><class="auto-style53"><class="auto-style49"><span class="auto-style45"><class="auto-style53"><class="auto-style49">&nbsp;<ul>
+<ul>
+     <li> <font size="-1" color="#333333" face="Arial,Helvetica">Formato de 
+	 entrega: 
+	 <strong>pdf</strong></font></li>
+	 <li> <font size="-1" color="#333333" face="Arial,Helvetica">Nombre del 
+	 entregable: 
+	 <strong>A15_matricula.pdf </strong> (con la impresión de pantalla de tu 
+	 programa y su ejecución)<strong> </strong> </font></li>                                   
+	 <li> <font size="-1" color="#333333" face="Arial,Helvetica">Medio de 
+	 entrega: Se entrega en Canvas en la sección de 
+	 <strong>Actividad: POO Encpasulación </strong> </font></li>
+
+        </ul>
+	 </ul>
+                                 
+
+	 	 </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

@@ -1,0 +1,1584 @@
+﻿<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+      <meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+
+  <title>Calendario</title>
+                                 
+  <style type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+.style1 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style4 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.Estilo13 {font-family: Arial, Helvetica, sans-serif; font-size: 14px; }
+
+
+
+
+
+
+
+
+
+
+
+.style6 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style8 {
+
+
+
+
+
+
+
+
+
+
+
+	margin-left: 40px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style12 {
+
+
+
+
+
+
+
+
+
+
+
+	border-left-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-left-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-right-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	border-top-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	border-bottom-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style13 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style15 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style16 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+.style19 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style21 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style22 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial, Helvetica;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style23 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style24 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style27 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style29 {
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: x-small;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style30 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: bold;
+
+
+
+
+
+
+
+
+
+
+
+	font-size: -1;
+
+
+
+
+
+
+
+
+
+
+
+	color: #FFFFFF;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style31 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style32 {
+
+
+
+
+
+
+
+
+
+
+
+	border-width: 1px;
+
+
+
+
+
+
+
+
+
+
+
+	text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+	background-color: #C0C0C0;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style33 {
+
+
+
+
+
+
+
+
+
+
+
+	font-weight: normal;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.style34 {
+
+
+
+
+
+
+
+
+
+
+
+	font-family: Arial;
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  *{box-sizing:inherit}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style5 {
+	  margin-left: 280px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style14 {
+	color: #808000;
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style16 {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style17 {
+	color: #330033;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style19 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+}
+.auto-style20 {
+	border-width: 1px;
+	margin-left: 280px;
+	background-color: #510851;
+}
+.auto-style21 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style25 {
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.auto-style26 {
+	color: #000000;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style37 {
+	color: #510851;
+	font-size: large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style39 {
+	margin-left: 440px;
+}
+.auto-style43 {
+	color: #FFFFFF;
+	font-size: xx-small;
+}
+.auto-style45 {
+	color: #510851;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  h4{ color:#000099; font-size:14px;
+}
+h5 {color:#990066;font-size:12px
+}
+.img_ent {
+	background-image: url('../../../C_Soluciones/SolucionesFinal_2020/Laboratorios/imagenes/idisco.jpg');
+}
+.img_icon {
+	background-position: left 15px top 20px;
+	background-repeat: no-repeat;
+	padding-left:100px;
+	min-height:100px;
+}
+article {
+	border-style:solid;
+	border-width:1px; 
+	padding-top: 10px;
+	padding-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  .auto-style108 {
+	color: #FFFFFF;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  .auto-style123 {
+	font-size: medium;
+}
+.auto-style124 {
+	text-align: justify;
+	font-size: small;
+	color: #000000;
+}
+.auto-style132 {
+	color: #510851;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style133 {
+	font-size: xx-small;
+}
+.auto-style135 {
+	font-size: medium;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #008000;
+}
+.auto-style136 {
+	margin-left: 80px;
+}
+.auto-style137 {
+	margin-left: 120px;
+}
+  
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+  <body>
+     
+<center>    
+<table border="1" cols="1" width="90%">
+     <tbody>
+      <tr>
+     <td class="auto-style20"><strong><br class="auto-style21">
+		<span class="auto-style35"><span class="auto-style19">TC 3001 C. Analítica de datos y herramientas de 
+	 inteligencia artificial</span></span><br class="auto-style21"><span class="auto-style17">.</span></strong><span class="auto-style21">&nbsp;&nbsp;</span></td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style5">                             
+                                  
+      <table border="0" cols="2" width="100%">
+     <tbody>
+              <tr>
+      <td class="style21">
+	  <strong><span class="auto-style14"><br></span></strong><span><strong>
+	  <span class="auto-style37">Actividad EDA. <span class="auto-style21">
+	  <span class="auto-style17">Toma de decisiones con IA a partir del análisis 
+	  de datos</span></span><br></span><span class="auto-style132">
+	  <br class="auto-style133"></span></strong><span class="auto-style135">
+	  <strong>Experiencias Digitales de Aprendizaje (EDA)</strong></span></span><strong><br class="auto-style135">
+	  </strong><span class="auto-style16">
+	  .</span></td>
+     </tr>
+                                         
+        </tbody>                            
+      </table>
+                                  
+     	 </td>
+     </tr>
+                 
+      <tr>
+     <td class="auto-style39"> 
+	 <span class="auto-style43">.</span><br> 
+	 <img src="../imagenes/iobj.jpg" height="70" width="70" align="left"><b><font color="#330033" face="Arial,Helvetica"><br>
+	 &nbsp;Objetivos de aprendizaje de la EDA:</font></b> 
+        &nbsp;                             
+      <ul>
+                                         
+        <ul>
+     	    <li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+		    <p><span lang="ES" style="color: #000000">Aplicar herramientas de 
+			inteligencia artificial para analizar datos cualitativos y tomar 
+			decisiones fundamentadas que permitan iterar y mejorar soluciones en 
+			contextos reales.</span></p>
+			<p data-path-to-node="5"><strong>Objetivos específicos</strong><span style="color: #000000;">:</span></p>
+			<ol data-path-to-node="6" start="1">
+				<li>
+				<p data-path-to-node="6,0,0"><span style="color: #000000;">
+				<strong>Comprender</strong> la importancia de la experimentación 
+				iterativa en la validación de soluciones.</span></p>
+				</li>
+				<li>
+				<p data-path-to-node="6,0,0"><span style="color: #000000;">
+				<strong>Usar</strong> herramientas de IA para procesar y 
+				analizar datos provenientes de pruebas o retroalimentación.</span></p>
+				</li>
+				<li>
+				<p data-path-to-node="6,0,0"><span style="color: #000000;">
+				<strong>Tomar </strong>decisiones informadas de ajuste o mejora 
+				a partir del análisis de datos.</span></p>
+				</li>
+			</ol>
+		   </font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                                  
+      <hr width="100%"> <b><font color="#330033" face="Arial,Helvetica">
+	 <img src="../imagenes/iper.jpg" height="70" width="70" align="left"><br>
+	 &nbsp;Modalidad: </font></b>&nbsp;<ul>
+                                         
+         <ul>
+     		<li> <font
+ size="-1" color="#333333" face="Arial,Helvetica">Individual.</font></li>
+                                         
+        </ul>
+                                 
+      </ul>
+                               
+      <hr width="100%"> 
+          <img src="../imagenes/irevision.jpg" height="70" width="70" align="left" class="auto-style25">&nbsp;
+     <br>
+          <font color="#330033" face="Arial,Helvetica">
+          <b>&nbsp;Instrucciones:</b><span class="auto-style26"><font
+ size="-1" color="#000000" face="Arial,Helvetica">&nbsp;<br>
+	 <span class="auto-style108">.</span></font></span><class="auto-style127"><class="auto-style49"><class="auto-style49"><class="auto-style49"><span class="auto-style45"><class="auto-style53"><class="auto-style43"><class="auto-style49"><span class="auto-style26"><class="auto-style53"><class="auto-style43"><class="auto-style49"><font
+ size="-1" color="#333333" face="Arial,Helvetica"><font
+ size="-1" face="Arial,Helvetica" class="auto-style26"><span class="auto-style21"><font face="Arial,Helvetica" size="-1"><span class="auto-style6"><h3 class="auto-style136" data-path-to-node="4">
+	 1. Preparación y Lectura</h3>
+	 <p class="auto-style136" data-path-to-node="5">Revisa con detenimiento el 
+	 siguiente material y realiza las actividades planteadas en el texto:</p>
+	 <ul class="auto-style137" data-path-to-node="6">
+		 <li>
+		 <p data-path-to-node="6,0,0">
+		 <b data-index-in-node="0" data-path-to-node="6,0,0">Lectura:</b>
+		 <i data-index-in-node="9" data-path-to-node="6,0,0">
+		 <a href="https://experiencia21.tec.mx/courses/661963/pages/toma-de-decisiones-con-ia-a-partir-del-analisis-de-datos?module_item_id=41250646">
+		 Toma de decisiones con IA a partir del análisis de datos.</a></i></p>
+		 </li>
+	 </ul>
+	 <h3 class="auto-style136" data-path-to-node="7">2. Actividad Integradora</h3>
+	 <p class="auto-style136" data-path-to-node="8">Una vez comprendidos los 
+	 conceptos anteriores, desarrolla la siguiente práctica:</p>
+	 <ul class="auto-style137" data-path-to-node="9">
+		 <li>
+		 <p data-path-to-node="9,0,0">
+		 <b data-index-in-node="0" data-path-to-node="9,0,0">Tarea:</b>
+		 <i data-index-in-node="7" data-path-to-node="9,0,0">
+		 <a href="https://experiencia21.tec.mx/courses/661963/assignments/22047331">
+		 Análisis de respuestas simuladas y formulación de insights.</a></i></p>
+		 </li>
+	 </ul>
+	 <blockquote class="auto-style136" data-path-to-node="10">
+		 <p data-path-to-node="10,0">
+		 <b data-index-in-node="0" data-path-to-node="10,0">Nota:</b> Recuerda 
+		 documentar el proceso, incluyendo los
+		 <b data-index-in-node="53" data-path-to-node="10,0">prompts</b> 
+		 personalizados que utilices y las respuestas obtenidas de la IA.</p>
+	 </blockquote>
+	 <h3 class="auto-style136" data-path-to-node="11">3. Reflexión Crítica</h3>
+	 <p class="auto-style136" data-path-to-node="12">Para finalizar, registra 
+	 tus conclusiones en el apartado de reflexión:</p>
+	 <ul class="auto-style137" data-path-to-node="13">
+		 <li>
+		 <p data-path-to-node="13,0,0">Analiza qué tan útil resultó la IA como 
+		 herramienta para procesar datos, generar análisis cualitativos y 
+		 facilitar la toma de decisiones estratégicas.</p>
+		 </li>
+	 </ul>
+	 <p>&nbsp;</p>
+     
+	 </span>
+	 <class="auto-style127">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style127">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style127">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style127">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style127">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style127">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+			 <class="auto-style53">
+			 <class="auto-style43">
+			 <class="auto-style49">
+	 <span class="auto-style45">
+	 <strong>
+	 <class="auto-style53">
+	 <class="auto-style49"><span class="auto-style26">
+	 
+	 <hr width="100%"> 
+	 <img src="../imagenes/idisco.jpg" height="70" width="70" align="left"> <br>
+	 <b><font color="#330033" face="Arial,Helvetica">&nbsp;&nbsp;</font></span></strong></span></font><font face="Arial,Helvetica"><span class="auto-style45"><span class="auto-style26"><font color="#330033" face="Arial,Helvetica"><span class="auto-style123">Especificaciones 
+	 de entrega:</span></font><font
+ size="-1"><strong><br></strong></font>
+	 </span></span></b> 
+	 <span class="auto-style45">
+	 <span class="auto-style26">
+	 
+	 <font
+ size="-1"><font
+ size="-1"><strong>
+	 &nbsp;</strong><ul>
+                                         
+         <ul>
+             <font color="#330033" face="Arial,Helvetica">
+			 <span class="auto-style21">
+     		 
+			 <li class="auto-style124"> Formato de entrega: Documento en <strong>
+			 pdf </strong>o<strong> docx</strong></li>
+			 <li class="auto-style124"> Nombre del archivo: <strong>
+			 EDA_matrícula.pdf </strong>o <strong>EDA_matrícula.docx</strong></li>
+			 <li class="auto-style124">Medio de entrega: Subir el archivo a la 
+			 plataforma Canvas, en la sección correspondiente a<strong> 
+			 "Actividad Integradora. Análisis de respuestas simuladas y 
+			 formulación de insights"</strong></li>
+                                         
+	 </span>
+          </font>
+                                         
+        </ul>
+                                 
+      </ul>
+	 </span>
+		  </td>
+     </tr>
+                 
+  </tbody>    
+</table>
+    </center>
+          
+</body>
+</html>

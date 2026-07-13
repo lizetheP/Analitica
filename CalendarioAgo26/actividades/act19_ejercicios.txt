@@ -1,0 +1,75 @@
+---------------------
+19_ModuloRE
+---------------------
+Findall
+--------
+Encuentra correos
+Encuentra urls
+Encuentra teléfonos
+
+Funciones
+-----------
+Filtra_acentos_ñs
+Es_valida_IP
+Es_valido_mail
+Es_valida_fecha
+Es_valida_url
+reemplaza_saltos_web
+reemplaza_espacios_puntos
+encuentra_palabra
+encuentra_palabra_inicio
+divide_cadena
+
+-------------------
+19_2_L_ModuloRE
+-------------------
+es_valida_fecha
+es_valida_url
+
+-------------------
+19_2_T_ModuloRE
+-------------------
+
+Findall
+--------
+Encuentra correos
+Encuentra telefonos
+
+Funciones
+-----------
+Filtra palabras con ñ
+Es válido mail
+Reemplaza letras acentuadas por asteriscos
+Reemplaza espacios y slashes por puntos
+Encuentra palabra
+Encuentra palabra al inicio
+Divide cadena por puntos y comas.
+
+-------------------
+19_1_T_ModuloRE
+-------------------
+
+Findall
+--------
+Encuentra URLs
+Encuentra telefonos
+
+Funciones
+-----------
+Filtra palabras con acentos
+Es válido url
+Reemplaza saltos web
+reemplaza_espacios_puntos
+Encuentra palabra
+Encuentra palabra al inicio
+Divide cadena por espacios y guiones.
+
+
+-------------------
+19_1_L_ModuloRE
+-------------------
+es_valida_IP
+es_valido_mail
+
+
+

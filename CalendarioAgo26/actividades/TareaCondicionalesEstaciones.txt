@@ -1,0 +1,15 @@
+mes = int(input("Dame el mes: "))
+dias = int(input("Dam el día: "))
+if ((mes == 3 and dias >= 21 and dias <= 31)
+   or (mes == 4 and dias >=1 and dias <= 30)
+   or (mes == 5 and dias >= 1 and dias <= 31)
+   or (mes == 6 and dias >= 1 and dias <= 20)):
+   print("Primavera")
+
+
+
+
+else:
+    print("Mes o día inválidos")
+
+

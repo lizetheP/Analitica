@@ -1,0 +1,78 @@
+22_2_L_Matrices
+-----------------------
+captura_matriz
+imprime_matriz
+multiplica_columnax2
+cuenta_pares
+main
+
+22_2_T_Matrices
+-----------------------
+
+*Ejercicio1
+imprime_matriz
+llena_matriz
+suma_positivos
+main
+
+*Ejercicio2
+main
+mat + mat2
+mat1 - mat2
+mat1 * mat2
+mat1 / mat2
+concatena matrices
+
+*Ejercicio3
+multiplica_renglonx3
+main
+Extrae renglón y guarda en arreglo
+Calcula promedio de valores del arreglo
+
+22_Matrices_T2
+------------------------------------------
+*Ejercicio 1
+captura_matriz
+imprime_matriz
+
+*Ejercicio 2
+llena_matriz
+suma_positivos
+
+*Ejercicio 3
+main
+imprime_matriz
+llena_matriz
+mat + mat2
+mat1 - mat2
+mat1 * mat2
+mat1 / mat2
+concatena matrices
+
+*Ejercicio 4
+multiplica_renglonx2
+main
+
+22_Matrices_T1
+------------------------------------------
+*Ejercicio1
+captura_matriz
+imprime_matriz
+
+*Ejercicio2
+llena_matriz
+cuenta_negativos
+
+*Ejercicio3
+main
+imprime_matriz
+llena_matriz
+mat + mat2
+mat1 - mat2
+mat1 * mat2
+mat1 / mat2
+concatena matrices
+
+*Ejercicio4
+multiplica_columnax3
+main

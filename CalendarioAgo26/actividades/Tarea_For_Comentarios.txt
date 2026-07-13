@@ -1,0 +1,18 @@
+Buen trabajo Regina, solamente que en los últimos dos ejercicios se debe incluir el valor del li y del valor de b.
+
+INCORRECTO
+for cont in range(ls,li,-(dec)):
+CORRECTO
+for cont in range(ls,li - 1,-(dec)):
+
+Muy buen trabajo José Angel, solamente que en los últimos dos ejercicios se debe incluir el valor del li y del valor de b.
+
+INCORRECTO
+for i in range(ls,li,-dec):
+CORRECTO
+for i in range(ls,li - 1,-dec):
+
+INCORRECTO
+for i in range (a,b,2):
+CORRECTO
+for i in range (a,b+2,2):

@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="es-mx" http-equiv="Content-Language" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Pensamiento Computacional para I</title>
+<style type="text/css">
+i.small{font-size:2rem}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+}
+i{line-height:inherit}*,*:before,*:after{box-sizing:inherit}
+.auto-style6 {
+	font-size: x-large;
+}
+.auto-style7 {
+	font-size: x-large;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style15 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: medium;
+	margin-left: 80px;
+}
+.auto-style17 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: large;
+	margin-left: 40px;
+}
+.auto-style18 {
+	margin-left: 40px;
+}
+.auto-style33 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: left;
+	background-color: #660066;
+}
+.auto-style35 {
+	font-size: large;
+}
+.auto-style37 {
+	color: #808000;
+}
+.auto-style38 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: x-large;
+	margin-left: 40px;
+	color: #808000;
+	text-align: left;
+}
+.auto-style39 {
+	font-size: medium;
+}
+.auto-style40 {
+	color: #660066;
+}
+.auto-style41 {
+	font-size: xx-small;
+	color: #FFFFFF;
+}
+.auto-style49 {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 80px;
+}
+.auto-style51 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+}
+.auto-style56 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.auto-style60 {
+	text-align: center;
+	border: 1px solid #660066;
+	color: #000000;
+	margin-left: 40px;
+	background-color: #EBEBEB;
+}
+.auto-style61 {
+	text-align: center;
+	border: 1px solid #660066;
+	margin-left: 40px;
+	background-color: #EBEBEB;
+}
+.auto-style62 {
+	text-align: center;
+	border: 1px solid #000000;
+	margin-left: 40px;
+}
+.auto-style64 {
+	border: 1px solid #000000;
+	margin-left: 40px;
+}
+.auto-style65 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	margin-left: 120px;
+}
+.auto-style66 {
+	text-align: center;
+	font-size: medium;
+	border: 1px solid #000000;
+	margin-left: 40px;
+}
+.auto-style67 {
+	line-height: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+.auto-style69 {
+	text-align: center;
+	border: 1px solid #660066;
+	color: #000000;
+	margin-left: 80px;
+	background-color: #EBEBEB;
+}
+.auto-style70 {
+	text-align: center;
+	border: 1px solid #660066;
+	margin-left: 80px;
+	background-color: #EBEBEB;
+}
+.auto-style71 {
+	text-align: center;
+	border: 1px solid #000000;
+	margin-left: 80px;
+}
+.auto-style72 {
+	text-align: center;
+	font-size: medium;
+	border: 1px solid #000000;
+	margin-left: 80px;
+}
+.auto-style73 {
+	border: 1px solid #000000;
+	margin-left: 80px;
+}
+.auto-style74 {
+	margin-left: 80px;
+}
+</style>
+</head>
+
+<body>
+
+<table style="width: 100%">
+	<tr>
+		<td class="auto-style33" style="height: 22px"><strong>
+		<span class="auto-style35"><br />
+		TC 1028. Pensamiento Computacional para Ingeniería<br />
+		<span class="auto-style37">.</span></span></strong></td>
+	</tr>
+</table>
+<p class="auto-style38"><strong>Jerarquía de operadores aritméticos, de 
+comparación y booleanos </strong></p>
+<hr class="auto-style18" />
+<p class="auto-style17"><strong><img src="../imgE2.gif" /> </strong>
+<span class="auto-style6">Objetivo</span></p>
+<p class="auto-style15">Comprender el funcionamiento de los operadores 
+aritméticos, de comparación y booleanos. </p>
+<hr class="auto-style18" />
+<p class="auto-style17"><strong><img src="../img11.gif" /> </strong>
+<span class="auto-style6">Revisión de autoestudio</span></p>
+<p class="auto-style49"><strong>1. </strong> 
+<class="auto-style58">
+Evalúa cada expresión usando los datos de la columna de enmedio.<br/>
+<table align="left" class="auto-style65" style="width: 70%">
+	<tr>
+		<td class="auto-style69"><strong>Expresión</strong></td>
+		<td class="auto-style70"><strong>Datos</strong></td>
+		<td class="auto-style70"><strong>Evaluación</strong></td>
+	</tr>
+	<tr>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">not variable</span></code></td>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">variable = False</span></code></td>
+                                    <td class="auto-style72"> <strong>True (ejemplo)</strong></td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style71" style="height: 25px"><code>
+									<span class="auto-style56">num > 4.0</span></code></td>
+                                    <td class="auto-style71" style="height: 25px"><code>
+									<span class="auto-style56">num = 5.2</span></code></td>
+                                    <td class="auto-style73" style="height: 25px"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">not variable 	and (x >= 0)</span></code></td>
+                                    <td class="auto-style72">variable = true&nbsp;
+									<br />
+									<code>
+									<span class="auto-style56">x = 5.2</span></code></td>
+                                    <td class="auto-style73"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">not (variable and (num >= 0) )</span></code></td>
+                                    <td class="auto-style71">
+									<span class="auto-style39">variable = true<br />
+									</span><code>
+									<span class="auto-style56">num = 5.2</span></code></td>
+                                    <td class="auto-style73"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">(x + y) &lt;= 20.5</span></code></td>
+                                    <td class="auto-style71">x = 17.1<br />
+									<code>
+									<span class="auto-style56">y = 3.4 
+									</span> </code></td>
+                                    <td class="auto-style73"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">(n >= 0)  and (100 >= n) 
+									</span> </code></td>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">n = 20</span></code></td>
+                                    <td class="auto-style73"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style71"><code>
+									<span class="auto-style56">((a + 2) &lt;= b) and not variable
+                                	</span>
+                                </code></td>
+                                    <td class="auto-style71">
+									<span class="auto-style39">a = 5<br />
+									b = 8</span><br />
+									<code> 
+									<span class="auto-style56">variable = False
+                                	</span>
+                                </code></td>
+                                    <td class="auto-style73"> </td>
+                                </tr>
+</table>
+<p class="auto-style49">&nbsp;<p class="auto-style49">&nbsp;</p>
+<p class="auto-style49">&nbsp;</p>
+<p class="auto-style49">&nbsp;</p>
+<p class="auto-style49">&nbsp;</p>
+<p class="auto-style49">&nbsp;</p>
+<br/>
+<br/>
+<br/>
+<br />
+<p class="auto-style49"><strong>2. </strong> 
+<class="auto-style58">
+¿Cuál es el resultado de las siguientes expresiones:<p class="auto-style49">
+<span style="color: #0000ff;">(-5.0 * 4 &lt; 5 ) and (11 // 3 == 2)</span><p class="auto-style49">
+<span style="color: #0000ff;">(-5.0 * 4 != 20) or (17 / 5 &lt;= 2)</span><p class="auto-style49">
+<span style="color: #0000ff;">('a' != 'A') and ('p' &gt; 'j')</span><p class="auto-style49">
+<span style="color: #0000ff;">not (5 != 8) and (3.0 &gt;= 3)</span><p class="auto-style49">
+<span style="color: #0000ff;">(2 * 5 == 10) or (3 &gt;= 7) and (4 &lt;= 4)</span><p class="auto-style49">
+&nbsp;<p class="auto-style49"><br/>
+<table align="left" class="auto-style65" style="width: 70%">
+	<tr>
+		<td class="auto-style60"><strong>Expresión</strong></td>
+		<td class="auto-style61"><strong>Evaluación</strong></td>
+	</tr>
+	<tr>
+                                    <td class="auto-style62"><code>
+									<span class="auto-style56">
+									<span class="auto-style21">
+									5*6*(160/2**3)%5*15-10</span></span></code></td>
+                                    <td class="auto-style66"> <strong>-10 (ejemplo)</strong></td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style62" style="height: 25px">
+									<code>
+									<span class="auto-style56">((1580 % 6 * 2 ** 
+									7) &gt; (7+8*3**4)) and ((15*2)==(60*2/4)) </span></code></td>
+                                    <td class="auto-style64" style="height: 25px"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style62"><code>
+									<span class="auto-style56">(15&gt;= 3 ** 3) or 
+									not (43 -8 * 2 / 4 != 3 * 3 / 3) </span></code></td>
+                                    <td class="auto-style64"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style62"><code>
+									<span class="auto-style56">(120&gt;=7*3 ** 2 
+									and 8 &gt; 3 or 15 &gt; 6) and not (7 * 3 &lt; 5 + 12 
+									* 2 / 3 ** 2) </span></code></td>
+                                    <td class="auto-style64"> </td>
+                                </tr>
+	<tr>
+                                    <td class="auto-style62"><code>
+									<span class="auto-style56">not (70 &gt; 3 and 5 
+									&lt;=10) or (70&gt;=100 and 70&lt;200) </span></code></td>
+                                    <td class="auto-style64"> </td>
+                                </tr>
+	</table>
+<p class="auto-style49">&nbsp;<p class="auto-style49">&nbsp;</p>
+<p class="auto-style49">&nbsp;</p>
+<p><br /></p>
+<p><br /></p>
+<hr class="auto-style18" />
+<p class="auto-style17"><strong><img src="../img19.gif" /> </strong>
+<span class="auto-style6">Recursos</span></p>
+
+<ul class="auto-style74">
+	<li class="auto-style51">
+	<a href="https://experiencia21.tec.mx/courses/24536/modules/items/608439">
+	Previo: ¿Qué son los valores booleanos y para qué se usan?</a> </li>
+	<li>
+	<p class="auto-style67">
+	<a href="file:///C:/Users/L00614578/Documents/C_Pensamiento20/Calendario/presentaciones/4_Jerarquia.pptx">
+	4. Jerarquía de operadores</a></p>
+	</li>
+</ul>
+<span class="auto-style41">.</span><br />
+<hr class="auto-style18" />
+<p class="auto-style41">.</p>
+
+<table style="width: 100%">
+	<tr>
+		<td class="auto-style33" style="height: 22px"><strong>
+		<span class="auto-style35"><br />
+		</span><span class="auto-style39">© 2020 Departamento de Computación</span><span class="auto-style35"><br />
+		<span class="auto-style40">.</span></span></strong></td>
+	</tr>
+</table>
+
+</body>
+
+</html>

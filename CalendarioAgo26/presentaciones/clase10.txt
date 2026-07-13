@@ -1,0 +1,12 @@
+tupla = (1, 2, 3, 4)
+for i in range(len(tupla)):
+     print(tupla[i])
+
+
+diccionario = { "nombre" : "Juan Pérez", "edad" : 18, "materias" : ["Computación", "Física"]}
+print(diccionario["nombre"])
+print(diccionario["edad"])
+print(diccionario["materias"])
+print(diccionario["materias"][0])
+print(diccionario["materias"][1])
+

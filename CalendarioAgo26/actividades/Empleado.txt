@@ -1,0 +1,19 @@
+class Empleado:
+  def __init__(self,  nombre, salario):
+    self.__nombre = nombre
+    self.__salario = salario
+
+  # Métodos getters (obtener los valores de mis atributos privados)
+
+  def getNombre(self):
+    return self.__nombre
+
+  def getSalario(self):
+    return self.__salario
+
+  # Métodos setters (modificar los valores de mis atributos privados)
+  def setNombre(self, nombre):
+    self.__nombre = nombre
+
+  def setSalario(self, salario):
+    self.__salario = salario

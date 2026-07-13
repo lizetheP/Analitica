@@ -1,0 +1,12 @@
+class Empleado:
+  def __init__(self, nombre, edad, sueldo):
+    self.nombre = nombre
+    self.edad = edad
+    self.sueldoBase = sueldo
+
+  def calcularSueldo(self, descuentos, bonos):
+    return self.sueldoBase + bonos - descuentos
+
+  def mostrarDatos(self):
+    return ("Nombre: " + self.nombre + " Edad: " + str(self.edad) + " Sueldo base: " +
+            str(self.sueldoBase))

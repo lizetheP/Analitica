@@ -1478,7 +1478,7 @@
                                          
          <ul>
      		<li> <font
- size="-1" color="#333333" face="Arial,Helvetica">Individual</font></li>
+ size="-1" color="#333333" face="Arial,Helvetica">Individual y en parejas.</font></li>
                                          
         </ul>
                                  
@@ -1521,13 +1521,15 @@
 		  <span class="auto-style87">
 	 <b data-index-in-node="1" data-path-to-node="2,6,1,2">Los Tres Módulos de 
 	 Reparación</b><br><br><strong>1. Módulo</strong> <strong>Suma</strong>: 
-	 Programar suma_numeros()</span></span></span><span class="auto-style87"><span class="auto-style26"><span class="auto-style21"> 
-	 para equilibrar el voltaje hasta llegar a 0.</span></span></span></p>
+	 Programar suma_positivos()</span></span></span><span class="auto-style87"><span class="auto-style26"><span class="auto-style21"> 
+	 para sobrecargar el condensador hasta alcanzar el umbral de energía.</span></span></span></p>
 	 <p class="style8"><font face="Arial,Helvetica" size="-1">
-	 <span class="auto-style26"><span class="auto-style87">La función <em>suma_numeros()</em> (<strong>El Balanceador</strong>): No es solo una suma; es 
-	 el cálculo del diferencial de carga de la estación. Los números negativos 
-	 son "fugas" y los positivos "recargas". El sistema solo se estabiliza 
-	 cuando la señal es 0</span></span><span class="auto-style26">.</span></font></p>
+	 <span class="auto-style26"><span class="auto-style87">La función <em>suma_positivos()</em> (<strong>El 
+	 Condensador de Flujo</strong>): No es solo un conteo simple, representa la 
+	 recarga de la batería auxiliar. Las señales negativas representan ruido 
+	 térmico y deben ser ignoradas. El condensador solo requiere energía 
+	 positiva. EL proceso de recarga finaliza en cuanto la energía acumulada 
+	 alcanza o supera la carga crítica de 10 unidades.</span></span></font></p>
 	 <p class="style8"><font face="Arial,Helvetica" size="-1">
 	 <span class="auto-style26">
 	 <img alt="" height="175" src="img46.jpg" width="245"></p>
@@ -1538,12 +1540,13 @@
 			 </span> 
         	 <font face="Arial,Helvetica" size="-1"> 
         <span class="auto-style7">
-		     <strong>suma_numeros()</strong></span><span class="auto-style26">
+		     <strong>suma_positivos()</strong></span><span class="auto-style26">
 		     que 
-			 sume los números enteros (positivos y negativos) que el usuario 
-			 teclee y se detenga hasta que el usuario teclee un cero.</span></font><span class="auto-style26">
-		  	 La función debe <strong>regresar</strong> la suma de los números.</li>
+			 sume los números enteros positivos que el usuario 
+			 teclee y se detenga hasta que la suma de los números sea mayor o 
+			 igual a 10. La fu</span></font>n<span class="auto-style26">ción debe <strong>regresar</strong> la suma de los números.</span></li>
 		 </ul>
+		 <span class="auto-style26">
 	 </ul>
 	 <p class="auto-style145">
           <span class="auto-style45">
@@ -1562,7 +1565,7 @@
 	 <class="auto-style49">
 	 <class="auto-style49">
 	 <span class="auto-style26">
-	 <strong>Output: </strong>La suma de los números. </span><b></p>
+	 <strong>Output: </strong>La suma de los números positivos. </span><b></p>
 	 <p class="style8">
 	 <table class="auto-style94">
 		 <tr>
@@ -1574,15 +1577,10 @@
 			 <class="auto-style43">
 			 <class="auto-style46"> <strong><span class="auto-style87">Input: </span>
 			 </strong>
-			 <class="auto-style46"><span class="auto-style87">6
+			 6<class="auto-style46"><span class="auto-style87"><class="auto-style43"><br>
+			 <class="auto-style46"> 
+			 <class="auto-style46">
 			 <class="auto-style43">
-			 <br>
-			 <class="auto-style46"> <strong>Input: 
-			 </strong>
-			 <class="auto-style46">0
-			 <class="auto-style43">
-			 <br>
-
 			 <class="auto-style46"> <strong>Output: 
 			 </strong>
 			 <class="auto-style46">13 </p>
@@ -1603,7 +1601,7 @@
 			 </strong>
 			 <class="auto-style46">-</span><class="auto-style43"></strong>2<br class="auto-style87">
 <class="auto-style43"><strong><span class="auto-style87">Input: </span></strong>
-			 0<br class="auto-style87">
+			 1<br class="auto-style87">
 			 <class="auto-style43">
 			 <class="auto-style46"> 
 			 <class="auto-style46"><span class="auto-style87">
@@ -1614,7 +1612,7 @@
 
 			 <class="auto-style46"> <strong>Output: 
 			 </strong>
-			 <class="auto-style46">-1 </p>
+			 <class="auto-style46">10 </p>
 			 </td>
 		 </tr>
 	 </table>
@@ -1631,27 +1629,30 @@
 	 <span class="auto-style26">
           <font face="Arial,Helvetica" color="#330033">
 	 <span class="auto-style45">
-	 <p class="auto-style146"><strong>2. Módulo Descenso</strong>: Programar 
-	 secuencia_descendente(N) para enfriar el núcleo (la temperatura baja hasta 
-	 llegar a 1). </p>
-	 <p class="auto-style146">La función <em>secuencia_descendente</em><code data-index-in-node="11" data-path-to-node="6,1,0"><span class="auto-style21"><em>(N)</em></span></code> 
-	 (<strong>El Enfriador</strong>): Se presenta como un algoritmo de 
-	 enfriamiento. Los alumnos deben observar cómo incluso números pequeños 
-	 generan procesos largos. Ver en pantalla la caída hasta el 1 refuerza el 
-	 concepto de "estado de reposo" del sistema.</p>
+	 <p class="auto-style146"><strong>2. Módulo Descompresión</strong>: Programar 
+	 secuencia_compresion(N) para simular la reducción de señal de una 
+	 transmisión espacial corrupta hasta alcanzar el estado limpio (0). </p>
+	 <p class="auto-style146">La función <em>secuencia_compresion</em><code data-index-in-node="11" data-path-to-node="6,1,0"><span class="auto-style21"><em>(N)</em></span></code> 
+	 (<strong>El Decodificador de frecuencia</strong>): No es una serie de 
+	 operaciones matemáticas, representa la filtración de ruido en un paquete de 
+	 datos alienígena. Cuando la señal N es múltiplo de 3, el filtro de 
+	 frecuencia principal elimina las interferencias dividiéndola entre 3. 
+	 Cuando la señal no es múltiplo de 3, el sistema aplica un pulso de 
+	 compensación restándole 1. La transmisión se considera completamente 
+	 decodificada cuando el nivel de ruido llega a 0.</p>
 	 <p class="auto-style146"><img alt="" src="img47.jpg"></p>
 	 <ul>
 		 <ul>
 			 <li class="auto-style48">
 			 <font
  size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">La función 
-			 <span class="auto-style137"><strong>secuencia_descendente (N)</strong></span>
+			 <span class="auto-style137"><strong>secuencia_compresion (N)</strong></span>
 			 que recibe un valor entero N positivo y realiza la siguiente 
-			 secuencia: si el número es par, dividirlo entre 2; si es non, 
-			 multiplicarlo por 3 y sumarle 1. Repetir lo anterior hasta que el 
-			 valor sea 1, imprimiendo en pantalla cada valor intermedio. Al 
+			 secuencia: si el número es múltiplo de 3 (N % 3 == 0), dividirlo entre 
+			 3; si el valor no es múltiplo de 3, restarle 1. Repetir lo anterior hasta que el 
+			 valor sea 0, imprimiendo en pantalla cada valor intermedio. Al 
 			 final del proceso,&nbsp;también se deberá imprimir cuantas operaciones 
-			 (pasos) se realizaron para llegar a 1. </span></font></li>
+			 (pasos) se realizaron para llegar a 0. </span></font></li>
 		 </ul>
 	 </ul>
 	 <p class="auto-style147">
@@ -1661,139 +1662,113 @@
 	 <p class="auto-style147">
 	 <font
  size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 <strong>secuencia_descendente ( 3 )</strong> 
+	 <strong>secuencia_compresion ( 8 )</strong> 
 	 desplegará en pantalla: </span></font></p>
 	 <p class="auto-style145">
 	 <font
  size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El valor inicial es 3&nbsp; </span></font><br>
+	 Señal inicial: 8&nbsp; </span></font><br>
 	 <class="auto-style84">
 	 <font
  size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El siguiente valor es 10 </span></font>
+	 <font face="Arial,Helvetica" size="-1" color="#330033">
+	 <span class="auto-style26">
+          <font face="Arial,Helvetica" color="#330033">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+	 <span class="auto-style45">
+	 Señal ajustada:</span></font></font></span></font> 7 </span></font>
+	 <br>
+	 <class="auto-style84">
+	 <font face="Arial,Helvetica" size="-1" color="#330033">
+	 <span class="auto-style26">
+          <font face="Arial,Helvetica" color="#330033">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
+	 <span class="auto-style45">
+	 Señal ajustada:</span></span></font></font></span></font><font
+ size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
+	 6 </span></font>
 	 <br>
 	 <class="auto-style84">
 	 <font
  size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El siguiente valor es 5 </span></font>
+	 <font face="Arial,Helvetica" size="-1" color="#330033">
+	 <span class="auto-style26">
+          <font face="Arial,Helvetica" color="#330033">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica">
+	 <span class="auto-style45">
+	 Señal ajustada:</span></font></font></span></font>&nbsp;2<font face="Arial,Helvetica" size="-1" color="#330033"><span class="auto-style26"><font face="Arial,Helvetica" color="#330033"><span class="auto-style45"><font
+ size="-1" color="#333333" face="Arial,Helvetica"> </font>
+	 <br>
+	 <class="auto-style84">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica">Señal ajustada: 1 </font>
+	 <br>
+	 <class="auto-style84">
+	 <font
+ size="-1" color="#333333" face="Arial,Helvetica">Señal ajustada: 0</font></span></font></span></font> </span></font>
+	 <br>
+	 <class="auto-style84">
 	 <br>
 	 <class="auto-style84">
 	 <font
  size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El siguiente valor es&nbsp; 16 </span></font>
-	 <br>
-	 <class="auto-style84">
-	 <font
- size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El siguiente valor es 8 </span></font>
-	 <br>
-	 <class="auto-style84">
-	 <font
- size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El siguiente valor es 4 </span></font>
-	 <br>
-	 <class="auto-style84">
-	 <font
- size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El siguiente valor es 2 </span></font>
-	 <br>
-	 <class="auto-style84">
-	 <font
- size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 El siguiente valor es&nbsp; 1 </span></font>
-	 <br>
-	 <class="auto-style84">
-	 <font
- size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 Valor final 1, numero de pasos 7&nbsp;&nbsp;&nbsp; 
+	 Señal limpia 0, total de ajustes 5&nbsp;&nbsp;&nbsp; 
 	 </span></font></p>
 	 <p class="auto-style147">
 	 <font
  size="-1" color="#333333" face="Arial,Helvetica"><span class="auto-style21">
-	 <strong>secuencia_descendente ( 9 ) </strong>
+	 <strong>secuencia_compresion ( 56 ) </strong>
 	 desplegará en pantalla: </span></font></p>
 	 <p class="auto-style145">
 	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El valor inicial es 9&nbsp; </span></font><br class="auto-style6">
+	 Señal inicial: 56&nbsp; </span></font><br class="auto-style6">
 	 <class="auto-style84">
 	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 28 </span></font>
+	 Señal ajustada: 55 </span></font>
 	 <br class="auto-style6">
 	 <class="auto-style84">
 	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 14 </span></font>
+	 Señal ajustada: 54 </span></font>
 	 <br class="auto-style6">
 	 <class="auto-style84">
 	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es&nbsp; 7 </span></font>
+	 <font face="Arial,Helvetica" color="#330033">
+	 <span class="auto-style26">
+	 <font color="#333333" face="Arial,Helvetica">
+	 <span class="auto-style45">
+	 Señal ajustada:</span></font></span></font> 6 </span></font>
 	 <br class="auto-style6">
 	 <class="auto-style84">
 	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 22 </span></font>
+	 <font face="Arial,Helvetica" color="#330033">
+	 <span class="auto-style26">
+          <font color="#333333" face="Arial,Helvetica">
+	 <span class="auto-style45">
+	 Señal ajustada:</span></font></span></font> 2 </span></font>
 	 <br class="auto-style6">
 	 <class="auto-style84">
 	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 11 </span></font>
+	 <font face="Arial,Helvetica" color="#330033">
+	 <span class="auto-style26">
+          <font color="#333333" face="Arial,Helvetica">
+	 <span class="auto-style45">
+	 Señal ajustada:</span></font></span></font> 1</span></font><br class="auto-style6">
+	 <class="auto-style84">
+	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
+	 <font face="Arial,Helvetica" color="#330033">
+	 <span class="auto-style26">
+          <font color="#333333" face="Arial,Helvetica">
+	 <span class="auto-style45">
+	 Señal ajustada:</span></font></span></font> 0 </span></font>
+	 <br class="auto-style6">
+	 <class="auto-style84">
 	 <br class="auto-style6">
 	 <class="auto-style84">
 	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 34 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 17 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 52 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 26 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 13 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 40 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 20 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 10 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es&nbsp; 5 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es 16 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es&nbsp; 8 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es&nbsp; 4 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es&nbsp; 2 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 El siguiente valor es&nbsp; 1 </span></font>
-	 <br class="auto-style6">
-	 <class="auto-style84">
-	 <font color="#333333" face="Arial,Helvetica"><span class="auto-style6">
-	 Valor fina1 1, numero de pasos 19 </span>
+	 Señal limpia 0, total de ajustes 7 </span>
 	 </font></p>
           <font face="Arial,Helvetica" color="#330033" size="-1">
 	 <p class="auto-style146"><strong>3. Módulo Acceso:</strong> Programa 
@@ -1812,14 +1787,14 @@
 			 <li><span class="auto-style26">La función</span>
 			 <font color="#3333ff">
 			 <strong>adivina_mi_numero ()</strong></font> 
-			 <span class="auto-style26">que genere un número aleatorio entre 1 y 
-			 50<font face="Arial,Helvetica" color="#330033"><span class="auto-style45"><font class="auto-style21" size="-1">. </font>
+			 <span class="auto-style26">que genere un número aleatorio entre -20 y 
+			 20<font face="Arial,Helvetica" color="#330033"><span class="auto-style45"><font class="auto-style21" size="-1">. </font>
 			 <span class="auto-style140"><font class="auto-style21">Deberás 
 			 adivinar el número en el menor número de intentos siguiendo las 
 			 pistas que el programa te dará. Personaliza tu bienvenida y tus 
 			 mensajes para ayudar al usuario. El programa debe solicitar al 
-			 inicio el nombre del jugador<font face="Arial,Helvetica" color="#330033" size="-1">. </font>Reúnete con un compañero de clase 
-			 y jueguen a 'Adivina el número'. Guarda tu programa incluyendo las 
+			 inicio el nombre del jugador. Reúnete con un compañero de clase 
+			 y jueguen a 'Adivina mi número'. Guarda tu programa incluyendo las 
 			 ejecuciones de ambos. </font></span></span></font></span></li>
 		 </ul>
 	 </ul>
@@ -2071,5 +2046,3 @@
 	 </font></font>
                                   
      </span></font></font>
-                 
-      
